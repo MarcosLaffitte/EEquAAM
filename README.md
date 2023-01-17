@@ -1,4 +1,7 @@
 # EEquAAM
+
+User friendly version of the atom mapping comparer script.
+
 Evaluation of Equivalence of Atom-to-Atom Maps
 (or something like that, we can change it if you prefer another name)
 
