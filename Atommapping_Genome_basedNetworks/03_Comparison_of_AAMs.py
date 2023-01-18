@@ -361,20 +361,32 @@ def isa_group_separator(line):
 
 
 with open(inputFileName, mode='r') as rf:
-   for key,group in itertools.groupby(rf,isa_group_separator):
-    print(group)
+  for key,group in itertools.groupby(rf,isa_group_separator):
+    current_maps = list(group)
+    #print(key)
+    print(list(group))
+    print(current_maps)
     if key:
+         print(key)
          continue
-    currentReaction, rxn_map, graphormer_map, rdt_map = map(str.strip, list(group))
-
+    print(len(list(group)))
+    currentReaction, smiles, rxn_map, graphormer_map, rdt_map = map(str.strip, current_maps)
+    #currentReaction, smiles, rxn_map, graphormer_map, rdt_map = list(group)
+    print(currentReaction)
+    print(smiles)
+    print('RXN MAPPER:')
+    print(rxn_map)
+    print('Graphormer Map:')
+    print(graphormer_map)
+    print('RDT Map:')
+    print(rdt_map) 
     # working message
-    #print("\n")
-    #print("* Received " + str(len(list(mappedSMILES.keys()))) + " reaction SMILES ...")
+    print("\n")
+    print("* Received " + str(len(list(mappedSMILES.keys()))) + " reaction SMILES ...")
         
     # turn mapped smiles into networkx graphs G of reactants and H of products
-    tempResults_rxn = []
-    tempResults_graphormer = []
-    tempResults_rdt = []
+    tempResults = []
+
     # split reaction
     reactantsSide_rxn = (rxn_map.split(">>"))[0]
     productsSide_rxn = (rxn_map.split(">>"))[1]
@@ -393,11 +405,11 @@ with open(inputFileName, mode='r') as rf:
     G_rxn = nx.Graph()
     G_graphormer = nx.Graph()
     G_rdt = nx.Graph()
-    for eachReactant in range(len(productsList_rxn)):
+    for eachReactant in range(len(reactantsList_rxn)):
             # read smiles into networkx graph            
-            molecule_rxn = ps.read_smiles(productsList_rxn(eachProduct))
-            molecule_graphormer = ps.read_smiles(productsList_graphormer(eachProduct))
-            molecule_rdt = ps.read_smiles(productsList_rdt(eachProduct))
+            molecule_rxn = ps.read_smiles(reactantsList_rxn[eachReactant])
+            molecule_graphormer = ps.read_smiles(reactantsList_graphormer[eachReactant])
+            molecule_rdt = ps.read_smiles(reactantsList_rdt[eachReactant])
             # rename vertices using atom map            
             atomMapping_rxn = nx.get_node_attributes(molecule_rxn, "class")
             atomMapping_graphormer = nx.get_node_attributes(molecule_graphormer, "class")
@@ -405,20 +417,26 @@ with open(inputFileName, mode='r') as rf:
             molecule_rxn = nx.relabel_nodes(molecule_rxn, atomMapping_rxn)
             molecule_graphormer = nx.relabel_nodes(molecule_graphormer, atomMapping_graphormer)
             molecule_rdt = nx.relabel_nodes(molecule_rdt, atomMapping_rxn)
-            # make (disjoint) union over G            
-            G_rxn = deepcopy(nx.union(G_rxn, molecule_rxn))
-            G_graphormer = deepcopy(nx.union(G_graphormer, molecule_graphormer))
-            G_rdt = deepcopy(nx.union(G_rdt, molecule_rdt))
+            # make (disjoint) union over G          
+            try:  
+                G_rxn = deepcopy(nx.union(G_rxn, molecule_rxn))
+                G_graphormer = deepcopy(nx.union(G_graphormer, molecule_graphormer))
+                G_rdt = deepcopy(nx.union(G_rdt, molecule_rdt))
+            except:
+                print('UNION PROBLEMS!')
+                continue
     # get products graph H
-    productsList = productsSide.split(".")        
+    productsList_rxn = productsSide_rxn.split(".")     
+    productsList_graphormer = productsSide_graphormer.split(".")        
+    productsList_rdt = productsSide_rdt.split(".")           
     H_rxn = nx.Graph()
     H_graphormer = nx.Graph()
     H_rdt = nx.Graph()
     for eachProduct in range(len(productsList_rxn)):
             # read smiles into networkx graph            
-            molecule_rxn = ps.read_smiles(productsList_rxn(eachProduct))
-            molecule_graphormer = ps.read_smiles(productsList_graphormer(eachProduct))
-            molecule_rdt = ps.read_smiles(productsList_rdt(eachProduct))
+            molecule_rxn = ps.read_smiles(productsList_rxn[eachProduct])
+            molecule_graphormer = ps.read_smiles(productsList_graphormer[eachProduct])
+            molecule_rdt = ps.read_smiles(productsList_rdt[eachProduct])
             # rename vertices using atom map            
             atomMapping_rxn = nx.get_node_attributes(molecule_rxn, "class")
             atomMapping_graphormer = nx.get_node_attributes(molecule_graphormer, "class")
@@ -427,17 +445,22 @@ with open(inputFileName, mode='r') as rf:
             molecule_graphormer = nx.relabel_nodes(molecule_graphormer, atomMapping_graphormer)
             molecule_rdt = nx.relabel_nodes(molecule_rdt, atomMapping_rxn)
             # make (disjoint) union over H            
-            H_rxn = deepcopy(nx.union(H_rxn, molecule_rxn))
-            H_graphormer = deepcopy(nx.union(H_grahormer, molecule_graphormer))
-            H_rdt = deepcopy(nx.union(H_rdt, molecule_rdt))
+            try:    
+                H_rxn = deepcopy(nx.union(H_rxn, molecule_rxn))
+                H_graphormer = deepcopy(nx.union(H_graphormer, molecule_graphormer))
+                H_rdt = deepcopy(nx.union(H_rdt, molecule_rdt))
+            except:
+                print('UNION PROBLEMS!')      
     # save map data
-    tempResults_rxn.append(('RXNmap', rxn_map , deepcopy(G_rxn), deepcopy(H_rxn)))
-    tempResults_graphormer.append(('Graphormer', graphormer_map , deepcopy(G_graphormer), deepcopy(H_graphormer)))
-    tempResults_rdt.append(('RDT', rdt_map , deepcopy(G_rdt), deepcopy(H_rdt)))
+    #print(rxn_map)
+    tempResults.append(('RXNmap', rxn_map , deepcopy(G_rxn), deepcopy(H_rxn)))
+    tempResults.append(('Graphormer', graphormer_map , deepcopy(G_graphormer), deepcopy(H_graphormer)))
+    tempResults.append(('RDT', rdt_map , deepcopy(G_rdt), deepcopy(H_rdt)))
 
     # save reaction data
-    graphsByMap[eachReaction] = deepcopy(tempResults_rxn, empResults_graphormer, empResults_rdt)
-    print(graphsByMap)
+    graphsByMap[currentReaction] = deepcopy(tempResults)
+    #print(graphsByMap)
+    tempResults = []
 
     # working message
     print("* Comparing Auxiliary Graphs of each reaction ...")
@@ -465,17 +488,7 @@ with open(inputFileName, mode='r') as rf:
         resultsISO[eachReaction] = analyzeISOs(graphsByMap[eachReaction])
         finalTime = time.time()    
         timeISO[eachReaction] = finalTime-initialTime
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-    
+     
 # working message
 print("* Making plots ...")
 
