@@ -17,4 +17,3 @@ ToDo and to be uploaded:
 * A folder with the computational analysis from the paper
 * Simple examples
 * Instructions in Readme file
-* A cool logo (EQAM) and welcome pics for the Readme :)
