@@ -1,4 +1,10 @@
-# EEquAAM
+# EEquAAM - Welcome to the Repo
+
+<p align="center">
+<img src="./Readme_Pics/EEquAAM_logo.png" width="300"/>
+</p>
+
+
 
 User friendly version of the atom mapping comparer script.
 
