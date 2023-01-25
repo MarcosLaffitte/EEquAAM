@@ -1,7 +1,7 @@
 # EEquAAM - Welcome to the Repo
 
 <p align="center">
-<img src="./Readme_Pics/EEquAAM_logo.png" width="300"/>
+<img src="./Readme_Pic/EEquAAM_logo.png" width="300"/>
 </p>
 
 
