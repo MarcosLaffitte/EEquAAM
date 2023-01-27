@@ -9,7 +9,7 @@
 #  - Date: 12 January 2023                                                     #
 #                                                                              #
 #  - Contributor(s):                                                           #
-#  * @MarcosLaffitte - Marcos E. Gonzalez Laffitte                             #
+#    * @MarcosLaffitte - Marcos E. Gonzalez Laffitte                           #
 #                                                                              #
 #  - Description: this script receives a set of reaction-SMILES (mapped or     #
 #    unmapped), removes any map from them through the string representation of #
@@ -44,11 +44,11 @@
 #    corresponding mapper. This information is ordered in columns separated    #
 #    by commas as show in the following toy example:                           #
 #                                                                              #
-#    # , reaction_1: CCCCCCCCCC>>CCCCCCCCC.C                                   #
+#    # , reaction_1:CCCCCCCCCC>>CCCCCCCCC.C                                    #
 #    RXNmap , [CH3:1][...][CH:10]>>[CH3:1][...][CH3:9].[CH4:10]                #
 #    RDTmap , [CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2]                  #
 #    CHYmap , [CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH4:6]                  #
-#    # , reaction_2: CCCCCCCCCC>>CCCC.CCCCCC                                   #
+#    # , reaction_2:CCCCCCCCCC>>CCCC.CCCCCC                                    #
 #    RXNmap , [CH3:1][...][CH:10]>>[CH3:1][...][CH3:4].[CH3:5][...][CH4:10]    #
 #    RDTmap , [CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]      #
 #    CHYmap , [CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]      #
@@ -57,7 +57,7 @@
 #    * the line with the original SMILES will always start with "#"            #
 #    * there is no limit to the number of reactions that can be analized       #
 #    * "reaction_i:" is an arbitrary identifier and can be changed in-code     #
-#    * blank space between commas is only for presentation purposes            #
+#    * blank spaces between commas are only for presentation purposes          #
 #      and should not be present in the output file                            #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
@@ -70,7 +70,8 @@
 #    * if the program found a "bad" SMILES it means this is a SMILES string    #
 #      with either empty reactants, empty products, or containing the symbol   #
 #      "~" which is not currently supported by some of the implmented mappers. #
-#    * Please note that the output file is a plain-text file and so you have   #
+#                                                                              #
+#    * please note that the output file is a plain-text file and so you have   #
 #      to zoom it out to PROPERLY see the actual output lines :)               #
 #                                                                              #
 ################################################################################

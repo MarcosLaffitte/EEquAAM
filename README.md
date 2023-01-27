@@ -11,11 +11,5 @@ Cheminformatics Software for the Automatic Evaluation of the Equivalence of Atom
 </p>
 
 
-
-
-
 ToDo and to be uploaded:
-* Main Script: EEquAAM.py
-* A folder with the computational analysis from the paper
-* Simple examples
 * Instructions in Readme file
