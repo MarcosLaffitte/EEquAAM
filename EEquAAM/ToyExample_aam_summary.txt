@@ -1,0 +1,55 @@
+#	reaction_1:CC(NC)C1CC(C(CC(CC)C)C(CNN)C1)NC>>CC(NC)C1CC(C(CC(CNC)CC)CC1)CNN
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009675741195678711
+time ITS	0.0027620792388916016
+time ISO	0.0029952526092529297
+#	reaction_2:C(CCC1N2C(C(NC)NC1O)CNCN2C)O.O.O>>N(C(NC)C(NCCO)CNC(O)NCC(C)CO)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.008797407150268555
+time ITS	0.0015494823455810547
+time ISO	0.004858255386352539
+#	reaction_3:C(CC(C(C)C(C(C)C(N)CO)NCC)NCN)CO>>CC(C)CC(C1N(OCC(N)C1)CC)CNCN.CO
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.010506629943847656
+time ITS	0.0021343231201171875
+time ISO	0.005375385284423828
+#	reaction_4:C.C.C.C.CC.CN.N.N(NOCC)C(CCCO)C>>C.C.CC.CC.CNNCC.CO.N(C)C(NC)C.O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0070569515228271484
+time ITS	0.0011653900146484375
+time ISO	0.1253511905670166
+#	reaction_5:C(C)CC(C1OCCC(NCCC)C1NN)NCCC>>CCCNC(CCC)C(C(C1NCCCC1C)NN)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014520406723022461
+time ITS	0.0015368461608886719
+time ISO	0.0043792724609375
