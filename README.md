@@ -25,3 +25,10 @@ conda activate eequaam
 ```
 pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.4 && pip install --no-warn-conflicts transformers==4.24.0
 ```
+
+
+### Run MappingTool
+```
+python  MappingTool.py  [myFile.smiles]
+```
+
