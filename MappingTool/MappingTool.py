@@ -8,7 +8,7 @@
 #                                                                              #
 #  - Date: 12 January 2023                                                     #
 #                                                                              #
-#  - Contributor(s):                                                           #
+#  - Contributor(s) to this script:                                            #
 #    * @MarcosLaffitte - Marcos E. Gonzalez Laffitte                           #
 #                                                                              #
 #  - Description: this script receives a set of reaction-SMILES (mapped or     #
