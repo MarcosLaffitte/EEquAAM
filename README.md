@@ -15,7 +15,6 @@ Cheminformatics Software for the Automatic Evaluation of the Equivalence of Atom
 
 
 ### Create Anaconda Environment
-
 ```
 conda create -n eequaam python=3.9.13 networkx=2.8.4 matplotlib=3.5.2 numpy=1.21.5 beautifulsoup4=4.11.1
 ```
@@ -38,3 +37,11 @@ python  MappingTool.py  [myFile.smiles]
 python EEquAAM.py [myFile_aam.smiles]
 ```
 
+
+### Deactivate or Remove Anaconda Environment
+```
+conda deactivate
+```
+```
+conda env remove -n eequaam
+```
