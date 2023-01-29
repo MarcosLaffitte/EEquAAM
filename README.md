@@ -11,5 +11,7 @@ Cheminformatics Software for the Automatic Evaluation of the Equivalence of Atom
 </p>
 
 
-ToDo and to be uploaded:
-* Instructions in Readme file
+## Instructions
+
+
+### Create conda environment
