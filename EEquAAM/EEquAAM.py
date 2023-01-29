@@ -80,10 +80,10 @@
 #      grows exponentially w.r.t the number of symmetries in the molecules,    #
 #      leading to minutes or hours (or more time) required for completion.     #
 #      On the other hand AUX and ITS (or CGR) have more tolerance for these    #
-#      cases. For a full discussion on this see the cited paper above.         #
+#      cases. For a full discussion on this see the cited paper above          #
 #                                                                              #
 #    * the summary is a tab separated file for presentation purposes, but the  #
-#      separator can be changed in-code e.g. for a comma.                      #
+#      separator can be changed in-code e.g. for a comma                       #
 #                                                                              #
 ################################################################################
 
