@@ -8,6 +8,9 @@
 #                                                                              #
 #  - Date: 12 January 2023                                                     #
 #                                                                              #
+#  - Contributor(s):                                                           #
+#    * @MarcosLaffitte - Marcos E. Gonzalez Laffitte                           #
+#                                                                              #
 #  - Description: this script receives a plain-text csv file with *_aam.smiles #
 #    format/extension containing both unmapped and mapped SMILES of a set of   #
 #    reactions, and ids for them as in the following toy example:              #
