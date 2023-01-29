@@ -2,7 +2,7 @@
 #                                                                              #
 #  README - Program: EEquAAM.py                                                #
 #                                                                              #
-#  - Paper: [tba]                                                              #
+#  - Paper: [tbd]                                                              #
 #                                                                              #
 #  - Github repository: https://github.com/MarcosLaffitte/EEquAAM              #
 #                                                                              #
