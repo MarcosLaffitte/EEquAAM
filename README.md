@@ -14,4 +14,8 @@ Cheminformatics Software for the Automatic Evaluation of the Equivalence of Atom
 ## Instructions
 
 
-### Create conda environment
+### Create Anaconda environment
+
+```
+conda create -n eequaam python=3.9.13 networkx=2.8.4 matplotlib=3.5.2 numpy=1.21.5 beautifulsoup4=4.11.1
+```
