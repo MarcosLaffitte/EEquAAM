@@ -1,4 +1,4 @@
-EEquAAM - Welcome to the Repo
+# EEquAAM - Welcome to the Repo
 
 
 <p align="center">
