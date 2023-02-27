@@ -7,7 +7,8 @@
 
 
 <p align="center">
-Cheminformatics Software for the Automatic Evaluation of the Equivalence of Atom-to-Atom Maps
+Cheminformatics Software for the Automatic <br/>
+Evaluation of the Equivalence of Atom-to-Atom Maps
 </p>
 
 
