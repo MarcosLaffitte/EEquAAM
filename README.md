@@ -37,6 +37,12 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 ```
 
 
+### Run NumberingTool
+```
+python  NumberingTool.py  [myFile.smiles]
+```
+
+
 ### Run MappingTool
 ```
 python  MappingTool.py  [myFile.smiles]
