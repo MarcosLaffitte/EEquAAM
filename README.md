@@ -15,7 +15,7 @@ Cheminformatics Software for the automatic<br/>
 ## Cite as
 
 
-**[1]** M. E. González Laffitte, N. Beier, N. Domschke, P. F. Stadler, Comparison of Atom Maps. *MATCH Commun. Math. Comput. Chem.* **90** (2023) 75–102.
+**[1]**   M. E. González Laffitte, N. Beier, N. Domschke, P. F. Stadler, Comparison of Atom Maps. *MATCH Commun. Math. Comput. Chem.* **90** (2023) 75–102.
 > **Link:** https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html
 
 
