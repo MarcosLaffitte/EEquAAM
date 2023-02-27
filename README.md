@@ -6,7 +6,7 @@
 </p>
 
 
-<p style="text-align: center;">
+<p align="center">
 Cheminformatics Software for the automatic<br/>
 **E**valuation of the **Eq**uivalence of **A**tom-to-**A**tom **M**aps
 </p>
