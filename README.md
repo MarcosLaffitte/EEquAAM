@@ -12,7 +12,7 @@ Cheminformatics Software for the automatic<br/>
 </div>
 
 
-## When using please cite
+## Cite as
 
 
 [1] M. E. González Laffitte, N. Beier, N. Domschke, P. F. Stadler: *Comparison of Atom Maps*, pp. 75-102.
