@@ -2,12 +2,12 @@
 
 
 <p align="center">
-<img src="./ReadmeLogo/EEquAAM_logo.png" width="400"/>
+<img src="./ReadmeLogo/EEquAAM_logo.png" width="450"/>
 </p>
 
 
 <div align="center">
-Cheminformatics Software for the automatic<br/>
+Cheminformatics software for the automatic<br/>
 <strong>E</strong>valuation of the <strong>Eq</strong>uivalence of <strong>A</strong>tom-to-<strong>A</strong>tom <strong>M</strong>aps
 </div>
 
