@@ -92,18 +92,31 @@
 #    * the output file *_aam.similes is the input of EEquAAM.py                #
 #                                                                              #
 #    * please note that the output file is a plain-text file and so you have   #
-#      to zoom it out to PROPERLY see each of the lines in the output :)       #
+#      to zoom it out to PROPERLY see each of the lines in the output          #
+#                                                                              #
+#    * WARNING! ONLY the balanced reactions that where mapped by ALL the 3     #
+#      mappers are considered to be suitable by this script. This is done in   #
+#      this way since incomplete maps may depend on the respective mapper      #
+#      methodology (RDT, RXN, Graphormer) over such reactions, or more         #
+#      IMPORTANTLY there may be a problem with the underlying chemistry        #
+#                                                                              #
+#    * WARNING! you may use the uneven maps under your own risk                #
 #                                                                              #
 #    * WARNING! reactions with same identifiers will be silently overwritten   #
 #                                                                              #
 #    * WARNING! identifiers without reactions wont be considered for analysis  #
 #                                                                              #
 #    * WARNING! symbol "*" cannot be processed by Graphormer and symbol "~"    #
-#      cannot be processed by RDT Mapper.                                      #
+#      cannot be processed by RDT Mapper on the implemented versions           #
+#                                                                              #
+#                                                                              #
+#  - IMPORTANT: This code is provided "AS IS". You may use it uder your own    #
+#    risk and consideration. This script wraps the three atom mappers (RDT,    #
+#    RXN, Graphormer), but it is not related to their development. This script #
+#    was built for research purposes and its developers claim no responsabilty #
+#    on further third-party use.                                               #
 #                                                                              #
 ################################################################################
-
-
 
 
 # Requires / Used Versions #####################################################
