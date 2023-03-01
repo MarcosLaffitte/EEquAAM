@@ -50,7 +50,7 @@ python  NumberingTool.py  [myFile.smiles]
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
-The output will be a plain-text file containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers.
+###### The output will be a plain-text file containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers.
 
 
 ### Run EEquAAM
