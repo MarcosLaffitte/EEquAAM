@@ -5,7 +5,7 @@ NNCC1C(C(NC)CC(C(C)NC)C1)CC(C)CC>>NNCC1C(CCC(C(C)NC)C1)CC(CNC)CC
 #,reaction_3
 OCC(N)C(C)C(C(C)C(NN)CCCO)NCC>>NCNCC(CC(C)C)C1N(OCC(N)C1)CC.OC
 #,reaction_4
-OCCCC(C)NNOCC.C.NC.N.C.C.CC.C>>CCNNC.O.CC(NC)NC.CC.OC.C.CC.C
+OCC[*]C(C)NNOCC.C.NC.N.C.C.CC.C>>CCNNC.O.C[*](NC)NC.CC.OC.C.CC.C
 #,reaction_5
 C.C1=C(C)C(=CC([N+]([O-])=O)=C1)O>>[N+]([O-])(C1=CC(OC)=C(C=C1)C)=O
 #,reaction_6
@@ -18,3 +18,5 @@ CCCCCCCCCCCCOP(=O)([O-])O.[*][SH2+]>>CCCCCCCCCCCC(=O)S[*].O=P([O-])([O-])O
 CCC=O.[H]O[H]>>C[C@@H](O)CO
 #,reaction_10
 C1C(=O)OC(CC1)=O.[N+]([O-])(C1=CC=C(C(N)=C1)F)=O>>[N+]([O-])(C1=CC=C(F)C(NC(CCCC(=O)O)=O)=C1)=O
+#,reaction_11
+C(=O)([O-])CCC1=C(C2=NC1=CC3=C(CCC(=O)[O-])C(=C(C=C4N=C(C=C5NC(=C2)C(C)=C5C=C)C(C)=C4C=C)N3)C)C.[Fe+2]>>O=C([O-])CCC1=C(C)C2=CC=3N4~[Fe-2]56~N7C(C(C)=C(CCC([O-])=O)C7=CC1=[N+]25)=CC=8C(=C(C(=CC4=C(C=C)C=3C)[N+]6=8)C)C=C
