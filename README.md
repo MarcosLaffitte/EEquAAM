@@ -14,8 +14,23 @@ Cheminformatics software for the automatic<br/>
 
 ## Developed by
 
+- Marcos E. González Laffitte<br/>
+  Bioinformatics Group and ScaDS.AI, Leipzig University<br/>
+  marcoslaffitte@gmail.com<br/>
+  marcos@bioinf.uni-leipzig.de<br/>
 
+- Nora Beier<br/>
+  Bioinformatics Group, Leipzig University<br/>
+  nora@bioinf.uni-leipzig.de<br/>
 
+- Nico Domschke<br/>
+  Bioinformatics Group, Leipzig University<br/>
+  dnico@bioinf.uni-leipzig.de<br/>
+
+- Prof. Dr. Peter F. Stadler<br/>
+  Bioinformatics Group and ScaDS.AI and Interdisciplinary Center for Bioinformatics, Leipzig University<br/>
+  studla@bioinf.uni-leipzig.de<br/>
+  
 
 ## Description
 
