@@ -116,3 +116,6 @@ conda env remove -n eequaam
 ## Additional Information
 
 
+
+- General specifications on both anotated and unannotated SMILES
+  http://opensmiles.org/opensmiles.html  
