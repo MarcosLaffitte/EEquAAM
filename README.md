@@ -18,6 +18,9 @@ Cheminformatics software for the automatic<br/>
 > **Link:** https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html
 
 
+<p align="justify">
+
+
 ## Instructions
 
 
@@ -74,3 +77,5 @@ conda deactivate
 ```
 conda env remove -n eequaam
 ```
+
+</p>
