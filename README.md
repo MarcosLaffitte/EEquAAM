@@ -38,7 +38,7 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 
 
 ### Run NumberingTool
-###### If your initial list of reaction SMILES doesn't have identifiers for each reaction, you can make use of this script to add them to your list. In the following command [myFile.smiles] is a plain-text file whose lines are each a reaction SMILES: 
+###### If your initial list of unannotated reaction SMILES doesn't have identifiers for each reaction, you can make use of this script to add them to your list. In the following command [myFile.smiles] is a plain-text file whose lines are each a reaction SMILES: 
 ```
 python  NumberingTool.py  [myFile.smiles]
 ```
@@ -46,7 +46,7 @@ python  NumberingTool.py  [myFile.smiles]
 
 
 ### Run MappingTool
-###### If you already have a list of reaction SMILES with identifiers and you want to produce atom maps for these reactions, you can make use of this script. This wraps the three atom mapping tools RXN, RDT and Graphormer.
+###### If you already have a list of unannotated reaction SMILES with identifiers and you want to produce atom maps for these reactions, you can make use of this script. This wraps the three atom mapping tools RXN, RDT and Graphormer.
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
