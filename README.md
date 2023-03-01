@@ -8,9 +8,9 @@
 
 <div align="center">
 Cheminformatics software for the automatic<br/>
-<strong>E</strong>valuation of the <strong>Eq</strong>uivalence of <strong>A</strong>tom-to-<strong>A</strong>tom <strong>M</strong>aps<br/>
+<strong>E</strong>valuation of the <strong>Eq</strong>uivalence of <strong>A</strong>tom-to-<strong>A</strong>tom <strong>M</strong>aps
 </div>
-
+<br/>
 
 > Center for Scalable Data Analytics and Artificial Intelligence, Germany. See <a href="https://scads.ai/">ScaDS.AI</a>
 
