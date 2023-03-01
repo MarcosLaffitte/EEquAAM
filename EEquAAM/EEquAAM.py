@@ -46,9 +46,8 @@
 #    auxiliary graphs, (CGR or ITS) comparing Fujita's (1980) imaginary        #
 #    transition state and (ISO) enumerating the isomorphisms associated to     #
 #    each reaction. The default mode only runs the ITS (the fastest method).   #
-#    If running the default then the output is a summary and three pkls,       #
-#    otherwise it also returns a pdf with the boxplots of the time taken       #
-#    by each method to analyze each reaction once.                             #
+#    The output includes a summary, three pkls, and a pdf with the boxplots    #
+#    of the time taken by each method to analyze each reaction once.           #
 #                                                                              #
 #  - Input: plain-text csv *_aam.smiles file as specified above.               #
 #                                                                              #
@@ -61,18 +60,18 @@
 #    well as the number of equivalence classes found and the time (seconds)    #
 #    taken by each method for each reaction. Note that the equivalence classes #
 #    of the atom maps can be retrieved from the PKL's. The time boxplots show  #
-#    Log_10 of time; linear time is always shown in the summary.               #
+#    Log_10 of time; linear time is always included in the summary.            #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
-#      * default ITS   python EEquAAM.py [myFile_aam.smiles]                   #
-#      * or            python EEquAAM.py --sanity-check [myFile_aam.smiles]    #
+#      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
+#      * or           python EEquAAM.py --sanity-check [myFile_aam.smiles]     #
 #                                                                              #
 #  - Expected output:                                                          #
-#    (1)   myFile_aam_times.pdf  (only when running --sanity-check)            #
-#    (2)   myFile_aam_aux.pkl                                                  #
-#    (3)   myFile_aam_its.pkl                                                  #
-#    (4)   myFile_aam_iso.pkl                                                  #
-#    (5)   myFile_aam_summary.txt (tab separated file, can be changed in-code) #
+#    (1) myFile_aam_times.pdf                                                  #
+#    (2) myFile_aam_aux.pkl      (only with --sanity-check option)             #
+#    (3) myFile_aam_its.pkl                                                    #
+#    (4) myFile_aam_iso.pkl      (only with --sanity-check option)             #
+#    (5) myFile_aam_summary.txt  (tab separated file, may be changed in-code)  #
 #                                                                              #
 #  - Notes:                                                                    #
 #                                                                              #
@@ -139,10 +138,29 @@ logging.getLogger("pysmiles").setLevel(logging.CRITICAL)
 
 
 # input ------------------------------------------------------------------------
-inputFileName = argv[1]
+inputFileName = ""
 inputSMILES = []
 allMaps = []
 inputFile = None
+sanityCheck = False
+
+
+# check user input options -----------------------------------------------------
+if(len(argv) in [2, 3]):
+    if(len(argv) == 2):
+        if(".smiles" in argv[1]):
+            inputFileName = argv[1]
+            sanityCheck = False
+        else:
+            exit("\n >> EEquAAM: Wrong input format.\n")
+    if(len(argv) == 3):
+        if((argv[1] == "--sanity-check") and (".smiles" in argv[2])):
+            inputFileName = argv[2]
+            sanityCheck = True
+        else:
+            exit("\n >> EEquAAM: Wrong input format.\n")                    
+else:
+    exit("\n >> EEquAAM: Wrong input format.\n")
 
 
 # output -----------------------------------------------------------------------
@@ -517,6 +535,16 @@ print("\n")
 print(">>> EEquAAM - EEquAAM Github Repository")
 
 
+# sanity check message
+if(sanityCheck):
+    print("\n+++++ received --sanity-check argument")
+    print("+++++ running the three methods: AUX, ITS and ISO")
+    print("+++++ take into account that the ISO method may be more time consuming")
+else:
+    print("\n+++++ running only ITS method (default)")
+    print("+++++ for other options see accompanying README")
+    
+
 # task message
 print("\n")
 print("* retreiving input file ...")
@@ -630,27 +658,25 @@ for eachReaction in list(mappedSMILES.keys()):
     printProgress(round(i*100/len(list(mappedSMILES.keys())), 2), i, len(list(mappedSMILES.keys())))
 
 
+# AUX analysis
+if(sanityCheck):
+    # task message
+    print("\n")
+    print("* running AUX: comparing auxiliary graphs of each reaction ...")
+    # analyze auxiliary graphs for the maps of each reaction
+    count = 0
+    for eachReaction in list(graphsByMap.keys()):
+        initialTime = time.time()
+        resultsAUX[eachReaction] = analyzeAuxiliaryGraphs(graphsByMap[eachReaction])
+        finalTime = time.time()    
+        timeAUX[eachReaction] = finalTime-initialTime
+        count = count + 1
+        printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
+
+
 # task message
 print("\n")
-print("* running AUX: comparing auxiliary graphs of each reaction ...")
-
-
-# analyze auxiliary graphs for the maps of each reaction
-count = 0
-for eachReaction in list(graphsByMap.keys()):
-    initialTime = time.time()
-    resultsAUX[eachReaction] = analyzeAuxiliaryGraphs(graphsByMap[eachReaction])
-    finalTime = time.time()    
-    timeAUX[eachReaction] = finalTime-initialTime
-    count = count + 1
-    printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
-
-
-# task message
-print("\n")
-print("* running ITS: comparing imaginary transition state graphs of each reaction ...")
-
-    
+print("* running ITS: comparing imaginary transition state graphs of each reaction ...")    
 # analyze CGRs for the maps of each reaction
 count = 0
 for eachReaction in list(graphsByMap.keys()):
@@ -662,21 +688,21 @@ for eachReaction in list(graphsByMap.keys()):
     printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
 
 
-# task message
-print("\n")
-print("* running ISO: comparing isomorphisms associated to each reaction ...")
-print("- WARNING! This method can take more time due to its mathematical properties.")
-    
-
-# analyze ISOs for the maps of each reaction
-count = 0
-for eachReaction in list(graphsByMap.keys()):
-    initialTime = time.time()
-    resultsISO[eachReaction] = analyzeISOs(graphsByMap[eachReaction])
-    finalTime = time.time()    
-    timeISO[eachReaction] = finalTime-initialTime
-    count = count + 1
-    printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
+# ISO analysis
+if(sanityCheck):    
+    # task message
+    print("\n")
+    print("* running ISO: comparing isomorphisms associated to each reaction ...")
+    print("- WARNING! This method can take more time due to its mathematical properties.")
+    # analyze ISOs for the maps of each reaction
+    count = 0
+    for eachReaction in list(graphsByMap.keys()):
+        initialTime = time.time()
+        resultsISO[eachReaction] = analyzeISOs(graphsByMap[eachReaction])
+        finalTime = time.time()    
+        timeISO[eachReaction] = finalTime-initialTime
+        count = count + 1
+        printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
     
 
 # task message
@@ -685,14 +711,22 @@ print("* making boxplots ...")
 
     
 # define data to plot
-logTimeCGR = [log10(t) for t in list(timeCGR.values())]
-logTimeISO = [log10(t) for t in list(timeISO.values())]
-logTimeAUX = [log10(t) for t in list(timeAUX.values())]
-timeData = [logTimeISO, logTimeAUX, logTimeCGR]
-timeLabels = [r"ISO-$\equiv$", r"AUX-$\Gamma$", r"ITS-$\Upsilon$"]
-whiskers = 1.25
-widthsBoxes = 0.4
-hatchB = ["....", "////", "oo"]
+if(sanityCheck):
+    logTimeCGR = [log10(t) for t in list(timeCGR.values())]    
+    logTimeISO = [log10(t) for t in list(timeISO.values())]
+    logTimeAUX = [log10(t) for t in list(timeAUX.values())]
+    timeData = [logTimeISO, logTimeAUX, logTimeCGR]
+    timeLabels = [r"ISO-$\equiv$", r"AUX-$\Gamma$", r"ITS-$\Upsilon$"]
+    whiskers = 1.25
+    widthsBoxes = 0.4
+    hatchB = ["....", "////", "oo"]    
+else:
+    logTimeCGR = [log10(t) for t in list(timeCGR.values())]    
+    timeData = [logTimeCGR]
+    timeLabels = [r"ITS-$\Upsilon$"]
+    whiskers = 1.25
+    widthsBoxes = 0.4
+    hatchB = ["////"]
 # make plot
 fig, ax = plt.subplots()
 bps = ax.boxplot(timeData, whis = whiskers, widths = widthsBoxes, labels = timeLabels, sym = ".", patch_artist = True)
@@ -731,30 +765,33 @@ totNotEquivalent = 0
 # add lines per reaction
 for eachReaction in list(graphsByMap.keys()):
     # add reaction smiles
-    summaryOutput = summaryOutput + "#" + sep + eachReaction + "\n"
+    summaryOutput = summaryOutput + "#," + eachReaction + "\n"
     # add number of input maps for reaction
     dataStr = str(len(graphsByMap[eachReaction]))
     summaryOutput = summaryOutput + "maps given" + sep + dataStr + "\n"
     # add number of classes obtained when comparing auxiliary graphs
-    dataStr = str(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]))
-    cA = int(dataStr)
-    summaryOutput = summaryOutput + "classes AUX" + sep + dataStr + "\n"    
+    if(sanityCheck):
+        dataStr = str(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]))
+        cA = int(dataStr)
+        summaryOutput = summaryOutput + "classes AUX" + sep + dataStr + "\n"    
     # add number of classes obtained when comparing CGRs
     dataStr = str(max([classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]]))
     cB = int(dataStr)
     summaryOutput = summaryOutput + "classes ITS" + sep + dataStr + "\n"
     # add number of classes obtained when comparing ISOs
-    dataStr = str(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]))
-    cC = int(dataStr)
-    summaryOutput = summaryOutput + "classes ISO" + sep + dataStr + "\n"    
+    if(sanityCheck):    
+        dataStr = str(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]))
+        cC = int(dataStr)
+        summaryOutput = summaryOutput + "classes ISO" + sep + dataStr + "\n"    
     # add result AUX
-    if(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]) == 1):
-        dataStr = "equivalent maps"
-        rA = "equivalent maps"
-    else:
-        dataStr = "not equivalent maps"
-        rA = "not equivalent maps"
-    summaryOutput = summaryOutput + "result AUX" + sep + dataStr + "\n"
+    if(sanityCheck):    
+        if(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]) == 1):
+            dataStr = "equivalent maps"
+            rA = "equivalent maps"
+        else:
+            dataStr = "not equivalent maps"
+            rA = "not equivalent maps"
+        summaryOutput = summaryOutput + "result AUX" + sep + dataStr + "\n"
     # add result CGR
     if(max([classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]]) == 1):
         dataStr = "equivalent maps"
@@ -766,25 +803,29 @@ for eachReaction in list(graphsByMap.keys()):
         totNotEquivalent = totNotEquivalent + 1
     summaryOutput = summaryOutput + "result ITS" + sep + dataStr + "\n"
     # add result ISO
-    if(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]) == 1):
-        dataStr = "equivalent maps"
-        rC = "equivalent maps"
-    else:
-        dataStr = "not equivalent maps"
-        rC = "not equivalent maps"
-    summaryOutput = summaryOutput + "result ISO" + sep + dataStr + "\n"    
-    # add time AUX        
-    dataStr = str(timeAUX[eachReaction])
-    summaryOutput = summaryOutput + "time AUX" + sep + dataStr + "\n"
+    if(sanityCheck):    
+        if(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]) == 1):
+            dataStr = "equivalent maps"
+            rC = "equivalent maps"
+        else:
+            dataStr = "not equivalent maps"
+            rC = "not equivalent maps"
+        summaryOutput = summaryOutput + "result ISO" + sep + dataStr + "\n"    
+    # add time AUX
+    if(sanityCheck):    
+        dataStr = str(timeAUX[eachReaction])
+        summaryOutput = summaryOutput + "time AUX" + sep + dataStr + "\n"
     # add time CGR        
     dataStr = str(timeCGR[eachReaction])
     summaryOutput = summaryOutput + "time ITS" + sep + dataStr + "\n"
-    # add time ISO        
-    dataStr = str(timeISO[eachReaction])
-    summaryOutput = summaryOutput + "time ISO" + sep + dataStr + "\n"
+    # add time ISO
+    if(sanityCheck):    
+        dataStr = str(timeISO[eachReaction])
+        summaryOutput = summaryOutput + "time ISO" + sep + dataStr + "\n"
     # consistency info
-    if(len(list(set([cA, cB, cC]))) > 1):
-        print("*** Wrong, please check:", eachReaction, list(set([rA, rB, rC])), list(set([cA, cB, cC])))
+    if(sanityCheck):
+        if(len(list(set([cA, cB, cC]))) > 1):
+            print("*** Wrong, please check:", eachReaction, list(set([rA, rB, rC])), list(set([cA, cB, cC])))
 # add super-summary at the beginning of summary
 superSummary = "+++ Total of reactions with equivalent maps: " + str(totEquivalent) + "\n"
 superSummary = superSummary + "+++ Total of reactions with non-equivalent maps: " + str(totNotEquivalent) + "\n"
@@ -800,9 +841,10 @@ print("* saving data into pkl files ...")
 
 
 # save pkl data of AUX
-outputFile = open(outputFileNamePklAUX, "wb")
-pickle.dump(resultsAUX, outputFile)
-outputFile.close()
+if(sanityCheck):
+    outputFile = open(outputFileNamePklAUX, "wb")
+    pickle.dump(resultsAUX, outputFile)
+    outputFile.close()
 
 
 # save pkl data of CGR
@@ -812,9 +854,10 @@ outputFile.close()
 
 
 # save pkl data of ISO
-outputFile = open(outputFileNamePklISO, "wb")
-pickle.dump(resultsISO, outputFile)
-outputFile.close()
+if(sanityCheck):
+    outputFile = open(outputFileNamePklISO, "wb")
+    pickle.dump(resultsISO, outputFile)
+    outputFile.close()
 
 
 # final message
