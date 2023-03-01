@@ -111,6 +111,6 @@ conda env remove -n eequaam
 ```
 
 
-## References
+## Additional Information
 
 
