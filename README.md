@@ -116,11 +116,11 @@ conda env remove -n eequaam
 ## Additional Information
 
 
-- RXNMapper 0.2.4 [RXN]<br/>
+- RXNMapper [RXN]<br/>
   http://rxnmapper.ai/<br/>
   https://pypi.org/project/rxnmapper/<br/>
 
-- Reaction Decoder Tool version 2.4.1 [RDT]<br/>
+- Reaction Decoder Tool [RDT]<br/>
   https://academic.oup.com/bioinformatics/article/32/13/2065/1743096<br/>
   https://github.com/asad/ReactionDecoder<br/>
   https://github.com/asad/ReactionDecoder/releases<br/>
