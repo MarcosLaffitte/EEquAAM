@@ -42,7 +42,7 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 ```
 python  NumberingTool.py  [myFile.smiles]
 ```
-###### The output will be a plain-text file [myFile_id.smiles] whose lines alternate between the reaction SMILES and their identifiers. See <a href="./NumberingTool">NumberingTool</a> for more information on the input and output formats.<br/>
+###### The output will be a plain-text file [myFile_id.smiles] whose lines alternate between the reaction SMILES and their identifiers. See <a href="./NumberingTool">NumberingTool</a> for specifications and examples of the input and output formats.<br/>
 
 
 
