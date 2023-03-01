@@ -117,18 +117,18 @@ conda env remove -n eequaam
 
 
 - RXNMapper 0.2.4 [RXN]<br/>
-  http://rxnmapper.ai/
+  http://rxnmapper.ai/<br/>
   https://pypi.org/project/rxnmapper/<br/>
 
 - Reaction Decoder Tool version 2.4.1 [RDT]<br/>
-  https://academic.oup.com/bioinformatics/article/32/13/2065/1743096
+  https://academic.oup.com/bioinformatics/article/32/13/2065/1743096<br/>
   https://github.com/asad/ReactionDecoder<br/>
   https://github.com/asad/ReactionDecoder/releases<br/>
   
 - GraphormerMapper [Graphormer]<br/>
-  https://pubs.acs.org/doi/10.1021/acs.jcim.2c00344
+  https://pubs.acs.org/doi/10.1021/acs.jcim.2c00344<br/>
   https://github.com/chython/chytorch-rxnmap<br/>
   https://pypi.org/project/chytorch-rxnmap/<br/>
 
 - General specifications on both anotated and unannotated SMILES<br/>
-  http://opensmiles.org/opensmiles.html
+  http://opensmiles.org/opensmiles.html<br/>
