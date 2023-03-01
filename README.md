@@ -47,7 +47,7 @@ This repository was developed as part of the contribution:
 > **Link:** https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html
 
 <div align="justify">
-There you can find detailed information on the algorithms implemented in this repository. This work was developed for research purposes. Please cite as above if you find this information useful for your own research.
+There you can find detailed information on the algorithms implemented here. This work was developed for research purposes. Please cite as above if you find this information useful for your own research.
 </div>
 
 
