@@ -45,7 +45,7 @@ python  NumberingTool.py  [myFile.smiles]
 
 ### Run MappingTool
 ```
-python  MappingTool.py  [myFile.smiles]
+python  MappingTool.py  [myFile_id.smiles]
 ```
 
 
