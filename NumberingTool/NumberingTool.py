@@ -55,7 +55,7 @@
 #    * the output of this script is the input for MappingTool.py in the repo   #
 #                                                                              #
 #                                                                              #
-#  - IMPORTANT: This code is provided "AS IS". You may use it uder your own    #
+#  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
 #    risk and consideration. This script was built for research purposes and   #
 #    its developers claim no responsabilty on further third-party use.         #
 #                                                                              #
