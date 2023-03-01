@@ -109,3 +109,8 @@ conda deactivate
 ```
 conda env remove -n eequaam
 ```
+
+
+## References
+
+
