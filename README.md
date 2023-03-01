@@ -50,7 +50,7 @@ python  NumberingTool.py  [myFile.smiles]
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
-###### The output will be a plain-text file containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers.
+###### The output will include a plain-text file containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers.
 
 
 ### Run EEquAAM
@@ -62,6 +62,7 @@ python  EEquAAM.py  [myFile_aam.smiles]
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
+###### The output will include a summary indicating for which reactions the give maps were all equivalent, and for which the given maps were non-equivalent.
 
 
 ### Deactivate or Remove Anaconda Environment
