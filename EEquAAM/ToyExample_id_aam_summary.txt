@@ -1,3 +1,5 @@
++++ Total of reactions with equivalent maps: 3
++++ Total of reactions with non-equivalent maps: 2
 #	reaction_1
 maps given	3
 classes AUX	1
@@ -6,9 +8,9 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.011154651641845703
-time ITS	0.0034902095794677734
-time ISO	0.008373737335205078
+time AUX	0.010437488555908203
+time ITS	0.003325223922729492
+time ISO	0.008866071701049805
 #	reaction_2
 maps given	3
 classes AUX	2
@@ -17,9 +19,9 @@ classes ISO	2
 result AUX	not equivalent maps
 result ITS	not equivalent maps
 result ISO	not equivalent maps
-time AUX	0.010393381118774414
-time ITS	0.002223491668701172
-time ISO	0.004719734191894531
+time AUX	0.011156082153320312
+time ITS	0.002249002456665039
+time ISO	0.004329681396484375
 #	reaction_5
 maps given	3
 classes AUX	1
@@ -28,9 +30,9 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.004563570022583008
-time ITS	0.0014548301696777344
-time ISO	0.0017714500427246094
+time AUX	0.004530906677246094
+time ITS	0.00144195556640625
+time ISO	0.0017092227935791016
 #	reaction_6
 maps given	3
 classes AUX	2
@@ -39,9 +41,9 @@ classes ISO	2
 result AUX	not equivalent maps
 result ITS	not equivalent maps
 result ISO	not equivalent maps
-time AUX	0.011945009231567383
-time ITS	0.002246856689453125
-time ISO	0.004056215286254883
+time AUX	0.012392997741699219
+time ITS	0.0022912025451660156
+time ISO	0.003973960876464844
 #	reaction_10
 maps given	3
 classes AUX	1
@@ -50,6 +52,6 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.009723663330078125
-time ITS	0.002843618392944336
-time ISO	0.004034996032714844
+time AUX	0.00928354263305664
+time ITS	0.0028526782989501953
+time ISO	0.00403904914855957
