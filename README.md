@@ -53,6 +53,8 @@ There you can find detailed information on the algorithms implemented here. This
 
 ## Instructions
 
+###### In order to run this programs you will require some python packages, which can be installed inside an anaconda environment. After this you only need a list of unannotated reaction SMILES in a plain-text file over which you can apply the pipeline NumberingTool > MappingTool > EEquAAM, meaning that the output for one program is the input for the following. Below you can find the python commands to run each program.
+
 
 ### Create Anaconda Environment
 ###### 1) First create the eequaam environment while adding some of the required dependencies:
