@@ -53,6 +53,7 @@ python  MappingTool.py  [myFile_id.smiles]
 ###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. See <a href="./MappingTool">MappingTool</a> for specifications and examples of the input and output formats.<br/>
 
 
+
 ### Run EEquAAM
 ###### There are two options when running EEquAAM. The first evaluates the equivalence of atom maps only through the ITS method. This is the fastest method and therefore the default option:
 ```
@@ -62,7 +63,9 @@ python  EEquAAM.py  [myFile_aam.smiles]
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
-###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent.
+###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent.<br/>
+See <a href="./EEquAAM">EEquAAM</a> for specifications and examples of the input and output formats.<br/>
+
 
 
 ### Deactivate or Remove Anaconda Environment
