@@ -50,11 +50,11 @@ python  MappingTool.py  [myFile_id.smiles]
 
 
 ### Run EEquAAM
-##### There are two options to run EEquAAM. The first one evaluates the equivalence of atom maps only through the ITS method. This is the dafult option:
+##### There are two options when running EEquAAM. The first evaluates the equivalence of atom maps only through the ITS method. This is the fastest method and therefore the default option:
 ```
 python  EEquAAM.py  [myFile_aam.smiles]
 ```
-
+##### The second option evaluates 
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
