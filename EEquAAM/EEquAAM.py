@@ -726,6 +726,8 @@ print("* making summary ...")
 dataStr = ""
 summaryOutput = ""
 sep = "\t"
+totEquivalent = 0
+totNotEquivalent = 0
 # add lines per reaction
 for eachReaction in list(graphsByMap.keys()):
     # add reaction smiles
@@ -757,9 +759,11 @@ for eachReaction in list(graphsByMap.keys()):
     if(max([classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]]) == 1):
         dataStr = "equivalent maps"
         rB = "equivalent maps"
+        totEquivalent = totEquivalent + 1        
     else:
         dataStr = "not equivalent maps"
         rB = "not equivalent maps"
+        totNotEquivalent = totNotEquivalent + 1
     summaryOutput = summaryOutput + "result ITS" + sep + dataStr + "\n"
     # add result ISO
     if(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]) == 1):
@@ -780,7 +784,12 @@ for eachReaction in list(graphsByMap.keys()):
     summaryOutput = summaryOutput + "time ISO" + sep + dataStr + "\n"
     # consistency info
     if(len(list(set([cA, cB, cC]))) > 1):
-        print("*** Wrong, please check:", eachReaction, list(set([rA, rB, rC])), list(set([cA, cB, cC])))        
+        print("*** Wrong, please check:", eachReaction, list(set([rA, rB, rC])), list(set([cA, cB, cC])))
+# add super-summary at the beginning of summary
+superSummary = "+++ Total of reactions with equivalent maps: " + str(totEquivalent) + "\n"
+superSummary = superSummary + "+++ Total of reactions with non-equivalent maps: " + str(totNotEquivalent) + "\n"
+summaryOutput = superSummary + summaryOutput
+# save summary
 outputFile = open(outputFileNameSummary, "w")
 outputFile.writelines(summaryOutput)
 outputFile.close()
