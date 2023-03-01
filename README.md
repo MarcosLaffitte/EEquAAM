@@ -51,7 +51,7 @@ python  MappingTool.py  [myFile_id.smiles]
 
 ### Run EEquAAM
 ```
-python EEquAAM.py [myFile_aam.smiles]
+python  EEquAAM.py  [myFile_aam.smiles]
 ```
 
 
