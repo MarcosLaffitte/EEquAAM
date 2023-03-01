@@ -1,0 +1,55 @@
+#	reaction_1
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011154651641845703
+time ITS	0.0034902095794677734
+time ISO	0.008373737335205078
+#	reaction_2
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.010393381118774414
+time ITS	0.002223491668701172
+time ISO	0.004719734191894531
+#	reaction_5
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.004563570022583008
+time ITS	0.0014548301696777344
+time ISO	0.0017714500427246094
+#	reaction_6
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.011945009231567383
+time ITS	0.002246856689453125
+time ISO	0.004056215286254883
+#	reaction_10
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009723663330078125
+time ITS	0.002843618392944336
+time ISO	0.004034996032714844
