@@ -8,7 +8,7 @@
 
 <div align="center">
 Cheminformatics software for the automatic<br/>
-<strong>E</strong>valuation of the <strong>Eq</strong>uivalence of <strong>A</strong>tom-to-<strong>A</strong>tom <strong>M</strong>aps
+<strong>E</strong>valuation of the <strong>Eq</strong>uivalence of <strong>A</strong>tom-to-<strong>A</strong>tom <strong>M</strong>aps<br/>
 </div>
 
 
