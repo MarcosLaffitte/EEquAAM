@@ -12,6 +12,9 @@ Cheminformatics software for the automatic<br/>
 </div>
 
 
+> Center for Scalable Data Analytics and Artificial Intelligence, Germany. See <a href="https://scads.ai/">ScaDS.AI</a>
+
+
 ## Developed by
 
 - Marcos E. González Laffitte<br/>
