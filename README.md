@@ -35,7 +35,7 @@ Cheminformatics software for the automatic<br/>
 ## Description
 
 <div align="justify">
-Here we provide a self-contained pipeline for the analysis and comparison of atom-to-atom maps explaining the mechanisms behind chemical reactions.
+Here we provide a self-contained pipeline for the analysis and comparison of atom-to-atom maps explaining the mechanisms behind chemical reactions. You will find 3 main python tools: <a href="./EEquAAM">EEquAAM</a> will compare atom maps in an automatic manner.
 </div>
 
 
