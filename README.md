@@ -69,6 +69,7 @@ conda activate eequaam
 ```
 pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.4 && pip install --no-warn-conflicts transformers==4.24.0
 ```
+###### Remember to always activate the eequaam conda environment before using these programs.
 
 
 ### Run NumberingTool
@@ -114,7 +115,6 @@ conda env remove -n eequaam
 
 
 ## Additional Information
-
 
 - RXNMapper [RXN]<br/>
   http://rxnmapper.ai/<br/>
