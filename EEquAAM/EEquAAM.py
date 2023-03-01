@@ -63,8 +63,8 @@
 #    Log_10 of time; linear time is always included in the summary.            #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
-#      * default ITS   python EEquAAM.py [myFile_aam.smiles]                   #
-#      * or            python EEquAAM.py --sanity-check [myFile_aam.smiles]    #
+#      * default ITS    python EEquAAM.py [myFile_aam.smiles]                  #
+#      * or             python EEquAAM.py --sanity-check [myFile_aam.smiles]   #
 #                                                                              #
 #  - Expected output:                                                          #
 #    (1) myFile_aam_times.pdf                                                  #
