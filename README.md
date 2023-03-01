@@ -37,10 +37,7 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 
 
 ### Run NumberingTool
-<p align="justify">
 ###### If your initial list of unannotated reaction SMILES doesn't have identifiers for each reaction, you can make use of this script to add them to your list. In the following command [myFile.smiles] is a plain-text file whose lines are each a reaction SMILES:
-</p>
-
 ```
 python  NumberingTool.py  [myFile.smiles]
 ```
