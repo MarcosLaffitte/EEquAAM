@@ -46,6 +46,7 @@ python  NumberingTool.py  [myFile.smiles]
 
 
 ### Run MappingTool
+###### If you have a list of reaction SMILES with identifiers and you want to produce atom maps for these reactions, you can make use of this script. This wraps the three atom mapping tools RXN, RDT and Graphormer.
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
