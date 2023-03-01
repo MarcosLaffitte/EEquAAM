@@ -128,4 +128,4 @@ conda env remove -n eequaam
   https://pypi.org/project/chytorch-rxnmap/<br/>
 
 - General specifications on both anotated and unannotated SMILES<br/>
-  http://opensmiles.org/opensmiles.html<br/>
+  http://opensmiles.org/opensmiles.html
