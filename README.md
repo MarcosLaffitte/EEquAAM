@@ -41,7 +41,7 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 ```
 python  NumberingTool.py  [myFile.smiles]
 ```
-###### The output will be a plain-text file [myFile_id.smiles] whose lines alternate between the reaction SMILES and their identifiers. See <a href="./NumberingTool">NumberingTool</a> for specifications and examples of the input and output formats.<br/>
+###### The output will be a plain-text file [myFile_id.smiles] whose lines alternate between the reaction SMILES and their identifiers. See <a href="./NumberingTool">NumberingTool</a> for an example of the input and output formats.<br/>
 
 
 
@@ -50,7 +50,7 @@ python  NumberingTool.py  [myFile.smiles]
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
-###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. See <a href="./MappingTool">MappingTool</a> for specifications and examples of the input and output formats.<br/>
+###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. See <a href="./MappingTool">MappingTool</a> for an example of the input and output formats.<br/>
 
 
 
@@ -63,7 +63,7 @@ python  EEquAAM.py  [myFile_aam.smiles]
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
-###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent. See <a href="./EEquAAM">EEquAAM</a> for specifications and examples of the input and output formats.<br/>
+###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent. See <a href="./EEquAAM">EEquAAM</a> for an example of the input and output formats.<br/>
 
 
 
