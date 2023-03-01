@@ -19,29 +19,16 @@
 ######    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]        
 ######    ...                                                                       
 ######                                                                              
-######    * WARNING! if the program founds an INCOMPLETE map it will terminate      
-######      before analyzing any reaction. An incomplete atom-map is that in which  
-######      there are atoms on one side of the reaction not being mapped to atoms   
-######      on the  other side, in other words, it is not a bijective atom-map.     
+######    * WARNING! if the program founds an INCOMPLETE map it will terminate before analyzing any reaction. An incomplete atom-map is that in which there are atoms on one side of the reaction not being mapped to atoms on the  other side, in other words, it is not a bijective atom-map.     
 ######    * the line with the identifier should always start with "#,"              
 ######    * there is no limit to the number of reactions that can be analized       
 ######    * the number of maps per rxn doesn't need to be the same for all rxns     
 ######    * identifiers of the mappers [RXNmap...] can be changend if needed        
-######    * the id "reaction_i" is an arbitrary identifier and can be changed to be 
-######      e.g. the common name of a reaction, including more commas if needed     
-######      but not newline characters "\n", i.e, this is a single line             
-######    * this format is the output of the MappingTool found in the EEquAAM repo  
-######      already implementing RXNmapper, RDT and GraphormerMapper                
-######    * general specifications on both anotated and unmapped SMILES strings     
-######      can be found at: http://opensmiles.org/opensmiles.html                  
+######    * the id "reaction_i" is an arbitrary identifier and can be changed to be e.g. the common name of a reaction, including more commas if needed but not newline characters "\n", i.e, this is a single line             
+######    * this format is the output of the MappingTool found in the EEquAAM repo already implementing RXNmapper, RDT and GraphormerMapper                
+######    * general specifications on both anotated and unmapped SMILES strings can be found at: http://opensmiles.org/opensmiles.html                  
 ######                                                                              
-######    The program can run a "--sanity-check" involving the three mathematically 
-######    equivalent methods for comparing atom maps: (AUX) comparing the           
-######    auxiliary graphs, (CGR or ITS) comparing Fujita's (1980) imaginary        
-######    transition state and (ISO) enumerating the isomorphisms associated to     
-######    each reaction. The default mode only runs the ITS (the fastest method).   
-######    The output includes a summary, three pkls, and a pdf with the boxplots    
-######    of the time taken by each method to analyze each reaction once.           
+######    The program can run a "--sanity-check" involving the three mathematically equivalent methods for comparing atom maps: (AUX) comparing the auxiliary graphs, (CGR or ITS) comparing Fujita's (1980) imaginary transition state and (ISO) enumerating the isomorphisms associated to each reaction. The default mode only runs the ITS (the fastest method). The output includes a summary, three pkls, and a pdf with the boxplots of the time taken by each method to analyze each reaction once.           
 ######                                                                              
 ######  - Input: plain-text csv *_aam.smiles file as specified above.               
 ######                                                                              
