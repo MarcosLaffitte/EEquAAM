@@ -63,8 +63,7 @@ python  EEquAAM.py  [myFile_aam.smiles]
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
-###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent.<br/>
-###### See <a href="./EEquAAM">EEquAAM</a> for specifications and examples of the input and output formats.<br/>
+###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent. See <a href="./EEquAAM">EEquAAM</a> for specifications and examples of the input and output formats.<br/>
 
 
 
