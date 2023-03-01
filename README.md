@@ -62,7 +62,7 @@ python  EEquAAM.py  [myFile_aam.smiles]
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
-###### The output will include a summary indicating for which reactions the give maps were all equivalent, and for which the given maps were non-equivalent.
+###### The output will include a summary indicating for which reactions the given maps were all equivalent, and for which the given maps were non-equivalent.
 
 
 ### Deactivate or Remove Anaconda Environment
