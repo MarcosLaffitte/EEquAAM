@@ -12,6 +12,15 @@ Cheminformatics software for the automatic<br/>
 </div>
 
 
+## Developed by
+
+
+
+
+## Description
+
+
+
 ## Cite as
 
 **[1]**   M. E. González Laffitte, N. Beier, N. Domschke, P. F. Stadler, Comparison of Atom Maps. *MATCH Commun. Math. Comput. Chem.* **90** (2023) 75–102.
