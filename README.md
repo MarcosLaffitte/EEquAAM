@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="./ReadmeLogo/EEquAAM_logo.png" width="450"/>
+<img src="./ReadmeLogo/EEquAAM_logo.png" width="420"/>
 </p>
 
 
