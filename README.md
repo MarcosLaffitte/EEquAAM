@@ -66,7 +66,7 @@ python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 
 
 ### Deactivate or Remove Anaconda Environment
-###### You can deactivate the eequaam environment after using it:
+###### Finally you can deactivate the eequaam environment after using it:
 ```
 conda deactivate
 ```
