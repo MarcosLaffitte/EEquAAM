@@ -71,8 +71,7 @@
 #    * WARNING! reactions with same identifiers will be silently overwritten   #
 #                                                                              #
 #    Also three other files are returned after running the script: (2) the     #
-#    SMILES refered to as "unsuitable" which: contain the symbols "*" or "~"   #
-#    not supported by the mappers, have empty reactans or empty products,      #
+#    SMILES refered to as "unsuitable" which: have no reactans or no products, #
 #    are missing the ">>" symbol, or were previously mapped. Then (3) includes #
 #    the unbalanced SMILES, and finally (4) contains those reactions that      #
 #    where not completeley mapped by the three atom-mapping tools. This last   #
@@ -100,17 +99,17 @@
 #      methodology (RDT, RXN, Graphormer) over such reactions, or more         #
 #      IMPORTANTLY there may be a problem with the underlying chemistry        #
 #                                                                              #
-#    * WARNING! you may use the uneven maps under your own risk                #
+#    * WARNING! you may use uneven maps under your own risk and consideration  #
 #                                                                              #
 #    * WARNING! reactions with same identifiers will be silently overwritten   #
 #                                                                              #
 #    * WARNING! identifiers without reactions wont be considered for analysis  #
 #                                                                              #
-#    * WARNING! symbol "*" cannot be processed by Graphormer and symbol "~"    #
-#      cannot be processed by RDT Mapper on the implemented versions           #
+#    * WARNING! symbol "*" cannot be processed by Graphormer, and symbol "~"   #
+#      cannot be processed by RDT Mapper, on the implemented versions          #
 #                                                                              #
 #                                                                              #
-#  - IMPORTANT: This code is provided "AS IS". You may use it uder your own    #
+#  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
 #    risk and consideration. This script wraps the three atom mappers (RDT,    #
 #    RXN, Graphormer), but it is not related to their development. This script #
 #    was built for research purposes and its developers claim no responsabilty #
@@ -296,7 +295,7 @@ def isBalanced(someSMILES):
         mol = ps.read_smiles(eachReactant)
         # obtain atom type and number per type
         chemElement = nx.get_node_attributes(mol, "element")
-        # the only atoms without element are "*" unknowns        
+        # the only atoms without element are "*" unknowns and thus they are not in the keys
         for atom in list(chemElement.keys()):
             if(not(chemElement[atom] in ignoreElements)):
                 if(chemElement[atom] in list(typesR.keys())):
@@ -310,7 +309,7 @@ def isBalanced(someSMILES):
         mol = ps.read_smiles(eachProduct)
         # obtain atom type and number per type
         chemElement = nx.get_node_attributes(mol, "element")
-        # the only atoms without element are "*" unknowns
+        # the only atoms without element are "*" unknowns and thus they are not in the keys        
         for atom in list(chemElement.keys()):        
             if(not(chemElement[atom] in ignoreElements)):
                 if(chemElement[atom] in list(typesP.keys())):
@@ -442,8 +441,7 @@ for eachReaction in theList:
     else:
         reactantSide = inputSMILES[eachReaction].split(">>")[0]
         productSide = inputSMILES[eachReaction].split(">>")[1]
-        # symbol "*" cannot be processed by Graphormer and symbol "~" cannot be processed by RDT
-        if((reactantSide == "") or (productSide == "") or ("~" in inputSMILES[eachReaction]) or ("*" in inputSMILES[eachReaction])):
+        if((reactantSide == "") or (productSide == "")):        
             badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
             inputSMILES.pop(eachReaction)        
         else:
@@ -465,8 +463,8 @@ for eachReaction in theList:
 if(len(list(badSMILES.keys())) > 0):
     print("\n")
     print("* found " + str(len(list(badSMILES.keys()))) + " UNSUITABLE reaction SMILES.")
-    print("  - these are already annotated or cannot provide a (bijectve) atom-to-atom map")
-    print("  - e.g, the symbol (*) cannot be processed by Graphormer and (~) cannot be processed by RDT")
+    print("  - these may be missing the symbol (>>), they may have no reactants or no products,")
+    print("  - or they may be already annotated, so they won't be processed")
     print("  - they will be included in the file *_unsuitable.similes")
     print("  - for more information see accompanying README")
 
