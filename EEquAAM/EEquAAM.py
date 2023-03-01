@@ -41,7 +41,7 @@
 #    * general specifications on both anotated and unmapped SMILES strings     #
 #      can be found at: http://opensmiles.org/opensmiles.html                  #
 #                                                                              #
-#    The program CAN run a "--sanity-check" involving the three mathematically #
+#    The program can run a "--sanity-check" involving the three mathematically #
 #    equivalent methods for comparing atom maps: (AUX) comparing the           #
 #    auxiliary graphs, (CGR or ITS) comparing Fujita's (1980) imaginary        #
 #    transition state and (ISO) enumerating the isomorphisms associated to     #
@@ -86,6 +86,11 @@
 #      before analyzing any reaction                                           #
 #                                                                              #
 #    * WARNING! identifiers without maps wont be considered for analysis       #
+#                                                                              #
+#                                                                              #
+#  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
+#    risk and consideration. This script was built for research purposes and   #
+#    its developers claim no responsabilty on further third-party use.         #
 #                                                                              #
 ################################################################################
 
@@ -341,15 +346,50 @@ def analyzeCGRs(someResults):
     someG = None
     someH = None
     someCGR = None    
-    # obtain auxiliary graphs
+    # obtain CGRs
     for (someID, someMap, someG, someH) in someResults:
         # creat null from copy of G in order to preserve attributes
         someCGR = deepcopy(someG)
         someCGR.remove_edges_from(list(someCGR.edges()))
-        # add typeG and typeH attributes
+        # add typeG and typeH attributes, or default attributes for "*" unknown elements
         for v in list(someCGR.nodes()):
-            typesG = (someG.nodes[v]["element"], someG.nodes[v]["aromatic"], someG.nodes[v]["hcount"], someG.nodes[v]["charge"])
-            typesH = (someH.nodes[v]["element"], someH.nodes[v]["aromatic"], someH.nodes[v]["hcount"], someH.nodes[v]["charge"])
+            # get attributes in G or default if missing
+            try:
+                elementAttr = someG.nodes[v]["element"]
+            except:
+                elementAttr = "*"
+            try:
+                aromaticAttr = someG.nodes[v]["aromatic"]
+            except:
+                aromaticAttr = False
+            try:
+                hcountAttr = someG.nodes[v]["hcount"]
+            except:
+                hcountAttr = 0
+            try:
+                chargeAttr = someG.nodes[v]["charge"]
+            except:
+                chargeAttr = 0                
+            typesG = (elementAttr, aromaticAttr, hcountAttr, chargeAttr)
+            # get attributes in H or default if missing
+            try:
+                elementAttr = someH.nodes[v]["element"]
+            except:
+                elementAttr = "*"
+            try:
+                aromaticAttr = someH.nodes[v]["aromatic"]
+            except:
+                aromaticAttr = False
+            try:
+                hcountAttr = someH.nodes[v]["hcount"]
+            except:
+                hcountAttr = 0
+            try:
+                chargeAttr = someH.nodes[v]["charge"]
+            except:
+                chargeAttr = 0                
+            typesH = (elementAttr, aromaticAttr, hcountAttr, chargeAttr)
+            # make new label to be preserved
             typesDict[v] = (typesG, typesH)
         nx.set_node_attributes(someCGR, typesDict, "typesGH")        
         # copy original graphs
