@@ -52,12 +52,10 @@
 #    by commas as show in the following toy-example:                           #
 #                                                                              #
 #    #,reaction_1                                                              #
-#    #,CCCCCCCCCC>>CCCCCCCCC.C                                                 #
 #    RXNmap,[CH3:1][...][CH:10]>>[CH3:1][...][CH3:9].[CH4:10]                  #
 #    RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2]                    #
 #    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH4:6]                    #
 #    #,reaction_2                                                              #
-#    #,CCCCCCCCCC>>CCCC.CCCCCC                                                 #
 #    RXNmap,[CH3:1][...][CH:10]>>[CH3:1][...][CH3:4].[CH3:5][...][CH4:10]      #
 #    RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]        #
 #    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]        #
