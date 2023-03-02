@@ -7,7 +7,7 @@ python  MappingTool.py  ToyExample_id.smiles
 - This last command will produce (in particular) the ToyExample_id_aam.smiles file when blanaced and suitable reactions are found.<br/>
 
 
-- General Input Format: plain text file with reaction SMILES as follows (this is also the output of NumberingTool.py)<br/>
+- General Input Format: plain-text file with reaction SMILES and identifiers as follows (this is also the output of NumberingTool.py)<br/>
 
 ```
 #,reaction_1
@@ -17,7 +17,7 @@ CCCCCCCCCC>>CCCC.CCCCCC
 ...
 ```
 
-- General Output Format: plain text file with reaction SMILES and identifiers as follows<br/>
+- General Output Format: plain-text file with the original identifiers and the mapped SMILES as follows<br/>
 
 ```
 #,reaction_1
