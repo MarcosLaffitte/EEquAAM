@@ -24,3 +24,5 @@ CCCCCCCCCC>>CCCCCCCCC.C
 CCCCCCCCCC>>CCCC.CCCCCC
 ...
 ```
+
+> you can find a more detailed explanation inside <a href="./NumberingTool.py">NumberingTool.py</a>
