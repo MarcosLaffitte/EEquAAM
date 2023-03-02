@@ -8,14 +8,14 @@
 
 - Input format: plain text file with reaction SMILES as in the following example<br/>
 
-CCCCCCCCCC>>CCCCCCCCC.C
-CCCCCCCCCC>>CCCC.CCCCCC
-...
+CCCCCCCCCC>>CCCCCCCCC.C<br/>
+CCCCCCCCCC>>CCCC.CCCCCC<br/>
+...<br/>
 
 - Output format: plain text file with reaction SMILES and identifiers as in the following example<br/>
 
-#,reaction_1
-CCCCCCCCCC>>CCCCCCCCC.C
-#,reaction_2
-CCCCCCCCCC>>CCCC.CCCCCC
-...
+#,reaction_1<br/>
+CCCCCCCCCC>>CCCCCCCCC.C<br/>
+#,reaction_2<br/>
+CCCCCCCCCC>>CCCC.CCCCCC<br/>
+...<br/>
