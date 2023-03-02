@@ -83,7 +83,7 @@ pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.
 
 
 ### Run NumberingTool
-###### If your initial list of unannotated reaction SMILES doesn't have identifiers for each reaction, you can make use of this script to add them to your list. In the following command [myFile.smiles] is a plain-text file whose lines are each a reaction SMILES:
+###### If your initial list of unannotated reaction SMILES doesn't have identifiers for each reaction, you can make use of this script to add them to your list. In the following command [myFile.smiles] is a plain-text file whose lines are each a reaction SMILES. Please mind the *.smiles extension:
 ```
 python  NumberingTool.py  [myFile.smiles]
 ```
@@ -96,7 +96,7 @@ python  NumberingTool.py  [myFile.smiles]
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
-###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. See <a href="./MappingTool">MappingTool</a> for an example of the input and output formats.<br/>
+###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. The extension of tese files is again *.smiles. Nevertheless the have different formats. See <a href="./MappingTool">MappingTool</a> for an example of the input and output formats.<br/>
 
 
 
