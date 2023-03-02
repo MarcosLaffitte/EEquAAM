@@ -1,6 +1,6 @@
 - How to run the toy example (after activating eequaam conda environment)<br/>
 
-       	   python  NumberingTool.py  ToyExample.smiles<br/>#
+       	   python  NumberingTool.py  ToyExample.smiles
 
 
 - This last command will produce the ToyExample_id.smiles file.
