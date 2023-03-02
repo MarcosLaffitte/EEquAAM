@@ -105,7 +105,7 @@ python  MappingTool.py  [myFile_id.smiles]
 ```
 python  EEquAAM.py  [myFile_aam.smiles]
 ```
-###### The second option evaluates the equivalence of atom maps with the three methods ITS, AUX and ISO described in [1]. These are mathematically equivalent, but the ISO method may be more time consuming depending on the number of symmetries of the involved molecules. To run and compare these methods use the following command:
+###### The second option evaluates the equivalence of atom maps with the three methods ITS, AUX and ISO described in <a href="https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html">[1]</a>. These are mathematically equivalent, but the ISO method may be more time consuming depending on the number of symmetries of the involved molecules. To run and compare these methods use the following command:
 ```
 python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]
 ```
