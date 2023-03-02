@@ -7,7 +7,7 @@ python  NumberingTool.py  ToyExample.smiles
 - This last command will produce the ToyExample_id.smiles file.<br/>
 
 
-- Input format: plain text file with reaction SMILES as in the following example<br/>
+- General Input Format: plain text file with reaction SMILES as follows<br/>
 
 ```
 CCCCCCCCCC>>CCCCCCCCC.C
@@ -15,7 +15,7 @@ CCCCCCCCCC>>CCCC.CCCCCC
 ...
 ```
 
-- Output format: plain text file with reaction SMILES and identifiers as in the following example<br/>
+- General Output Format: plain text file with reaction SMILES and identifiers as follows<br/>
 
 ```
 #,reaction_1
