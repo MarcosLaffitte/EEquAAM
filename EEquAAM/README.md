@@ -35,7 +35,9 @@ If you only want to run the ITS method described in <a href="https://match.pmf.k
 python EEquAAM.py [myFile_aam.smiles]
 ```
 
-If you want to run the 3 methods ITS, AUX and ISO described in <a href="https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html">[1]</a>
+If you want to run the 3 methods ITS, AUX and ISO described in <a href="https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html">[1]</a><br/>
+(warning: ISO is more time consuming due to its mathematical properties)<br/>
+
 ```
 python EEquAAM.py --sanity-check [myFile_aam.smiles]
 ```
