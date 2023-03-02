@@ -14,7 +14,7 @@ Cheminformatics software for the automatic<br/>
 
 ## Institutions
 
-> Center for Scalable Data Analytics and Artificial Intelligence, Germany. See <a href="https://scads.ai/">ScaDS.AI</a><br/>
+> Center for Scalable Data Analytics and Artificial Intelligence, Leipzig / Dresden, Germany. See <a href="https://scads.ai/">ScaDS.AI</a><br/>
 
 > Bioinformatics Group, Department of Computer Science, Leipzig University, Germany. See <a href="https://www.bioinf.uni-leipzig.de/home.html">Bioinf</a><br/>
 
