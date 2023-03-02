@@ -1,21 +1,26 @@
 - How to run the toy example (after activating eequaam conda environment)<br/>
 
-  python  NumberingTool.py  ToyExample.smiles
+```
+python  NumberingTool.py  ToyExample.smiles
+```
 
-
-- This last command will produce the ToyExample_id.smiles file.
+- This last command will produce the ToyExample_id.smiles file.<br/>
 
 
 - Input format: plain text file with reaction SMILES as in the following example<br/>
 
-CCCCCCCCCC>>CCCCCCCCC.C<br/>
-CCCCCCCCCC>>CCCC.CCCCCC<br/>
-...<br/>
+```
+CCCCCCCCCC>>CCCCCCCCC.C
+CCCCCCCCCC>>CCCC.CCCCCC
+...
+```
 
 - Output format: plain text file with reaction SMILES and identifiers as in the following example<br/>
 
-#,reaction_1<br/>
-CCCCCCCCCC>>CCCCCCCCC.C<br/>
-#,reaction_2<br/>
-CCCCCCCCCC>>CCCC.CCCCCC<br/>
-...<br/>
+```
+#,reaction_1
+CCCCCCCCCC>>CCCCCCCCC.C
+#,reaction_2
+CCCCCCCCCC>>CCCC.CCCCCC
+...
+```
