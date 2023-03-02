@@ -1,6 +1,6 @@
 ################################################################################
 #                                                                              #
-#  README - Program: EEquAAM.py                                                #
+#  README - EEquAAM.py                                                         #
 #                                                                              #
 #  - Paper: https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html          #
 #                                                                              #
