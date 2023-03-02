@@ -42,5 +42,7 @@ If you want to run the 3 methods ITS, AUX and ISO described in <a href="https://
 python EEquAAM.py --sanity-check [myFile_aam.smiles]
 ```
 
+- Mind the *.smiles extension when runnig these programs.<br/>
+
 
 > you can find a more detailed explanation inside <a href="./EEquAAM.py">EEquAAM.py</a>

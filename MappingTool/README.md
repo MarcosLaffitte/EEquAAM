@@ -31,4 +31,7 @@ CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 ...
 ```
 
+- Mind the *.smiles extension when runnig these programs.<br/>
+
+
 > you can find a more detailed explanation inside <a href="./MappingTool.py">MappingTool.py</a>

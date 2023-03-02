@@ -25,4 +25,7 @@ CCCCCCCCCC>>CCCC.CCCCCC
 ...
 ```
 
+- Mind the *.smiles extension when runnig these programs.<br/>
+
+
 > you can find a more detailed explanation inside <a href="./NumberingTool.py">NumberingTool.py</a>
