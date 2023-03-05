@@ -45,8 +45,10 @@ Cheminformatics software for the automatic<br/>
 ## Description
 
 <div align="justify">
-Here we provide a self-contained pipeline for the analysis and comparison of atom-to-atom maps explaining the mechanisms behind chemical reactions. You will find 3 main python tools: <a href="./EEquAAM">EEquAAM</a> will compare atom maps in an automatic manner. If you still don't have annotated reaction SMILES describing atom maps, you can use our <a href="./MappingTool">MappingTool</a>, which implements the 3 representative atom mapping tools RXN, RDT and Graphormer, see information about them below. Finally, to make use of EEquAAM and of our MappingTool you will require a list of reaction SMILES displaying names / identifiers for each reaction. If you have a list of such SMILES but don't want to name them one-by-one, you may use our auxiliary <a href="./NumberingTool">NumberingTool</a>.<br/>
+Here we provide a self-contained pipeline for the analysis and comparison of atom-to-atom maps explaining the mechanisms behind chemical reactions. You will find 3 main python tools: <a href="./EEquAAM">EEquAAM</a> will compare atom maps in an automatic manner. If you still don't have annotated reaction SMILES describing atom maps, you can use our <a href="./MappingTool">MappingTool</a>, which implements the 3 representative atom mapping tools RXN, RDT and Graphormer, see information about them below. Finally, to make use of EEquAAM and of our MappingTool you will require a list of reaction SMILES displaying names / identifiers for each reaction. If you have a list of such SMILES but don't want to name them one-by-one, you may use our auxiliary <a href="./NumberingTool">NumberingTool</a>.
 </div>
+
+<br/>
 
 **Note:** the atom maps to be compared need to be complete, i.e., *bijective*. An incomplete atom map is that in which there are atoms on one side of the reaction not being mapped to atoms on the other side, in other words, the atom map does not represent a bijection. For more information see the following reference.<br/>
 
