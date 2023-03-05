@@ -1,6 +1,6 @@
 ################################################################################
 #                                                                              #
-#  README - NumberingTool.py                                                   #
+#  README - Program: NumberingTool.py                                          #
 #                                                                              #
 #  - Paper: https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html          #
 #                                                                              #
@@ -66,7 +66,7 @@
 
 
 # already in python ------------------------------------------------------------
-from sys import argv
+from sys import argv, exit
 from copy import deepcopy
 from math import factorial, modf
 
@@ -80,10 +80,21 @@ warnings.filterwarnings("ignore")
 
 
 # input ------------------------------------------------------------------------
-inputFileName = argv[1]
+inputFileName = ""
 inputLines = []
 inputSMILES = dict()
 inputFile = None
+
+
+# check input ------------------------------------------------------------------
+remainder = (argv[1].split(".smiles"))[-1]
+if(not remainder == ""):
+    errorStr = "\n >> NumberingTool: Wrong input extension.\n"
+    errorStr = errorStr + "- Expected: *.smiles\n"
+    errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+    exit(errorStr)
+else:
+    inputFileName = argv[1]
 
 
 # output -----------------------------------------------------------------------
