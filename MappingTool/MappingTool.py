@@ -1,6 +1,6 @@
 ################################################################################
 #                                                                              #
-#  README - MappingTool.py                                                     #
+#  README - Program: MappingTool.py                                            #
 #                                                                              #
 #  - Paper: https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html          #
 #                                                                              #
@@ -52,10 +52,12 @@
 #    by commas as show in the following toy-example:                           #
 #                                                                              #
 #    #,reaction_1                                                              #
+#    #,CCCCCCCCCC>>CCCCCCCCC.C                                                 #
 #    RXNmap,[CH3:1][...][CH:10]>>[CH3:1][...][CH3:9].[CH4:10]                  #
 #    RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2]                    #
 #    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH4:6]                    #
 #    #,reaction_2                                                              #
+#    #,CCCCCCCCCC>>CCCC.CCCCCC                                                 #
 #    RXNmap,[CH3:1][...][CH:10]>>[CH3:1][...][CH3:4].[CH3:5][...][CH4:10]      #
 #    RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]        #
 #    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]        #
@@ -153,7 +155,7 @@ from rxnmapper import RXNMapper
 
 # already in python ------------------------------------------------------------
 import os
-from sys import argv
+from sys import argv, exit
 from copy import deepcopy
 from math import factorial, modf
 
@@ -171,8 +173,19 @@ logging.getLogger("pysmiles").setLevel(logging.CRITICAL)
 
 
 # input ------------------------------------------------------------------------
-inputFileName = argv[1]
+inputFileName = ""
 inputFile = None
+
+
+# check input ------------------------------------------------------------------
+remainder = (argv[1].split(".smiles"))[-1]
+if(not remainder == ""):
+    errorStr = "\n >> MappingTool: Wrong input extension.\n"
+    errorStr = errorStr + "- Expected: *.smiles\n"
+    errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+    exit(errorStr)
+else:
+    inputFileName = argv[1]
 
 
 # output -----------------------------------------------------------------------
