@@ -50,7 +50,7 @@ Here we provide a self-contained pipeline for the analysis and comparison of ato
 
 <br/>
 
-**Note:** the atom maps to be compared need to be complete, i.e., *bijective*. An incomplete atom map is that in which there are atoms on one side of the reaction not being mapped to atoms on the other side, in other words, the atom map does not represent a bijection. For more information see the following reference.<br/>
+**Note:** the atom maps to be compared need to be complete, i.e., *bijective*. An incomplete atom map is that in which there are atoms on one side of the reaction not being mapped to atoms on the other side, in other words, the atom map does not represent a bijection. This in turn requires for the analyzed reactions to be stoichiometrically balanced. For more information see the following reference.<br/>
 
 
 ## Cite as
