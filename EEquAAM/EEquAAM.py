@@ -1,6 +1,6 @@
 ################################################################################
 #                                                                              #
-#  README - EEquAAM.py                                                         #
+#  README - Program: EEquAAM.py                                                #
 #                                                                              #
 #  - Paper: https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html          #
 #                                                                              #
@@ -63,8 +63,8 @@
 #    Log_10 of time; linear time is always included in the summary.            #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
-#      * default ITS    python EEquAAM.py [myFile_aam.smiles]                  #
-#      * or             python EEquAAM.py --sanity-check [myFile_aam.smiles]   #
+#      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
+#      * or           python EEquAAM.py --sanity-check [myFile_aam.smiles]     #
 #                                                                              #
 #  - Expected output:                                                          #
 #    (1) myFile_aam_times.pdf                                                  #
@@ -149,14 +149,28 @@ sanityCheck = False
 if(len(argv) in [2, 3]):
     if(len(argv) == 2):
         if(".smiles" in argv[1]):
-            inputFileName = argv[1]
-            sanityCheck = False
+            remainder = (argv[1].split(".smiles"))[-1]
+            if(not remainder == ""):
+                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = errorStr + "- Expected: *.smiles\n"
+                errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+                exit(errorStr)
+            else:
+                inputFileName = argv[1]    
+                sanityCheck = False
         else:
             exit("\n >> EEquAAM: Wrong input format.\n")
     if(len(argv) == 3):
         if((argv[1] == "--sanity-check") and (".smiles" in argv[2])):
-            inputFileName = argv[2]
-            sanityCheck = True
+            remainder = (argv[2].split(".smiles"))[-1]
+            if(not remainder == ""):
+                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = errorStr + "- Expected: *.smiles\n"
+                errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+                exit(errorStr)
+            else:
+                inputFileName = argv[2]    
+                sanityCheck = True
         else:
             exit("\n >> EEquAAM: Wrong input format.\n")                    
 else:
