@@ -87,14 +87,17 @@ inputFile = None
 
 
 # check input ------------------------------------------------------------------
-remainder = (argv[1].split(".smiles"))[-1]
-if(not remainder == ""):
-    errorStr = "\n >> NumberingTool: Wrong input extension.\n"
-    errorStr = errorStr + "- Expected: *.smiles\n"
-    errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
-    exit(errorStr)
+if(".smiles" in argv[1]):
+    remainder = (argv[1].split(".smiles"))[-1]
+    if(not remainder == ""):
+        errorStr = "\n >> NumberingTool: Wrong input extension.\n"
+        errorStr = errorStr + "- Expected: *.smiles\n"
+        errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+        exit(errorStr)
+    else:
+        inputFileName = argv[1]
 else:
-    inputFileName = argv[1]
+    exit("\n >> NumberingTool: missing *.smiles extension.\n")
 
 
 # output -----------------------------------------------------------------------
