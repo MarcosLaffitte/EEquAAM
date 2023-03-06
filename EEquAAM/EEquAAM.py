@@ -32,7 +32,8 @@
 #    * the line with the identifier should always start with "#,"              #
 #    * there is no limit to the number of reactions that can be analized       #
 #    * the number of maps per rxn doesn't need to be the same for all rxns     #
-#    * identifiers of the mappers [RXNmap...] can be changend if needed        #
+#    * identifiers of the mappers [RXNmap...] can be changend if needed, but   #
+#      should not be substituted by a single "#" symbol                        #
 #    * the id "reaction_i" is an arbitrary identifier and can be changed to be #
 #      e.g. the common name of a reaction, including more commas if needed     #
 #      but not newline characters "\n", i.e, this is a single line             #
@@ -85,6 +86,8 @@
 #      before analyzing any reaction                                           #
 #                                                                              #
 #    * WARNING! identifiers without maps wont be considered for analysis       #
+#                                                                              #
+#    * WARNING! annotations of the type "|1^...|" will be silently removed     #
 #                                                                              #
 #                                                                              #
 #  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
@@ -587,6 +590,8 @@ for eachLine in inputSMILES:
         originalSMILES[currentReaction] = []
     # save reaction
     else:
+        if(" " in eachLineTuple[1]):
+            eachLineTuple = (eachLineTuple[0], eachLineTuple[1].split(" ")[0])
         allMaps.append([currentReaction, eachLineTuple])
         mappedSMILES[currentReaction].append(eachLineTuple)
         originalSMILES[currentReaction].append(eachLineTuple)
