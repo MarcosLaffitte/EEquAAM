@@ -100,7 +100,7 @@ python  NumberingTool.py  [myFile.smiles]
 ```
 python  MappingTool.py  [myFile_id.smiles]
 ```
-###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. The extension of tese files is again *.smiles. Nevertheless they have different formats. See <a href="./MappingTool">MappingTool</a> for an example of the input and output formats.<br/>
+###### The output will include a plain-text file [myFile_aam.smiles] containing the annotated SMILES of those suitable and balanced reactions that were completely mapped by the three mappers. The extension of these files is again *.smiles. Nevertheless they have different formats. See <a href="./MappingTool">MappingTool</a> for an example of the input and output formats.<br/>
 
 
 
