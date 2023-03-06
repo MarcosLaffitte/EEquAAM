@@ -108,6 +108,8 @@
 #    * WARNING! symbol "*" cannot be processed by Graphormer, and symbol "~"   #
 #      cannot be processed by RDT Mapper, on the implemented versions          #
 #                                                                              #
+#    * WARNING! annotations of the type "|1^...|" will be silently removed     #
+#                                                                              #
 #                                                                              #
 #  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
 #    risk and consideration. This script wraps the three atom mappers (RDT,    #
@@ -422,7 +424,11 @@ for eachLine in inputLines:
         originalSMILES[currentReaction] = ""
     # save reaction
     else:
-        inputSMILES[currentReaction] = eachLine        
+        # remove annotations of the type "|1^...|"
+        if(" " in eachLine):
+            inputSMILES[currentReaction] = eachLine.split(" ")[0]
+        else:
+            inputSMILES[currentReaction] = eachLine        
         originalSMILES[currentReaction] = eachLine        
 
 
@@ -513,7 +519,10 @@ for eachReaction in theList:
     # map reaction if possible
     try:
         RXNaam = rxn_mapper.get_attention_guided_atom_maps([inputSMILES[eachReaction]], canonicalize_rxns = False)[0]["mapped_rxn"]
-        mapsRXN[eachReaction] = RXNaam
+        if(" " in RXNaam):
+            mapsRXN[eachReaction] = RXNaam.split(" ")[0]
+        else:
+            mapsRXN[eachReaction] = RXNaam        
     except:
         mapsRXN[eachReaction] = deepcopy(inputSMILES[eachReaction])
     # print progress    
@@ -540,7 +549,10 @@ for eachReaction in theList:
         inputFile.close()
         os.system("rm *.txt")
         os.system("rm *.rxn")
-        mapsRDT[eachReaction] = RDTaam
+        if(" " in RDTaam):
+            mapsRDT[eachReaction] = RDTaam.split(" ")[0]
+        else:
+            mapsRDT[eachReaction] = RDTaam
     except:
         mapsRDT[eachReaction] = deepcopy(inputSMILES[eachReaction])
     # print progress
@@ -563,7 +575,10 @@ for eachReaction in theList:
         myrxn = smiles(inputSMILES[eachReaction])
         myrxn.reset_mapping()
         CHYaam = format(myrxn, "m")
-        mapsCHY[eachReaction] = CHYaam
+        if(" " in CHYaam):
+            mapsCHY[eachReaction] = CHYaam.split(" ")[0]
+        else:       
+            mapsCHY[eachReaction] = CHYaam
     except:
         mapsCHY[eachReaction] = deepcopy(inputSMILES[eachReaction])
     # print progress
