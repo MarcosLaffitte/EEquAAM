@@ -178,16 +178,19 @@ inputFile = None
 
 
 # check input ------------------------------------------------------------------
-remainder = (argv[1].split(".smiles"))[-1]
-if(not remainder == ""):
-    errorStr = "\n >> MappingTool: Wrong input extension.\n"
-    errorStr = errorStr + "- Expected: *.smiles\n"
-    errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
-    exit(errorStr)
+if(".smiles" in argv[1]):
+    remainder = (argv[1].split(".smiles"))[-1]
+    if(not remainder == ""):
+        errorStr = "\n >> MappingTool: Wrong input extension.\n"
+        errorStr = errorStr + "- Expected: *.smiles\n"
+        errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
+        exit(errorStr)
+    else:
+        inputFileName = argv[1]
 else:
-    inputFileName = argv[1]
+    exit("\n >> MappingTool: missing *.smiles extension.\n")
 
-
+    
 # output -----------------------------------------------------------------------
 outputFileName = inputFileName.replace(".smiles", "_aam.smiles")
 outputFileNameBad = inputFileName.replace(".smiles", "_unsuitable.smiles")
