@@ -547,8 +547,8 @@ for eachReaction in theList:
         inputFile = open("ECBLAST_smiles_AAM.txt", "r")
         RDTaam = (inputFile.read().splitlines())[3]
         inputFile.close()
-        os.system("rm *.txt")
-        os.system("rm *.rxn")
+        os.system("rm ECBLAST_smiles_AAM.txt")
+        os.system("rm ECBLAST_smiles_AAM.rxn")
         if(" " in RDTaam):
             mapsRDT[eachReaction] = RDTaam.split(" ")[0]
         else:
