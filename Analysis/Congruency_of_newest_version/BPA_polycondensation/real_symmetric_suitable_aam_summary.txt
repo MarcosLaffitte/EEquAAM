@@ -1,0 +1,46 @@
++++ Total of reactions with equivalent maps: 0
++++ Total of reactions with non-equivalent maps: 4
+#,CC(C)(C=1C=CC(O)=CC=1)C=2C=CC(O)=CC=2.CC(C)(C=1C=CC(O)=CC=1)C=2C=CC(O)=CC=2.ClC(Cl)=O>>CC(C)(C=1C=CC(=CC=1)O)C2=CC=C(OC(OC3=CC=C(C(C)(C)C=4C=CC(=CC=4)O)C=C3)=O)C=C2.Cl.Cl
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06909370422363281
+time ITS	0.007866859436035156
+time ISO	2.1254570484161377
+#,CC(C)(C=1C=CC(=CC=1)O)C2=CC=C(OC(OC3=CC=C(C(C)(C)C=4C=CC(=CC=4)O)C=C3)=O)C=C2.CC(C)(C=1C=CC(O)=CC=1)C=2C=CC(O)=CC=2.ClC(Cl)=O>>CC(C)(C1=CC=C(C=C1)OC(=O)OC2=CC=C(C=C2)C(C=3C=CC(OC(=O)OC=4C=CC(=CC=4)C(C)(C)C5=CC=C(C=C5)O)=CC=3)(C)C)C6=CC=C(C=C6)O.Cl.Cl
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.3967576026916504
+time ITS	0.011655092239379883
+time ISO	17.14056944847107
+#,CC(C)(C1=CC=C(C=C1)OC(=O)OC2=CC=C(C=C2)C(C=3C=CC(OC(=O)OC=4C=CC(=CC=4)C(C)(C)C5=CC=C(C=C5)O)=CC=3)(C)C)C6=CC=C(C=C6)O.CC(C)(C=1C=CC(O)=CC=1)C=2C=CC(O)=CC=2.ClC(Cl)=O>>CC(C)(C=1C=CC(OC(OC2=CC=C(C(C)(C)C=3C=CC(OC(OC4=CC=C(C=C4)C(C)(C)C5=CC=C(C=C5)OC(OC=6C=CC(=CC=6)C(C)(C)C=7C=CC(O)=CC=7)=O)=O)=CC=3)C=C2)=O)=CC=1)C=8C=CC(O)=CC=8.Cl.Cl
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	3.9799563884735107
+time ITS	0.01917243003845215
+time ISO	308.11245346069336
+#,CC(C)(C=1C=CC(O)=CC=1)C=2C=CC(O)=CC=2.CC(C)(C=1C=CC(OC(OC2=CC=C(C(C)(C)C=3C=CC(OC(OC4=CC=C(C=C4)C(C)(C)C5=CC=C(C=C5)OC(OC=6C=CC(=CC=6)C(C)(C)C=7C=CC(O)=CC=7)=O)=O)=CC=3)C=C2)=O)=CC=1)C=8C=CC(O)=CC=8.ClC(Cl)=O>>CC(C)(C1=CC=C(C=C1)OC(=O)OC2=CC=C(C=C2)C(C3=CC=C(C=C3)OC(=O)OC=4C=CC(=CC=4)C(C)(C)C5=CC=C(OC(=O)OC6=CC=C(C(C)(C)C=7C=CC(=CC=7)O)C=C6)C=C5)(C)C)C8=CC=C(OC(=O)OC9=CC=C(C(C)(C)C=%10C=CC(=CC=%10)O)C=C9)C=C8.Cl.Cl
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	41.50192403793335
+time ITS	0.04285573959350586
+time ISO	17459.83951663971

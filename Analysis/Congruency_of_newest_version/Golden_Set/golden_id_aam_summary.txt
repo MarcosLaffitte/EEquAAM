@@ -1,0 +1,3500 @@
++++ Total of reactions with equivalent maps: 227
++++ Total of reactions with non-equivalent maps: 91
+#,reaction_4
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013226509094238281
+time ITS	0.004377603530883789
+time ISO	0.011573314666748047
+#,reaction_5
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01073598861694336
+time ITS	0.0030705928802490234
+time ISO	0.008086919784545898
+#,reaction_6
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.019845008850097656
+time ITS	0.0018041133880615234
+time ISO	0.009229183197021484
+#,reaction_14
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020060062408447266
+time ITS	0.006930828094482422
+time ISO	0.05358457565307617
+#,reaction_16
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010951519012451172
+time ITS	0.004629850387573242
+time ISO	0.0055654048919677734
+#,reaction_20
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.015177726745605469
+time ITS	0.004531383514404297
+time ISO	0.008420467376708984
+#,reaction_26
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03612160682678223
+time ITS	0.005613565444946289
+time ISO	0.02681565284729004
+#,reaction_29
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01017141342163086
+time ITS	0.0026619434356689453
+time ISO	0.0045299530029296875
+#,reaction_39
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005943775177001953
+time ITS	0.0020198822021484375
+time ISO	0.002399921417236328
+#,reaction_44
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.012583017349243164
+time ITS	0.0018630027770996094
+time ISO	0.004459381103515625
+#,reaction_50
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.007742881774902344
+time ITS	0.0012154579162597656
+time ISO	0.004716634750366211
+#,reaction_51
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.004014253616333008
+time ITS	0.0009579658508300781
+time ISO	0.0021026134490966797
+#,reaction_52
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0075931549072265625
+time ITS	0.0019371509552001953
+time ISO	0.0032587051391601562
+#,reaction_53
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02013087272644043
+time ITS	0.007128000259399414
+time ISO	0.007119655609130859
+#,reaction_55
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.019062280654907227
+time ITS	0.0062122344970703125
+time ISO	0.006596088409423828
+#,reaction_56
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01730203628540039
+time ITS	0.006077766418457031
+time ISO	0.0761098861694336
+#,reaction_58
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.006320476531982422
+time ITS	0.00234222412109375
+time ISO	0.002416372299194336
+#,reaction_59
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016012907028198242
+time ITS	0.005750179290771484
+time ISO	0.007669687271118164
+#,reaction_60
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014241933822631836
+time ITS	0.006654024124145508
+time ISO	0.021961450576782227
+#,reaction_61
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005476236343383789
+time ITS	0.0019354820251464844
+time ISO	0.002707242965698242
+#,reaction_63
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015877246856689453
+time ITS	0.005571842193603516
+time ISO	0.016317367553710938
+#,reaction_64
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01157689094543457
+time ITS	0.0037689208984375
+time ISO	0.004845857620239258
+#,reaction_66
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01750802993774414
+time ITS	0.005288839340209961
+time ISO	0.015158414840698242
+#,reaction_73
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012835502624511719
+time ITS	0.003988504409790039
+time ISO	0.033284664154052734
+#,reaction_74
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007870197296142578
+time ITS	0.0027532577514648438
+time ISO	0.004382133483886719
+#,reaction_75
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03922009468078613
+time ITS	0.013851404190063477
+time ISO	0.044458866119384766
+#,reaction_76
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009251594543457031
+time ITS	0.003385305404663086
+time ISO	0.01597738265991211
+#,reaction_79
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020791053771972656
+time ITS	0.006388425827026367
+time ISO	0.03808999061584473
+#,reaction_82
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018178701400756836
+time ITS	0.006194591522216797
+time ISO	0.007190704345703125
+#,reaction_83
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007239580154418945
+time ITS	0.0019431114196777344
+time ISO	0.002160787582397461
+#,reaction_86
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01981353759765625
+time ITS	0.007092952728271484
+time ISO	0.16075658798217773
+#,reaction_89
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02160358428955078
+time ITS	0.006127357482910156
+time ISO	0.017621994018554688
+#,reaction_92
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0307159423828125
+time ITS	0.011249065399169922
+time ISO	0.02589559555053711
+#,reaction_95
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010081052780151367
+time ITS	0.003245115280151367
+time ISO	0.004594564437866211
+#,reaction_100
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007245779037475586
+time ITS	0.0021376609802246094
+time ISO	0.010291576385498047
+#,reaction_105
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017179489135742188
+time ITS	0.00575709342956543
+time ISO	0.04621553421020508
+#,reaction_106
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010329246520996094
+time ITS	0.0039026737213134766
+time ISO	0.005700349807739258
+#,reaction_115
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.008937835693359375
+time ITS	0.005806684494018555
+time ISO	0.003973960876464844
+#,reaction_125
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014928340911865234
+time ITS	0.004945039749145508
+time ISO	0.008519649505615234
+#,reaction_142
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.027800559997558594
+time ITS	0.008801698684692383
+time ISO	0.02361011505126953
+#,reaction_143
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009556293487548828
+time ITS	0.003011465072631836
+time ISO	0.015585660934448242
+#,reaction_147
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014742612838745117
+time ITS	0.006209611892700195
+time ISO	0.04240918159484863
+#,reaction_149
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01322317123413086
+time ITS	0.003990650177001953
+time ISO	0.017432451248168945
+#,reaction_150
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.031347036361694336
+time ITS	0.012125730514526367
+time ISO	0.06771183013916016
+#,reaction_184
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00894618034362793
+time ITS	0.002749919891357422
+time ISO	0.010719060897827148
+#,reaction_207
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006814002990722656
+time ITS	0.0021147727966308594
+time ISO	0.004111766815185547
+#,reaction_211
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006012678146362305
+time ITS	0.0019817352294921875
+time ISO	0.0030739307403564453
+#,reaction_225
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007851123809814453
+time ITS	0.002577066421508789
+time ISO	0.004114389419555664
+#,reaction_243
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010304450988769531
+time ITS	0.007151365280151367
+time ISO	0.006423234939575195
+#,reaction_266
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01187896728515625
+time ITS	0.004281282424926758
+time ISO	0.025859594345092773
+#,reaction_276
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016331195831298828
+time ITS	0.003839254379272461
+time ISO	0.04695892333984375
+#,reaction_285
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01698017120361328
+time ITS	0.006079912185668945
+time ISO	0.011744976043701172
+#,reaction_293
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009666204452514648
+time ITS	0.0026352405548095703
+time ISO	0.007539510726928711
+#,reaction_300
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007325887680053711
+time ITS	0.002455472946166992
+time ISO	0.007472038269042969
+#,reaction_305
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009672403335571289
+time ITS	0.003623485565185547
+time ISO	0.007700204849243164
+#,reaction_307
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008682727813720703
+time ITS	0.003310680389404297
+time ISO	0.006159543991088867
+#,reaction_311
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006042957305908203
+time ITS	0.0022323131561279297
+time ISO	0.0045013427734375
+#,reaction_317
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00567317008972168
+time ITS	0.0018956661224365234
+time ISO	0.006708383560180664
+#,reaction_322
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.004857778549194336
+time ITS	0.001138448715209961
+time ISO	0.006354808807373047
+#,reaction_327
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008501291275024414
+time ITS	0.002607583999633789
+time ISO	0.00545048713684082
+#,reaction_331
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007143497467041016
+time ITS	0.0021555423736572266
+time ISO	0.0060253143310546875
+#,reaction_334
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006107807159423828
+time ITS	0.0012679100036621094
+time ISO	0.001558542251586914
+#,reaction_344
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008374214172363281
+time ITS	0.002593994140625
+time ISO	0.0032873153686523438
+#,reaction_345
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020282506942749023
+time ITS	0.006786823272705078
+time ISO	0.10700368881225586
+#,reaction_348
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03593087196350098
+time ITS	0.0045740604400634766
+time ISO	0.12219977378845215
+#,reaction_362
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014160394668579102
+time ITS	0.006508588790893555
+time ISO	0.054526329040527344
+#,reaction_369
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010482311248779297
+time ITS	0.0032176971435546875
+time ISO	0.006138324737548828
+#,reaction_370
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005444049835205078
+time ITS	0.0016732215881347656
+time ISO	0.0016613006591796875
+#,reaction_375
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016156435012817383
+time ITS	0.005672454833984375
+time ISO	0.11205196380615234
+#,reaction_380
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009270429611206055
+time ITS	0.0018131732940673828
+time ISO	0.0036745071411132812
+#,reaction_383
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008892059326171875
+time ITS	0.0030896663665771484
+time ISO	0.006241798400878906
+#,reaction_384
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009894609451293945
+time ITS	0.0031986236572265625
+time ISO	0.006807804107666016
+#,reaction_388
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0050160884857177734
+time ITS	0.0011463165283203125
+time ISO	0.0021173954010009766
+#,reaction_389
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08549690246582031
+time ITS	0.006735324859619141
+time ISO	0.05858135223388672
+#,reaction_393
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.003768444061279297
+time ITS	0.001828908920288086
+time ISO	0.0020635128021240234
+#,reaction_396
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0033986568450927734
+time ITS	0.0013713836669921875
+time ISO	0.002330303192138672
+#,reaction_398
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006234169006347656
+time ITS	0.002810239791870117
+time ISO	0.009774208068847656
+#,reaction_400
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005792379379272461
+time ITS	0.001744985580444336
+time ISO	0.003300905227661133
+#,reaction_404
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0282747745513916
+time ITS	0.010376453399658203
+time ISO	0.12051153182983398
+#,reaction_405
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009816884994506836
+time ITS	0.003079652786254883
+time ISO	0.005727052688598633
+#,reaction_407
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01978278160095215
+time ITS	0.00637364387512207
+time ISO	0.006831169128417969
+#,reaction_409
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012290000915527344
+time ITS	0.004091739654541016
+time ISO	0.005689382553100586
+#,reaction_413
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020595312118530273
+time ITS	0.007668495178222656
+time ISO	0.01979374885559082
+#,reaction_414
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011500358581542969
+time ITS	0.0037603378295898438
+time ISO	0.011491537094116211
+#,reaction_415
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007134437561035156
+time ITS	0.0020551681518554688
+time ISO	0.004487752914428711
+#,reaction_417
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.011320829391479492
+time ITS	0.004062652587890625
+time ISO	0.00643610954284668
+#,reaction_419
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007514476776123047
+time ITS	0.0023508071899414062
+time ISO	0.004667758941650391
+#,reaction_423
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01678609848022461
+time ITS	0.004617929458618164
+time ISO	0.006785154342651367
+#,reaction_425
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015268802642822266
+time ITS	0.009071111679077148
+time ISO	0.007020235061645508
+#,reaction_430
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.005472421646118164
+time ITS	0.002012014389038086
+time ISO	0.0031540393829345703
+#,reaction_432
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022226810455322266
+time ITS	0.006659030914306641
+time ISO	0.24184513092041016
+#,reaction_434
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009391307830810547
+time ITS	0.00284576416015625
+time ISO	0.008201837539672852
+#,reaction_436
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.024359941482543945
+time ITS	0.006031036376953125
+time ISO	0.008278846740722656
+#,reaction_437
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016620635986328125
+time ITS	0.0052776336669921875
+time ISO	0.03223443031311035
+#,reaction_438
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.018462657928466797
+time ITS	0.0035071372985839844
+time ISO	0.017456769943237305
+#,reaction_439
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022350072860717773
+time ITS	0.006926536560058594
+time ISO	0.02995753288269043
+#,reaction_440
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06835818290710449
+time ITS	0.03104114532470703
+time ISO	0.15708422660827637
+#,reaction_442
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014780282974243164
+time ITS	0.005027055740356445
+time ISO	0.0075511932373046875
+#,reaction_446
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010529041290283203
+time ITS	0.0037240982055664062
+time ISO	0.01149606704711914
+#,reaction_451
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010810375213623047
+time ITS	0.0035753250122070312
+time ISO	0.00357818603515625
+#,reaction_456
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009528398513793945
+time ITS	0.002965688705444336
+time ISO	0.0035572052001953125
+#,reaction_460
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01298832893371582
+time ITS	0.0046770572662353516
+time ISO	0.00897359848022461
+#,reaction_461
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07449674606323242
+time ITS	0.004271268844604492
+time ISO	0.0076084136962890625
+#,reaction_465
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.020375728607177734
+time ITS	0.005826711654663086
+time ISO	0.011929512023925781
+#,reaction_466
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013829708099365234
+time ITS	0.004363059997558594
+time ISO	0.011030435562133789
+#,reaction_467
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02245497703552246
+time ITS	0.006819725036621094
+time ISO	0.013660430908203125
+#,reaction_468
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00675654411315918
+time ITS	0.0020058155059814453
+time ISO	0.002439737319946289
+#,reaction_469
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012872695922851562
+time ITS	0.00406956672668457
+time ISO	0.00764775276184082
+#,reaction_470
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.011942625045776367
+time ITS	0.005408763885498047
+time ISO	0.02194809913635254
+#,reaction_471
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007875680923461914
+time ITS	0.003195524215698242
+time ISO	0.006659984588623047
+#,reaction_472
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015880346298217773
+time ITS	0.004996061325073242
+time ISO	0.010541677474975586
+#,reaction_473
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011018991470336914
+time ITS	0.003766775131225586
+time ISO	0.003966808319091797
+#,reaction_476
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010787725448608398
+time ITS	0.0032427310943603516
+time ISO	0.005979061126708984
+#,reaction_479
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00956273078918457
+time ITS	0.0023565292358398438
+time ISO	0.004517078399658203
+#,reaction_486
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02286839485168457
+time ITS	0.007780551910400391
+time ISO	0.015245199203491211
+#,reaction_493
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013894796371459961
+time ITS	0.005454540252685547
+time ISO	0.0056841373443603516
+#,reaction_494
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01589512825012207
+time ITS	0.007083892822265625
+time ISO	0.009221792221069336
+#,reaction_495
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007875680923461914
+time ITS	0.002214193344116211
+time ISO	0.003847837448120117
+#,reaction_499
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008069992065429688
+time ITS	0.002544879913330078
+time ISO	0.01805424690246582
+#,reaction_508
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0163729190826416
+time ITS	0.004749774932861328
+time ISO	0.049559831619262695
+#,reaction_511
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.011019706726074219
+time ITS	0.004440784454345703
+time ISO	0.006968975067138672
+#,reaction_512
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006647348403930664
+time ITS	0.0018892288208007812
+time ISO	0.003640890121459961
+#,reaction_518
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007014036178588867
+time ITS	0.0020246505737304688
+time ISO	0.01638650894165039
+#,reaction_520
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015433073043823242
+time ITS	0.005636453628540039
+time ISO	0.0065534114837646484
+#,reaction_525
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017247438430786133
+time ITS	0.1011955738067627
+time ISO	0.006804943084716797
+#,reaction_526
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01272439956665039
+time ITS	0.004075765609741211
+time ISO	0.004335165023803711
+#,reaction_527
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006129264831542969
+time ITS	0.0018985271453857422
+time ISO	0.0036292076110839844
+#,reaction_529
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01372528076171875
+time ITS	0.0037758350372314453
+time ISO	0.00739288330078125
+#,reaction_530
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014125347137451172
+time ITS	0.004608869552612305
+time ISO	0.1048886775970459
+#,reaction_532
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008234024047851562
+time ITS	0.0025191307067871094
+time ISO	0.004810333251953125
+#,reaction_534
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.015203237533569336
+time ITS	0.0038559436798095703
+time ISO	0.009509086608886719
+#,reaction_537
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010033607482910156
+time ITS	0.0035552978515625
+time ISO	0.004329681396484375
+#,reaction_539
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.004663705825805664
+time ITS	0.0014138221740722656
+time ISO	0.0015952587127685547
+#,reaction_540
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.012792587280273438
+time ITS	0.0024962425231933594
+time ISO	0.004788875579833984
+#,reaction_541
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005887508392333984
+time ITS	0.001950979232788086
+time ISO	0.0038356781005859375
+#,reaction_544
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009045124053955078
+time ITS	0.0028028488159179688
+time ISO	0.021016597747802734
+#,reaction_545
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008228302001953125
+time ITS	0.002927541732788086
+time ISO	0.004981517791748047
+#,reaction_546
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01691579818725586
+time ITS	0.010297298431396484
+time ISO	0.010788679122924805
+#,reaction_547
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007548809051513672
+time ITS	0.002214193344116211
+time ISO	0.0028777122497558594
+#,reaction_548
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01980137825012207
+time ITS	0.003942728042602539
+time ISO	0.010666608810424805
+#,reaction_549
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013803720474243164
+time ITS	0.002782106399536133
+time ISO	0.005671262741088867
+#,reaction_550
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.031301021575927734
+time ITS	0.004987955093383789
+time ISO	0.07189464569091797
+#,reaction_553
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0049326419830322266
+time ITS	0.0013661384582519531
+time ISO	0.0022335052490234375
+#,reaction_556
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016960859298706055
+time ITS	0.005987644195556641
+time ISO	0.05665707588195801
+#,reaction_559
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011926651000976562
+time ITS	0.004174232482910156
+time ISO	0.004109382629394531
+#,reaction_560
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08186697959899902
+time ITS	0.004124164581298828
+time ISO	0.058595895767211914
+#,reaction_561
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008535385131835938
+time ITS	0.0027861595153808594
+time ISO	0.00273895263671875
+#,reaction_562
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.046991586685180664
+time ITS	0.005103349685668945
+time ISO	0.06348347663879395
+#,reaction_566
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.12786340713500977
+time ITS	0.05246090888977051
+time ISO	0.15689706802368164
+#,reaction_571
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.00937652587890625
+time ITS	0.00189208984375
+time ISO	0.009779214859008789
+#,reaction_572
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00976109504699707
+time ITS	0.0031690597534179688
+time ISO	0.016278743743896484
+#,reaction_575
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.010326623916625977
+time ITS	0.002962350845336914
+time ISO	0.01768970489501953
+#,reaction_577
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01954054832458496
+time ITS	0.002836465835571289
+time ISO	0.010920286178588867
+#,reaction_578
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.005625486373901367
+time ITS	0.0013332366943359375
+time ISO	0.006424427032470703
+#,reaction_580
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03290820121765137
+time ITS	0.006649494171142578
+time ISO	0.0531461238861084
+#,reaction_586
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012679815292358398
+time ITS	0.0033495426177978516
+time ISO	0.030437707901000977
+#,reaction_589
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.009458065032958984
+time ITS	0.0015971660614013672
+time ISO	0.0059163570404052734
+#,reaction_590
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012340545654296875
+time ITS	0.0041539669036865234
+time ISO	0.0042836666107177734
+#,reaction_593
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010378599166870117
+time ITS	0.0035364627838134766
+time ISO	0.018596172332763672
+#,reaction_601
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011467218399047852
+time ITS	0.004240989685058594
+time ISO	0.031388044357299805
+#,reaction_605
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.003953456878662109
+time ITS	0.0014481544494628906
+time ISO	0.0015091896057128906
+#,reaction_606
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0047495365142822266
+time ITS	0.0012638568878173828
+time ISO	0.0021479129791259766
+#,reaction_616
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04076027870178223
+time ITS	0.016974687576293945
+time ISO	10.53616976737976
+#,reaction_622
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03256964683532715
+time ITS	0.010243654251098633
+time ISO	0.9204795360565186
+#,reaction_624
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.004314422607421875
+time ITS	0.0018846988677978516
+time ISO	0.0014226436614990234
+#,reaction_625
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0037119388580322266
+time ITS	0.001626729965209961
+time ISO	0.001146554946899414
+#,reaction_633
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02070164680480957
+time ITS	0.006723642349243164
+time ISO	0.09546971321105957
+#,reaction_637
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008753061294555664
+time ITS	0.002793550491333008
+time ISO	0.0054836273193359375
+#,reaction_646
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021076202392578125
+time ITS	0.006636857986450195
+time ISO	0.024525880813598633
+#,reaction_647
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01610541343688965
+time ITS	0.005245685577392578
+time ISO	0.012891054153442383
+#,reaction_659
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014575958251953125
+time ITS	0.004688262939453125
+time ISO	0.005393505096435547
+#,reaction_660
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013506174087524414
+time ITS	0.005391120910644531
+time ISO	0.005706787109375
+#,reaction_673
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.028880834579467773
+time ITS	0.012923479080200195
+time ISO	0.8387279510498047
+#,reaction_675
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00898289680480957
+time ITS	0.0029273033142089844
+time ISO	0.003291606903076172
+#,reaction_676
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009174346923828125
+time ITS	0.0029816627502441406
+time ISO	0.0038805007934570312
+#,reaction_677
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010306119918823242
+time ITS	0.003256082534790039
+time ISO	0.0046498775482177734
+#,reaction_683
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017556428909301758
+time ITS	0.0055162906646728516
+time ISO	0.08113884925842285
+#,reaction_686
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01264810562133789
+time ITS	0.004055023193359375
+time ISO	0.011238813400268555
+#,reaction_689
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014545440673828125
+time ITS	0.0053899288177490234
+time ISO	0.09929370880126953
+#,reaction_691
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013537406921386719
+time ITS	0.0037992000579833984
+time ISO	0.042972564697265625
+#,reaction_692
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.030764341354370117
+time ITS	0.00578618049621582
+time ISO	0.0259397029876709
+#,reaction_693
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010335683822631836
+time ITS	0.003317594528198242
+time ISO	0.011360645294189453
+#,reaction_698
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00986027717590332
+time ITS	0.0030083656311035156
+time ISO	0.008097648620605469
+#,reaction_702
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0031805038452148438
+time ITS	0.0008227825164794922
+time ISO	0.003177165985107422
+#,reaction_704
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008500099182128906
+time ITS	0.007593631744384766
+time ISO	0.005730628967285156
+#,reaction_705
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01800847053527832
+time ITS	0.006608009338378906
+time ISO	0.023855209350585938
+#,reaction_707
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009491682052612305
+time ITS	0.0019936561584472656
+time ISO	0.0040585994720458984
+#,reaction_715
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022478103637695312
+time ITS	0.0075550079345703125
+time ISO	0.05799531936645508
+#,reaction_719
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011024951934814453
+time ITS	0.003281831741333008
+time ISO	0.006315946578979492
+#,reaction_722
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013056039810180664
+time ITS	0.004323720932006836
+time ISO	0.013020753860473633
+#,reaction_724
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03323698043823242
+time ITS	0.012211084365844727
+time ISO	0.06291484832763672
+#,reaction_726
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.015096664428710938
+time ITS	0.006138801574707031
+time ISO	0.008646011352539062
+#,reaction_727
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012374162673950195
+time ITS	0.0038144588470458984
+time ISO	0.007272005081176758
+#,reaction_729
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010332584381103516
+time ITS	0.0031533241271972656
+time ISO	0.003892660140991211
+#,reaction_730
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014271736145019531
+time ITS	0.0055713653564453125
+time ISO	0.04518318176269531
+#,reaction_731
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012992382049560547
+time ITS	0.004730701446533203
+time ISO	0.009136438369750977
+#,reaction_732
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010223150253295898
+time ITS	0.0035724639892578125
+time ISO	0.005179166793823242
+#,reaction_733
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.7027485370635986
+time ITS	0.007681846618652344
+time ISO	0.39136242866516113
+#,reaction_734
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.030438661575317383
+time ITS	0.010660171508789062
+time ISO	0.062418460845947266
+#,reaction_736
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.15721988677978516
+time ITS	0.010178327560424805
+time ISO	0.11085963249206543
+#,reaction_738
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017581939697265625
+time ITS	0.005991220474243164
+time ISO	0.02277851104736328
+#,reaction_739
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014677047729492188
+time ITS	0.004608631134033203
+time ISO	0.04563021659851074
+#,reaction_741
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.017380714416503906
+time ITS	0.005582094192504883
+time ISO	0.012494087219238281
+#,reaction_742
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.008031368255615234
+time ITS	0.0023882389068603516
+time ISO	0.0032470226287841797
+#,reaction_743
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01493692398071289
+time ITS	0.004915952682495117
+time ISO	0.013910055160522461
+#,reaction_745
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.019875288009643555
+time ITS	0.004765987396240234
+time ISO	0.01098775863647461
+#,reaction_747
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009786844253540039
+time ITS	0.0032460689544677734
+time ISO	0.0036897659301757812
+#,reaction_749
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0339047908782959
+time ITS	0.004320383071899414
+time ISO	0.041330575942993164
+#,reaction_750
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015342473983764648
+time ITS	0.005152702331542969
+time ISO	0.06941843032836914
+#,reaction_751
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.037078142166137695
+time ITS	0.005485057830810547
+time ISO	0.021396398544311523
+#,reaction_752
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00875544548034668
+time ITS	0.002687215805053711
+time ISO	0.005071401596069336
+#,reaction_753
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008265018463134766
+time ITS	0.0023686885833740234
+time ISO	0.005570173263549805
+#,reaction_754
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00755000114440918
+time ITS	0.002557992935180664
+time ISO	0.008230209350585938
+#,reaction_755
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01169729232788086
+time ITS	0.0030333995819091797
+time ISO	0.004568815231323242
+#,reaction_756
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04001665115356445
+time ITS	0.004231691360473633
+time ISO	0.0261385440826416
+#,reaction_758
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011680364608764648
+time ITS	0.0064656734466552734
+time ISO	0.009485244750976562
+#,reaction_762
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012888908386230469
+time ITS	0.0039594173431396484
+time ISO	0.010967731475830078
+#,reaction_763
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01954340934753418
+time ITS	0.002736806869506836
+time ISO	0.009358644485473633
+#,reaction_767
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011785507202148438
+time ITS	0.0027008056640625
+time ISO	0.004792213439941406
+#,reaction_768
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05138659477233887
+time ITS	0.01813054084777832
+time ISO	4.757885456085205
+#,reaction_769
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.3799006938934326
+time ITS	0.0036351680755615234
+time ISO	0.22248435020446777
+#,reaction_774
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010730981826782227
+time ITS	0.0033121109008789062
+time ISO	0.00649714469909668
+#,reaction_775
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.019918441772460938
+time ITS	0.005268573760986328
+time ISO	0.010700702667236328
+#,reaction_776
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013582706451416016
+time ITS	0.003395557403564453
+time ISO	0.01637887954711914
+#,reaction_777
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.017990589141845703
+time ITS	0.007277965545654297
+time ISO	0.008996009826660156
+#,reaction_779
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014867782592773438
+time ITS	0.009273290634155273
+time ISO	0.00847625732421875
+#,reaction_782
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.023015737533569336
+time ITS	0.007531404495239258
+time ISO	0.09519791603088379
+#,reaction_787
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008945226669311523
+time ITS	0.002246856689453125
+time ISO	0.0061435699462890625
+#,reaction_788
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01965045928955078
+time ITS	0.003827333450317383
+time ISO	0.009738445281982422
+#,reaction_792
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01187896728515625
+time ITS	0.0037119388580322266
+time ISO	0.028487443923950195
+#,reaction_793
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017911672592163086
+time ITS	0.006343364715576172
+time ISO	0.014764547348022461
+#,reaction_795
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.007788419723510742
+time ITS	0.0022079944610595703
+time ISO	0.003534555435180664
+#,reaction_796
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.00731205940246582
+time ITS	0.002670764923095703
+time ISO	0.003400087356567383
+#,reaction_797
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008563756942749023
+time ITS	0.002588987350463867
+time ISO	0.0055387020111083984
+#,reaction_798
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.009743452072143555
+time ITS	0.002038717269897461
+time ISO	0.0040585994720458984
+#,reaction_799
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013040542602539062
+time ITS	0.0023641586303710938
+time ISO	0.006014823913574219
+#,reaction_800
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.07070732116699219
+time ITS	0.012949943542480469
+time ISO	0.0513157844543457
+#,reaction_802
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02922821044921875
+time ITS	0.009853601455688477
+time ISO	0.01717376708984375
+#,reaction_803
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018622636795043945
+time ITS	0.004308938980102539
+time ISO	0.01818990707397461
+#,reaction_804
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014823198318481445
+time ITS	0.0046405792236328125
+time ISO	0.013512372970581055
+#,reaction_806
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.019168376922607422
+time ITS	0.004199981689453125
+time ISO	0.008029699325561523
+#,reaction_809
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.061899423599243164
+time ITS	0.011223077774047852
+time ISO	0.18648338317871094
+#,reaction_810
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014809608459472656
+time ITS	0.0058863162994384766
+time ISO	0.012375116348266602
+#,reaction_811
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01300811767578125
+time ITS	0.004229545593261719
+time ISO	0.009140491485595703
+#,reaction_812
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00733494758605957
+time ITS	0.0020601749420166016
+time ISO	0.003625154495239258
+#,reaction_813
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01069188117980957
+time ITS	0.003326892852783203
+time ISO	0.005713224411010742
+#,reaction_817
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02239823341369629
+time ITS	0.0069522857666015625
+time ISO	0.031054258346557617
+#,reaction_818
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03235030174255371
+time ITS	0.01180720329284668
+time ISO	0.09286952018737793
+#,reaction_820
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.028897523880004883
+time ITS	0.010920047760009766
+time ISO	0.33317065238952637
+#,reaction_821
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013366937637329102
+time ITS	0.00376129150390625
+time ISO	0.004506587982177734
+#,reaction_826
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017451763153076172
+time ITS	0.005369424819946289
+time ISO	0.011984825134277344
+#,reaction_832
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0076007843017578125
+time ITS	0.0024709701538085938
+time ISO	0.005214691162109375
+#,reaction_837
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01966381072998047
+time ITS	0.006212949752807617
+time ISO	0.3098123073577881
+#,reaction_845
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014068841934204102
+time ITS	0.004231691360473633
+time ISO	0.005649089813232422
+#,reaction_847
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014091968536376953
+time ITS	0.00516963005065918
+time ISO	0.023921489715576172
+#,reaction_855
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014280557632446289
+time ITS	0.003993034362792969
+time ISO	0.00908970832824707
+#,reaction_858
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021602869033813477
+time ITS	0.0067331790924072266
+time ISO	0.019397735595703125
+#,reaction_860
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010387897491455078
+time ITS	0.0031888484954833984
+time ISO	0.00589752197265625
+#,reaction_861
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01585221290588379
+time ITS	0.006177425384521484
+time ISO	0.0066242218017578125
+#,reaction_864
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011793375015258789
+time ITS	0.002633810043334961
+time ISO	0.005300998687744141
+#,reaction_866
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.031110763549804688
+time ITS	0.011083602905273438
+time ISO	0.05147385597229004
+#,reaction_872
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011681556701660156
+time ITS	0.003681182861328125
+time ISO	0.003901958465576172
+#,reaction_879
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010875940322875977
+time ITS	0.0031800270080566406
+time ISO	0.007746219635009766
+#,reaction_880
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017769336700439453
+time ITS	0.005871295928955078
+time ISO	0.047173500061035156
+#,reaction_883
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.034863948822021484
+time ITS	0.005942583084106445
+time ISO	0.038094520568847656
+#,reaction_884
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02650618553161621
+time ITS	0.007651090621948242
+time ISO	0.019402503967285156
+#,reaction_885
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.09947562217712402
+time ITS	0.006186723709106445
+time ISO	0.04576754570007324
+#,reaction_891
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01387333869934082
+time ITS	0.005103349685668945
+time ISO	0.008374929428100586
+#,reaction_895
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012605428695678711
+time ITS	0.004137754440307617
+time ISO	0.004395246505737305
+#,reaction_896
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.009946346282958984
+time ITS	0.002236604690551758
+time ISO	0.0033800601959228516
+#,reaction_897
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007252693176269531
+time ITS	0.0026819705963134766
+time ISO	0.009131669998168945
+#,reaction_899
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018831253051757812
+time ITS	0.007915019989013672
+time ISO	0.06121015548706055
+#,reaction_900
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009012460708618164
+time ITS	0.002412557601928711
+time ISO	0.0029370784759521484
+#,reaction_901
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01035165786743164
+time ITS	0.0025167465209960938
+time ISO	0.006766796112060547
+#,reaction_903
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018351078033447266
+time ITS	0.0051081180572509766
+time ISO	0.06912040710449219
+#,reaction_904
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014739990234375
+time ITS	0.0046846866607666016
+time ISO	0.05754709243774414
+#,reaction_907
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006325721740722656
+time ITS	0.0021677017211914062
+time ISO	0.005866289138793945
+#,reaction_908
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013801813125610352
+time ITS	0.004917621612548828
+time ISO	0.006440401077270508
+#,reaction_910
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008710622787475586
+time ITS	0.003549814224243164
+time ISO	0.007291316986083984
+#,reaction_911
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0038137435913085938
+time ITS	0.0012936592102050781
+time ISO	0.0016078948974609375
+#,reaction_916
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011904716491699219
+time ITS	0.00506138801574707
+time ISO	0.015480518341064453
+#,reaction_918
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.008974313735961914
+time ITS	0.0024673938751220703
+time ISO	0.020066022872924805
+#,reaction_919
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006259918212890625
+time ITS	0.002063274383544922
+time ISO	0.0037047863006591797
+#,reaction_926
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021637916564941406
+time ITS	0.006767988204956055
+time ISO	0.016747713088989258
+#,reaction_928
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.006998300552368164
+time ITS	0.002014636993408203
+time ISO	0.0035140514373779297
+#,reaction_930
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.006901741027832031
+time ITS	0.0019958019256591797
+time ISO	0.00581049919128418
+#,reaction_934
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.031366586685180664
+time ITS	0.01053309440612793
+time ISO	1.891390323638916
+#,reaction_938
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.012848138809204102
+time ITS	0.003370046615600586
+time ISO	0.0055844783782958984
+#,reaction_952
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.019675731658935547
+time ITS	0.0066683292388916016
+time ISO	0.11691617965698242
+#,reaction_954
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022724628448486328
+time ITS	0.0033190250396728516
+time ISO	0.012252092361450195
+#,reaction_956
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021869897842407227
+time ITS	0.0061953067779541016
+time ISO	0.8961508274078369
+#,reaction_958
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0028645992279052734
+time ITS	0.0009768009185791016
+time ISO	0.0019855499267578125
+#,reaction_960
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0073130130767822266
+time ITS	0.0024094581604003906
+time ISO	0.005438327789306641
+#,reaction_979
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.002115964889526367
+time ITS	0.0010089874267578125
+time ISO	0.0008776187896728516
+#,reaction_980
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0031654834747314453
+time ITS	0.0009915828704833984
+time ISO	0.0011892318725585938
+#,reaction_981
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0030782222747802734
+time ITS	0.0009949207305908203
+time ISO	0.0009949207305908203
+#,reaction_985
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.004152774810791016
+time ITS	0.09771037101745605
+time ISO	0.0030307769775390625
+#,reaction_996
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.08225536346435547
+time ITS	0.005455970764160156
+time ISO	0.0386042594909668
+#,reaction_997
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.061223506927490234
+time ITS	0.0063114166259765625
+time ISO	0.05766606330871582
+#,reaction_998
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.00439453125
+time ITS	0.0011429786682128906
+time ISO	0.002246856689453125
+#,reaction_1001
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.001729726791381836
+time ITS	0.0004558563232421875
+time ISO	0.00031256675720214844
+#,reaction_1005
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.008778810501098633
+time ITS	0.0023996829986572266
+time ISO	0.005136013031005859
+#,reaction_1013
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0063018798828125
+time ITS	0.0019521713256835938
+time ISO	0.0028696060180664062
+#,reaction_1014
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008293867111206055
+time ITS	0.002450227737426758
+time ISO	0.00418400764465332
+#,reaction_1017
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.021765947341918945
+time ITS	0.002030611038208008
+time ISO	0.020597457885742188
+#,reaction_1018
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01888751983642578
+time ITS	0.0031206607818603516
+time ISO	0.009756326675415039
+#,reaction_1019
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009657859802246094
+time ITS	0.002952098846435547
+time ISO	0.006639003753662109
+#,reaction_1026
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.040160179138183594
+time ITS	0.005102396011352539
+time ISO	0.02180004119873047
+#,reaction_1032
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014330863952636719
+time ITS	0.00308990478515625
+time ISO	0.006446123123168945
+#,reaction_1352
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0031464099884033203
+time ITS	0.001270294189453125
+time ISO	0.0046579837799072266
+#,reaction_1358
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.33184337615966797
+time ITS	0.021621227264404297
+time ISO	0.3856666088104248
+#,reaction_1364
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.009574413299560547
+time ITS	0.0029354095458984375
+time ISO	0.006038665771484375
+#,reaction_1365
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015004873275756836
+time ITS	0.005074024200439453
+time ISO	0.006474971771240234
+#,reaction_1368
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013994932174682617
+time ITS	0.0032122135162353516
+time ISO	0.008442163467407227
+#,reaction_1370
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.004376411437988281
+time ITS	0.0009388923645019531
+time ISO	0.0006568431854248047
+#,reaction_1418
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021401166915893555
+time ITS	0.007953405380249023
+time ISO	0.1544637680053711
+#,reaction_1420
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04806661605834961
+time ITS	0.0036423206329345703
+time ISO	0.05115532875061035
+#,reaction_1468
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.004678249359130859
+time ITS	0.0012392997741699219
+time ISO	0.0021102428436279297

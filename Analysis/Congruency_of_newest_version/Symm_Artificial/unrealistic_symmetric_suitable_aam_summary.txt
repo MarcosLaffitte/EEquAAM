@@ -1,0 +1,112 @@
++++ Total of reactions with equivalent maps: 1
++++ Total of reactions with non-equivalent maps: 9
+#,OOC>>OCO
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0010342597961425781
+time ITS	0.000354766845703125
+time ISO	0.000396728515625
+#,OOCCOO>>OC(O)C(O)O
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0020303726196289062
+time ITS	0.0005788803100585938
+time ISO	0.0015482902526855469
+#,O(CC(COO)OO)O>>OC(O)C(O)(O)C(O)O
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.004354238510131836
+time ITS	0.0009610652923583984
+time ISO	0.0051233768463134766
+#,O(CC(OO)C(COO)OO)O>>OC(O)(C(O)(O)C(O)O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.005962371826171875
+time ITS	0.0011751651763916016
+time ISO	0.011289119720458984
+#,OOC(COO)C(C(COO)OO)OO>>OC(O)(C(O)O)C(O)(O)C(O)(O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.00823831558227539
+time ITS	0.0015819072723388672
+time ISO	0.029259443283081055
+#,C(C(C(C(OO)COO)OO)OO)(OO)COO>>OC(O)C(O)(O)C(O)(O)C(O)(O)C(O)(O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01096796989440918
+time ITS	0.002927541732788086
+time ISO	0.06763911247253418
+#,O(O)C(C(COO)OO)C(C(OO)C(COO)OO)OO>>OC(O)(C(O)O)C(O)(O)C(O)(O)C(O)(O)C(O)(O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.016127586364746094
+time ITS	0.0019969940185546875
+time ISO	0.1661531925201416
+#,O(C(C(OO)C(OO)C(OO)C(OO)COO)C(OO)COO)O>>OC(O)(C(O)(O)C(O)(O)C(O)(O)C(O)(O)C(O)O)C(O)(O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01831340789794922
+time ITS	0.002951383590698242
+time ISO	0.34950804710388184
+#,O(CC(C(C(OO)C(C(OO)C(C(COO)OO)OO)OO)OO)OO)O>>OC(O)(C(O)(O)C(O)O)C(O)(O)C(C(O)(O)C(O)(O)C(O)(O)C(O)O)(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02581644058227539
+time ITS	0.0027141571044921875
+time ISO	0.591890811920166
+#,C(C(COO)OO)(C(OO)C(OO)C(OO)C(C(C(COO)OO)OO)OO)OO>>OC(O)(C(O)(O)C(O)(O)C(O)O)C(O)(O)C(O)(O)C(O)(O)C(O)(O)C(O)(O)C(O)O
+maps given	3
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.032263755798339844
+time ITS	0.003455638885498047
+time ISO	1.2836809158325195

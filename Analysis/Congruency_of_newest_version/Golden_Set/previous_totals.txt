@@ -1,0 +1,3498 @@
+#	CCOC(=O)CC(=O)OCC.O=[N+]([O-])C=CC1=CC=C(C=C1)Cl>>O(C(=O)C(C(OCC)=O)C(C[N+]([O-])=O)C1=CC=C(Cl)C=C1)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.032562255859375
+time ITS	0.009852409362792969
+time ISO	0.02895355224609375
+#	C=1SC=C(C#CCN(C2=CC=CC=C2)C)C=1.O>>C(N(C)C1=CC=CC=C1)(C2=CSC=C2)=CC=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04096651077270508
+time ITS	0.009547233581542969
+time ISO	0.0216677188873291
+#	C1CC1=CC2=CC=C(C(OC)=O)C=C2>>C1CC=C1C2=CC=C(C=C2)C(OC)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.05877828598022461
+time ITS	0.00603175163269043
+time ISO	0.02271103858947754
+#	C1=C(C(C=CC=O)=CC)C=CC=C1.FC(F)(F)C=C1C(NC2=CC=CC=C12)=O>>FC(F)(F)C1C2C=C(C=3C=CC=CC=3)C(C2O)(C)C14C(=O)NC5=CC=CC=C45
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04549837112426758
+time ITS	0.015523672103881836
+time ISO	0.10210418701171875
+#	C1C(=O)OC(CC1)=O.[N+]([O-])(C1=CC=C(C(N)=C1)F)=O>>[N+]([O-])(C1=CC=C(F)C(NC(CCCC(=O)O)=O)=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02986764907836914
+time ITS	0.010106801986694336
+time ISO	0.009979248046875
+#	C1=CC=CC2=C1C(=CN2C)CC(OC(C#CC)CCCCC)=O>>C1=2C(N(C3C14CC(=O)OC4(C)C3=CCCCCC)C)=CC=CC=2
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03882765769958496
+time ITS	0.008208990097045898
+time ISO	0.01937270164489746
+#	COC(=O)C(C(=O)OC)(CC=CC1C(C=2C=CC=CC=2)O1)CC#CC=3C=CC=CC=3>>COC(=O)C1(C(=O)OC)CC2C(C(C3=CC=CC=C3)=O)(C2C=CC=4C=CC=CC=4)C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.18446135520935059
+time ITS	0.015633583068847656
+time ISO	0.10720086097717285
+#	C12=CC=C(C=C1OC(=O)C=C2)OCC=C>>C=1C=C2C=CC(OC2=C(C=1O)CC=C)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02377772331237793
+time ITS	0.007643461227416992
+time ISO	0.011453390121459961
+#	C.C1=C(C)C(=CC([N+]([O-])=O)=C1)O>>[N+]([O-])(C1=CC(OC)=C(C=C1)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015470266342163086
+time ITS	0.00464177131652832
+time ISO	0.004517316818237305
+#	[N+]([O-])(=O)C1=CC=C(C=C1)OCC=C>>[N+]([O-])(C=1C=C(C(=CC=1)O)CC=C)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.027598142623901367
+time ITS	0.004264354705810547
+time ISO	0.010900020599365234
+#	O1C(C)OC(C)C1(C(C)=CC)C>>O=C(C1(C(C)OC(C)C1C)C)C
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.020368099212646484
+time ITS	0.0027341842651367188
+time ISO	0.012795448303222656
+#	C(CC(O)C=C)=C>>C(=O)CCCC=C
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.012034893035888672
+time ITS	0.0018055438995361328
+time ISO	0.004400014877319336
+#	C=1(C=CC=CC=1)OCC=C>>C(=C)CC1=CC=CC=C1O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02010798454284668
+time ITS	0.0030727386474609375
+time ISO	0.007309436798095703
+#	OC(C1=CC2=CC=C(C=C2C=C1)CCN3C(CCC3)C)C4=CC=CC(F)=C4>>O=C(C1=CC=CC(F)=C1)C2=CC3=CC=C(C=C3C=C2)CCN4C(CCC4)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0503084659576416
+time ITS	0.01604485511779785
+time ISO	0.018624305725097656
+#	O1CCC=CC1C=2C=CC(=O)N(CCOC3=CC=NC4=CC(=CC=C34)OC)C=2>>C=1(C2OCCCC2)C=CC(=O)N(CCOC3=CC=NC4=CC(=CC=C34)OC)C=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0467221736907959
+time ITS	0.01567387580871582
+time ISO	0.015749216079711914
+#	CC(C)(C)OC(NC1C(=O)N(N=C2CCN(CC2)C3=CC=NC=C3)CC1)=O>>CC(C)(C)OC(NC1CCN(NC2CCN(CC2)C=3C=CN=CC=3)C1=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04367947578430176
+time ITS	0.014976263046264648
+time ISO	0.1812901496887207
+#	C=1(N(CC(C)=O)N=C([N+](=O)[O-])C=1)C>>C(O)(C)CN1C(C)=CC([N+](=O)[O-])=N1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01723504066467285
+time ITS	0.0058917999267578125
+time ISO	0.006432294845581055
+#	C1=C(C(OC)=CC=C1C(C=2C=C(OCC)C(OC)=CC=2)O)C>>C=1(C(=O)C2=CC=C(OC)C(C)=C2)C=C(C(OC)=CC=1)OCC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.035581111907958984
+time ITS	0.010734081268310547
+time ISO	0.011252403259277344
+#	CC(C)(C)C(=O)C(N1C=NC=N1)=CC=2C(=CC(=CC=2)Cl)Cl>>CC(C)(C)C(O)C(=CC=1C(Cl)=CC(=CC=1)Cl)N2C=NC=N2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.056932687759399414
+time ITS	0.025313615798950195
+time ISO	0.0697939395904541
+#	C1(CCCOC1)=CCCO>>C1C(CCCO1)CCCO
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.011928558349609375
+time ITS	0.003505229949951172
+time ISO	0.0034427642822265625
+#	CC1(C)C2C1C=3C(=C(C(C=CC4=CC=C(C=C4)C(=O)O)=O)SC=3C)C2>>CC1(C)C2C1C=3C(=C(SC=3C)C(=O)CCC=4C=CC(C(O)=O)=CC=4)C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04107999801635742
+time ITS	0.016293764114379883
+time ISO	0.023627758026123047
+#	C1CC1C(O)C=2N=C3SC=4C(=CC=C(C=4)OC)N3C=2>>C1CC1C(C2=CN3C(=N2)SC4=CC(=CC=C34)OC)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.028542757034301758
+time ITS	0.009450435638427734
+time ISO	0.013987541198730469
+#	OC(C=1C=C(OC)C=C(OC)C=1)C=2C=C(C=CC=2)OCC3=CC=CC=C3>>O(C1=CC(OC)=CC(=C1)C(C2=CC=CC(OCC3=CC=CC=C3)=C2)=O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.042000532150268555
+time ITS	0.014480829238891602
+time ISO	0.036112070083618164
+#	CC(C)(C)OC(N1CCCC(=CC2=CC=C(F)C=C2)C1)=O>>CC(C)(C)OC(=O)N1CC(CC=2C=CC(F)=CC=2)CCC1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.031322479248046875
+time ITS	0.009446144104003906
+time ISO	0.07394194602966309
+#	C1CC(CO)=C(C2=CC=C(Br)C=C2)C1>>C1CC(C=O)=C(C2=CC=C(Br)C=C2)C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01803898811340332
+time ITS	0.0058422088623046875
+time ISO	0.008901357650756836
+#	C1CN(CCC1OC(=O)NC2=CC=CC=C2C3=CC=CC=C3)CCC(=O)N(CCCCC(=O)NC=4C(=CC(=C(C=4)C)CO)C)C>>C1CN(CCC1OC(=O)NC2=CC=CC=C2C3=CC=CC=C3)CCC(=O)N(CCCCC(NC4=CC(C)=C(C=O)C=C4C)=O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.09333395957946777
+time ITS	0.034570932388305664
+time ISO	0.07680106163024902
+#	FC(F)(F)C(NC1=CC=C2C(=C1)C(CC2)=O)=O>>FC(F)(F)C(=O)NC=1C=C2C(=CC=1)CCC2O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022732973098754883
+time ITS	0.007963895797729492
+time ISO	0.012659072875976562
+#	CC(C)(C)OC(COC=1C=CC=C(C(CCC2=CC=C(C(OC)=C2)OC)=O)C=1)=O>>CC(C)(C)OC(COC1=CC(C(O)CCC2=CC=C(C(OC)=C2)OC)=CC=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05071663856506348
+time ITS	0.017441511154174805
+time ISO	0.04075002670288086
+#	C1C(OCCC1)OCCCC(=CC=2C3=C(C=CC=C3)C=CC=2)C(OCC)=O>>C1C(OCCC1)OCCCC(C(=O)OCC)CC2=CC=CC=3C=CC=CC2=3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04364800453186035
+time ITS	0.014276742935180664
+time ISO	0.014393806457519531
+#	O=C(NC=1C(=CC=CC=1)CO)C>>O=CC=1C(=CC=CC=1)NC(=O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01526331901550293
+time ITS	0.005345821380615234
+time ISO	0.004586696624755859
+#	CC(C)(C)[Si](C)(C)OC1=CC(C(O)C=2C=CC(=CC=2)C(N(CC)CC)=O)=CC=C1>>CC(C)(C)[Si](C)(C)OC=1C=CC=C(C(C2=CC=C(C=C2)C(N(CC)CC)=O)=O)C=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05314278602600098
+time ITS	0.019181251525878906
+time ISO	0.2155463695526123
+#	CC(C)(C(O)C=1C=C(C=CC=1)C=C)N2C(C(C3=CC=CC=C3)=C(C)OC2)=O>>CC(C)(N1C(=O)C(=C(C)OC1)C=2C=CC=CC=2)C(C3=CC=CC(=C3)C=C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04459738731384277
+time ITS	0.015376806259155273
+time ISO	0.03520035743713379
+#	C1CN(CCN1)C2=CC(Cl)=CC=C2C.C=12CN(CCC=1N(CC3CO3)N=C2C4=CC=C(Br)C=C4)C(=O)C>>C1CN(CCN1C=2C=C(Cl)C=CC=2C)CC(CN3C=4CCN(C(C)=O)CC=4C(=N3)C=5C=CC(=CC=5)Br)O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06082868576049805
+time ITS	0.023507118225097656
+time ISO	0.04754447937011719
+#	C=1C(Cl)=CC=C(Cl)C=1N.C=1C=C(Br)SC=1C#N>>C=1C=C(Br)SC=1C(=N)NC2=C(Cl)C=CC(Cl)=C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022428512573242188
+time ITS	0.007615804672241211
+time ISO	0.00800633430480957
+#	C1=CCC=CC1C(=O)O.CC(C)=C>>CC(C)(C)OC(C1C=CCC=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01707768440246582
+time ITS	0.005045652389526367
+time ISO	0.02358865737915039
+#	C(C1=CC=C(C=C1)Cl)N=C=O.FC(F)(F)C1=CC=C(C(=C1)CNCC)Br>>FC(F)(F)C=1C=C(CN(C(=O)NCC=2C=CC(=CC=2)Cl)CC)C(Br)=CC=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03896975517272949
+time ITS	0.013603925704956055
+time ISO	0.07858037948608398
+#	C1=CC(=CC=N1)C=O.ClC=1C=NC(Cl)=CC=1>>OC(C=1N=C(C=CC=1Cl)Cl)C=2C=CN=CC=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024053096771240234
+time ITS	0.007866144180297852
+time ISO	0.010961532592773438
+#	N1(C2=CC=CC=C2C=C1C)C.N1CCNC1=S>>C=1(NCCN=1)SC=2C3=CC=CC=C3N(C)C=2C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.027370452880859375
+time ITS	0.009218931198120117
+time ISO	0.01027679443359375
+#	C1(=O)C=2C=C(C=C(C=2C(=O)O1)[N+](=O)[O-])[N+]([O-])=O.C=1C=C(C)C=CC=1N>>O=C(C=1C=C(C=C([N+](=O)[O-])C=1C(O)=O)[N+]([O-])=O)NC2=CC=C(C=C2)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03903484344482422
+time ITS	0.01519155502319336
+time ISO	0.029142141342163086
+#	NC=1C(=CN=CC=1Cl)Cl.O1C=2C(=C(C=NC=2OC)C(OC3=CC=C([N+]([O-])=O)C=C3)=O)C=C1C(=O)C>>O1C=2C(=C(C=NC=2OC)C(NC=3C(=CN=CC=3Cl)Cl)=O)C=C1C(=O)C.[N+]([O-])(=O)C1=CC=C(C=C1)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.06579256057739258
+time ITS	0.022362470626831055
+time ISO	0.045577287673950195
+#	C(NO)C1=CC=CC=C1.FC(F)(F)COC=O>>C1(=CC=CC=C1)CN(O)C=O.FC(F)(F)CO
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022838592529296875
+time ITS	0.007669210433959961
+time ISO	0.03223133087158203
+#	O.O=S(=O)(C1=CC=C(OCC2=CC=CC=C2)C=C1)N3CC4OC(=O)C3CC4>>O=S(=O)(C=1C=CC(=CC=1)OCC2=CC=CC=C2)N3C(CCC(O)C3)C(O)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03617691993713379
+time ITS	0.014580011367797852
+time ISO	0.055755615234375
+#	C1(=CC=C(F)C=C1)F.C1(C=2C(C(=O)O1)=CN=NC=2)=O>>O=C(C=1C(=CN=NC=1)C(=O)O)C=2C=C(C=CC=2F)F
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.030938386917114258
+time ITS	0.00836038589477539
+time ISO	0.029080867767333984
+#	C1CNCCN1C2=NC3=C(N=C(C=4C=NC(=NC=4)N)N=C3N5C(C)COCC5)N2CC(C)C.N1(C2=CC=CC=C2N=N1)C=O>>C1CN(CCN1C=2N(CC(C)C)C3=C(N=2)C(N4C(C)COCC4)=NC(=N3)C=5C=NC(=NC=5)N)C=O.C=1C=CC=2C(C=1)=NNN=2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.09050512313842773
+time ITS	0.03994297981262207
+time ISO	0.16683626174926758
+#	C(C(=O)Cl)CC(=O)OC.CC[SiH](CC)CC>>C(C)[Si](CC)(CC)Cl.O=CCCC(OC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.019928693771362305
+time ITS	0.006340503692626953
+time ISO	0.031091928482055664
+#	BrBr.CC(=O)C=CC=1C=CC=CC=1>>CC(=O)C(Br)C(C=1C=CC=CC=1)Br
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0193939208984375
+time ITS	0.005316019058227539
+time ISO	0.010217905044555664
+#	C1=C(C=CC=C1)CO.C=CC#N>>C(NC(C=C)=O)C1=CC=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014355897903442383
+time ITS	0.004151105880737305
+time ISO	0.006258487701416016
+#	C=1C=CC(=CC=1)N.C=C1CC(O1)=O>>CC(CC(NC=1C=CC=CC=1)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016790151596069336
+time ITS	0.0047893524169921875
+time ISO	0.006352901458740234
+#	C#C.C1=CC=C2CCC(C(=O)OCC)C(C2=C1)=O>>O(C(C1(C=C)CCC=2C(C1=O)=CC=CC=2)=O)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.027519941329956055
+time ITS	0.008145570755004883
+time ISO	0.01389312744140625
+#	C=1C=CC(=CC=1)C=O.FS(F)(F)C=1C=CC=CC=1>>C1=C(S(=O)F)C=CC=C1.FC(F)C1=CC=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.039269208908081055
+time ITS	0.009226322174072266
+time ISO	0.07447099685668945
+#	C=CC(OC)=O.CC(C)(C)[Si](C)(C)OC(=C)C=CN(C)C>>CC(C)(C)[Si](C)(C)OC1=CC(N(C)C)C(CC1)C(=O)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03242802619934082
+time ITS	0.009877443313598633
+time ISO	0.09389877319335938
+#	BrBr.C12C3C(C)(CCC1C4(C(CC2)=CC(CC4)=O)C)C(CC3)=O.C1OC1C>>C(O)(CBr)C.C1(=O)C(Br)=C2CCC3C4C(C)(CCC3C2(CC1)C)C(CC4)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.044147491455078125
+time ITS	0.0158233642578125
+time ISO	0.023636341094970703
+#	BrBr.C=1C=CC(=CC=1)C=CC(=O)OCC>>C(Br)(C(=O)OCC)C(C=1C=CC=CC=1)Br
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018999338150024414
+time ITS	0.006141185760498047
+time ISO	0.013134002685546875
+#	C1(C=CC(=O)O1)=O.C=1C=CC(=CC=1)N>>C(=CC(NC=1C=CC=CC=1)=O)C(O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01944136619567871
+time ITS	0.005795478820800781
+time ISO	0.011318683624267578
+#	C1(=O)C=CC(=O)C2=CC=CC=C12.C=C(C)C(=C)C>>C12C(C(=O)C=3C=CC=CC=3C1=O)CC(C)=C(C)C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02599310874938965
+time ITS	0.008131265640258789
+time ISO	0.025562047958374023
+#	CNC.COC1=CC(CC#N)=CC=C1OC>>CN(C)C(=N)CC1=CC=C(C(OC)=C1)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021264314651489258
+time ITS	0.007603645324707031
+time ISO	0.012112140655517578
+#	BrBr.C1=CCC2(C)C(C)(C1)O2>>BrC1CC2(C(CC1Br)(C)O2)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015508174896240234
+time ITS	0.0046634674072265625
+time ISO	0.012221574783325195
+#	C(C(=O)C=C)C.C[Si](C)(C)C#C>>C[Si](C)(C)C#CCCC(CC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015254020690917969
+time ITS	0.0044994354248046875
+time ISO	0.013886451721191406
+#	C1=CC1.C=1C=CCC=1>>C12C=CC(C3C1C3)C2
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013210058212280273
+time ITS	0.0024919509887695312
+time ISO	0.015371322631835938
+#	C1=CCC(C(C1)C(OCC)=O)C(OCC)=O>>C(C1C(C(=O)OCC)CCCC1)(=O)OCC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020835161209106445
+time ITS	0.0064334869384765625
+time ISO	0.011853933334350586
+#	C1=C(C=CC=C1)Br.O=C1CCC(=O)O1>>C=1C=C(Br)C=CC=1C(CCC(=O)O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021786212921142578
+time ITS	0.00549769401550293
+time ISO	0.014867544174194336
+#	C=CC(OC)=O.O=CC>>C(=C)(C(O)C)C(OC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010111331939697266
+time ITS	0.002885103225708008
+time ISO	0.0035071372985839844
+#	CC(=O)CC(=O)OC(CCCCCC)C=C>>C(CC)CCCC=CCC(C(C)=O)C(O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02211761474609375
+time ITS	0.011000394821166992
+time ISO	0.006665945053100586
+#	C[Si](C)(C)CN(COC)CC1=CC=CC=C1.O=C1C=CC(=O)N1C=2C=CC=CC=2>>C1(=O)C2CN(CC2C(=O)N1C3=CC=CC=C3)CC=4C=CC=CC=4.C[Si](C)(C)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04901862144470215
+time ITS	0.01571488380432129
+time ISO	0.30560302734375
+#	C1(Br)=CC(Br)(Br)C=C(Br)C1=O.FC(F)(F)C=1C=CC=C(N(C)C)C=1>>C=1C(=C(O)C(Br)=CC=1Br)Br.FC(F)(F)C1=CC(=CC=C1Br)N(C)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08429694175720215
+time ITS	0.011844158172607422
+time ISO	0.27858519554138184
+#	C=1C=CC=C(C=1)C(C2=CC=CC=C2)=O.C=1C=CC=CC=1C#C>>C=1C=CC(=CC=1)C(C2=CC=CC=C2)(O)C#CC3=CC=CC=C3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.032749176025390625
+time ITS	0.010424137115478516
+time ISO	0.07150697708129883
+#	C=1C=CC=2C(=O)N(C(=O)C=2C=1)CCOC.NN>>C(COC)N.O=C1NNC(=O)C=2C1=CC=CC=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0236508846282959
+time ITS	0.0070950984954833984
+time ISO	0.012327909469604492
+#	[Li]OC1C=2C=C(C)C=CC=2C1>>C=C1C=CC(C)=CC1=CO[Li]
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01524806022644043
+time ITS	0.003992557525634766
+time ISO	0.00382232666015625
+#	C1=CC(=CC=C1)C(C=2C=CC=CC=2)CC=C.C1C2CCCC(CC1)B2.OO>>C1=C(C=CC=C1)C(C2=CC=CC=C2)CCCO.C1C2CCCC(CC1)B2O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04218459129333496
+time ITS	0.015478372573852539
+time ISO	0.2052299976348877
+#	CC1(C)OC2C(=O)OCC2O1>>CC1(C)OC2C(O)OCC2O1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014474630355834961
+time ITS	0.004384517669677734
+time ISO	0.008788585662841797
+#	CC1(C)OC(C(C=CCCC(OC)=O)O1)CO>>CC1(C)OC(C=CCCC(=O)OC)C(C=O)O1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.025043010711669922
+time ITS	0.006730794906616211
+time ISO	0.00919198989868164
+#	CC1(C)OC(C=CCCC(=O)OC)C(C=O)O1.O>>CC1(C)OC(C(O1)C=CCCC(OC)=O)C(O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.025677919387817383
+time ITS	0.0078051090240478516
+time ISO	0.010944604873657227
+#	C1=CC(C=CC1)C=O>>C1=CC(=CCC1)C=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0157163143157959
+time ITS	0.0027451515197753906
+time ISO	0.0056531429290771484
+#	C(C)(=C)C=C.C[Si](C)(C)OC(C(C1=CC=CC=C1)=O)=C>>C[Si](C)(C)OC1(C(=O)C=2C=CC=CC=2)CC=C(CC1)C
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.11957192420959473
+time ITS	0.017189502716064453
+time ISO	0.09068560600280762
+#	C1(C(=C)C=CC=C1)=C>>C1CC=2C=CC=CC1=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009869098663330078
+time ITS	0.003336668014526367
+time ISO	0.006719112396240234
+#	C1=CCCCC1.O>>C1CCCCC1O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008179187774658203
+time ITS	0.0026290416717529297
+time ISO	0.0035660266876220703
+#	CC(C)=C.O=C(O)C1=CC=CC=C1>>CC(C)(C)OC(=O)C1=CC=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016751527786254883
+time ITS	0.00513458251953125
+time ISO	0.025455951690673828
+#	COC(C1C(C(=O)OC)C=C1)=O>>O=C(OC)C=CC=CC(=O)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015126228332519531
+time ITS	0.0048520565032958984
+time ISO	0.007445812225341797
+#	C1C2CCCC(CC1)B2CC=C(C)C.CC1(C)C2CCC(C)(C=C)C(C2C3=CNC=4C=CC=C1C3=4)[N+]#[C-]>>C1C2CCCC(CC1)B2.CC1(C)C2=C3C(=CC=C2)NC(C(C)(C)C=C)=C3C4C(C(C)(CCC14)C=C)[N+]#[C-]
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.06786823272705078
+time ITS	0.024399995803833008
+time ISO	0.2047431468963623
+#	C(=CC=C)OC.O(CC)C(=O)C(C(OCC)=O)=O>>CCOC(=O)C1(C(=O)OCC)OC(OC)C=CC1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02434825897216797
+time ITS	0.008031845092773438
+time ISO	0.012801647186279297
+#	O=C(N1C(C2=C(CC1C(OC)=O)C3=C(C=CC=C3)N2)CC=CC=O)C=CC>>C=12NC3=C(C=1CC(N4C2CC5C(C4=O)C(C)OC=C5)C(OC)=O)C=CC=C3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04554176330566406
+time ITS	0.014883041381835938
+time ISO	0.013850212097167969
+#	C(C(NO)=O)CC(C=CC=CCC)OCC1=CC=CC=C1>>C1(C=CC2C(CCC(=O)N2O1)OCC3=CC=CC=C3)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03072214126586914
+time ITS	0.01246786117553711
+time ISO	0.015837669372558594
+#	CC1(C)C2=CC=C(C(O)C3=CC=C4C(C=CC(=C4)CO)=C3)C=C2C(C)(C)CC1>>CC1(C)C2=CC=C(C=C2C(C)(C)CC1)C(O)C=3C=C4C=CC(=CC4=CC=3)C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05081033706665039
+time ITS	0.016724824905395508
+time ISO	0.07201099395751953
+#	C1(=CC=C(C=C1)F)OCC=O.C1CCCC(OCC#C)O1>>C1(=CC=C(C=C1)F)OCC(C#CCOC2CCCCO2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03298807144165039
+time ITS	0.01082158088684082
+time ISO	0.011929988861083984
+#	C(C(OC)=O)=CCC.C1CCCN1>>C1CCN(C1)C(CC(OC)=O)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018941640853881836
+time ITS	0.006444692611694336
+time ISO	0.007586002349853516
+#	O=C(C1=CC=C2C(=C1)N=C(N2OC)C)C3=CC=CC=C3>>OC(C=1C=CC=CC=1)C2=CC=C3C(N=C(N3OC)C)=C2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03478598594665527
+time ITS	0.012737035751342773
+time ISO	0.02191925048828125
+#	CC(C)CCCC(CCCC(C)C=O)C>>CC(C)CCCC(CCCC(CO)C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02046680450439453
+time ITS	0.005696535110473633
+time ISO	0.01064300537109375
+#	O=C1C2=C(C(=O)N1C=3C=CC=4C(=NC=CC=4Cl)N=3)SCCS2>>C1(=O)C=2SCCSC=2C(N1C3=CC=C4C(Cl)=CC=NC4=N3)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.039960622787475586
+time ITS	0.013185739517211914
+time ISO	0.016454458236694336
+#	C1CCC(=O)C=2C(=C3C(C=CC=C3)=NC1=2)NCC4=C(Cl)C=CC=C4>>C=12C=CC=CC=1N=C3C(C(O)CCC3)=C2NCC=4C(=CC=CC=4)Cl
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03935432434082031
+time ITS	0.01203155517578125
+time ISO	0.011868715286254883
+#	C.CN(C)C1=NC(C=C(C)N1)=O>>CN(C)C1=NC(C(=C(N1)C)C)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.016643762588500977
+time ITS	0.004624605178833008
+time ISO	0.009580135345458984
+#	CC(C)(C)OC(=O)NC(CC(C)C)C(CN(CC1=CC=CC=C1)CC2=CC=CC=C2)=O>>CC(C)(C)OC(=O)NC(C(CN(CC=1C=CC=CC=1)CC=2C=CC=CC=2)O)CC(C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.053785085678100586
+time ITS	0.01859760284423828
+time ISO	0.5648462772369385
+#	C1CC(CCC1CCCCCCC)CO>>C1CC(CCC1CCCCCCC)C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.019075870513916016
+time ITS	0.0055620670318603516
+time ISO	0.008039712905883789
+#	O=C(OCC)CC1C(N(C=2C=CC(=CC1=2)OC)C3=CC=NC4=C3C=CC(Cl)=C4)C>>C1(=CC=NC2=C1C=CC(Cl)=C2)N3C(C)=C(C4=C3C=CC(OC)=C4)CC(=O)OCC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08067154884338379
+time ITS	0.02191925048828125
+time ISO	0.028238773345947266
+#	CC(C)(C)OC(NC1C(=O)N(C(C(=O)OC)C(=C)C)C1OC(C)=O)=O>>CC(C)(C)OC(NC1C(OC(C)=O)N(C(C(OC)=O)=C(C)C)C1=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03906893730163574
+time ITS	0.01187443733215332
+time ISO	0.04940629005432129
+#	FC(F)(F)C=1C=CC=C(OC2CCCC2O)C=1>>FC(F)(F)C=1C=CC=C(OC2CCCC2=O)C=1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.026426315307617188
+time ITS	0.006171226501464844
+time ISO	0.017026185989379883
+#	O=C1C2=C(C=CC=C2)C(=O)N1CC3=CC=C(C=CC=4C=CC(C#N)=CC=4)C=C3>>C1=CC=CC2=C1C(=O)N(C2=O)CC=3C=CC(CCC=4C=CC(=CC=4)C#N)=CC=3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.047930240631103516
+time ITS	0.017334699630737305
+time ISO	0.09031319618225098
+#	CC(C)(C)C(C(OC1=CC=C(C=C1)C2=CC=C(C=C2)Cl)N3C=CN=C3)=O.CCOS(=O)(=O)OCC>>CC(C)(C)C(OCC)=C(N1C=NC=C1)OC2=CC=C(C=C2)C=3C=CC(=CC=3)Cl.O=S(=O)(OCC)O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08967995643615723
+time ITS	0.040026187896728516
+time ISO	0.3797168731689453
+#	C.O=C(O)C=1SC2=NC(C=CC=3C=CC=CC=3)=C(C(=O)N2C=1)CC>>S1C(=CN2C(=O)C(CC)=C(N=C12)C=CC=3C=CC=CC=3)C(OC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03789329528808594
+time ITS	0.013814449310302734
+time ISO	0.02027606964111328
+#	C.C1CCNC1=O.C1CNCCN1C2=NC=CC=N2>>C1CN(CCN1C2=NC=CC=N2)CN3CCCC3=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.027096986770629883
+time ITS	0.009608745574951172
+time ISO	0.021001100540161133
+#	C.N#CCCCCCNC(NC(=O)C(C#N)=NO)=O>>N#CCCCCCNC(NC(=O)C(C#N)=NOC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.026338577270507812
+time ITS	0.007275104522705078
+time ISO	0.007904052734375
+#	ClC1=CC=CC=C1C2(OC(C)OCC2)C#N>>C=1C=CC=C(Cl)C=1C2(CCOC(C)O2)CN
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022145986557006836
+time ITS	0.00879216194152832
+time ISO	0.00659489631652832
+#	C.CN(C)C=CC(=O)C1=CC(NC(OCCCC)=O)=CC=C1>>CN(C)C=CC(C1=CC(N(C)C(=O)OCCCC)=CC=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03319501876831055
+time ITS	0.011072158813476562
+time ISO	0.013422727584838867
+#	C12=CC=CC=C1NC=C2SC=3C=CC=CC=3.O>>C1=CC=CC=C1S(=O)C=2C=3C=CC=CC=3NC=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02511286735534668
+time ITS	0.008132219314575195
+time ISO	0.012875556945800781
+#	C.C.NC(C=1CN=C(C2=CC(Cl)=CC=C2N=1)C=3C(Cl)=CC=CC=3)C(=O)OC>>CC=1N2C3=CC=C(Cl)C=C3C(=NCC2=C(C(=O)OC)N=1)C=4C(Cl)=CC=CC=4
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.050438642501831055
+time ITS	0.0164797306060791
+time ISO	0.03760838508605957
+#	C.C(C)(NC(OCC1=CC=CC=C1)=O)CSC2=CC=C(C=C2)Cl>>N(C(OCC1=CC=CC=C1)=O)(C(C)CSC2=CC=C(C=C2)Cl)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03774285316467285
+time ITS	0.010342121124267578
+time ISO	0.02358222007751465
+#	Br.C=C1CC(O1)=O.[N+]([O-])(=O)C1=CC=C(COC(C=2N3C(=O)C(C3SCC=2)N)=O)C=C1>>[N+]([O-])(=O)C1=CC=C(COC(C=2N3C(C(C3=O)NC(CC(CBr)=O)=O)SCC=2)=O)C=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05069327354431152
+time ITS	0.018557071685791016
+time ISO	0.027740001678466797
+#	Br.CC=1C=C(O)C(=CC=1[N+]([O-])=O)C>>OC1=C(Br)C(C)=C([N+]([O-])=O)C=C1C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016682863235473633
+time ITS	0.005201816558837891
+time ISO	0.005851030349731445
+#	C=1C2=C(OC=3C=C(F)C=CC=3C(=O)C2)C=CC=1.N.O>>C1=2C(C(C=3C(OC1=CC(=CC=2)F)=CC=CC=3)=NO)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.029057741165161133
+time ITS	0.008473396301269531
+time ISO	0.010946989059448242
+#	CC(C)(C)C(C(N1C=NC=N1)=CC2CCCCC2)=O>>CC(C)(C)C(C(N1N=CN=C1)=CC2CCCCC2)O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06436276435852051
+time ITS	0.029519081115722656
+time ISO	0.08299446105957031
+#	C1CCCCN1CCC=2C=CC=CC=2>>C1CCCCN1CCC=2CC=CCC=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02389693260192871
+time ITS	0.005828142166137695
+time ISO	0.014060735702514648
+#	C1CN(CCC1)CC=2SC=C(CSCCNC(=N)C(N)=N)C=2.S>>C1CN(CCC1)CC=2SC=C(CSCCNC=3C(N)=NSN=3)C=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03750205039978027
+time ITS	0.01240229606628418
+time ISO	0.014220476150512695
+#	CCCNC1=C2C(=O)CCCC2=NC=3C=CC=CC1=3>>CCCNC=1C=2C=CC=CC=2N=C3C=1C(O)CCC3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.028267383575439453
+time ITS	0.009385108947753906
+time ISO	0.011475801467895508
+#	N.N(C(CC1=CC=CC=C1)C(OC)=O)C=O.O.O>>[N+]([O-])(=O)C1=CC=C(CC(NC=O)C(OC)=O)C=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02528524398803711
+time ITS	0.007025718688964844
+time ISO	0.012581348419189453
+#	C1CSC(S1)(CC(=O)OCC)C(C)C>>CC(C)C=1SCCSC=1C(=O)OCC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020328044891357422
+time ITS	0.005327701568603516
+time ISO	0.010650396347045898
+#	CC(C)(C=CCC(C)C1CCC2C3CC(C45CC4CCC5(C)C3CCC12C)OC)O.O>>CC(C)(C(CCC(C1CCC2C1(C)CCC3C4(C)C5(CC5CC4)C(CC23)OC)C)O)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05798816680908203
+time ITS	0.020734071731567383
+time ISO	0.029900074005126953
+#	C.C1(C)=NC(C=O)=C2CN=C(C3=C(C=CC(Cl)=C3)N12)C=4C(Cl)=CC=CC=4>>C1(C)=NC(C(O)C)=C2CN=C(C3=C(C=CC(Cl)=C3)N12)C=4C(Cl)=CC=CC=4
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03717947006225586
+time ITS	0.015723705291748047
+time ISO	0.0157778263092041
+#	C=1(N2C=3C(C(=NCC2=C(C(OC)=O)N=1)C4=CC=CC=C4)=CC(Cl)=CC=3)C>>C=1(N2C(CNC(C=3C2=CC=C(Cl)C=3)C=4C=CC=CC=4)=C(C(OC)=O)N=1)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.038806915283203125
+time ITS	0.015421152114868164
+time ISO	0.019536495208740234
+#	C=1C=CC2=C(C(=O)OC2=O)C=1.CO>>C=1(C(=CC=CC=1)C(O)=O)C(OC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01719975471496582
+time ITS	0.0049092769622802734
+time ISO	0.007311105728149414
+#	CN(C)S(=O)(=O)CSC=1C=CC=CC=1.O.O>>CN(C)S(=O)(=O)CS(=O)(=O)C=1C=CC=CC=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02168583869934082
+time ITS	0.005940914154052734
+time ISO	0.0426335334777832
+#	CC(C)(C)OC(=O)NC(C(=O)CNC(CC(C)C)C(O)=O)CC(C)C>>CC(C)(C)OC(NC(CC(C)C)C(O)CNC(C(=O)O)CC(C)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04050946235656738
+time ITS	0.01859450340270996
+time ISO	0.09934425354003906
+#	C(CC(C=1C=C2C(N(C)C(=N2)CO)=CC=1OC)=O)C.O>>O=C(O)C=1N(C)C=2C(=CC(=C(OC)C=2)C(CCC)=O)N=1
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02504420280456543
+time ITS	0.009597301483154297
+time ISO	0.010538578033447266
+#	C.C.C(C)=CC=CC(OC)=O.O.O>>C(C=C)=CC(C(OC)=O)OC(C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016991615295410156
+time ITS	0.005730390548706055
+time ISO	0.01125335693359375
+#	C.C.ClC(Cl)(Cl)C(O)C=C(C)C.O>>ClC(Cl)(Cl)C(OC(=O)C)C=C(C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.015338659286499023
+time ITS	0.00565338134765625
+time ISO	0.050620317459106445
+#	C.C1=2C(C(NC(C(=S)N1)CC=3C4=C(C=CC=C4)NC=3)=O)=CC=CC=2>>C1(C(SC)NC2=CC=CC=C2C(N1)=O)CC=3C4=C(C=CC=C4)NC=3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03962445259094238
+time ITS	0.011718988418579102
+time ISO	0.016367435455322266
+#	N=1CC(CC(=O)OC)=NC2=CC=C(Cl)C=C2C=1C=3C(Cl)=CC=CC=3.ON>>C=1C2=C(C(=NCC(C(C(OC)=O)=NO)=N2)C=3C(Cl)=CC=CC=3)C=C(C=1)Cl
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.042273759841918945
+time ITS	0.014133214950561523
+time ISO	0.013372659683227539
+#	O=C1C2N(C(=O)N1C=3C=C(C(Cl)=CC=3F)OC)CCCC2>>OC1N(C(=O)N2CCCCC12)C=3C=C(C(Cl)=CC=3F)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03166484832763672
+time ITS	0.011179208755493164
+time ISO	0.011096477508544922
+#	O.O=C1C=2C(=CC=CC=2)C(=O)O1>>C1(=C(C(=O)O)C=CC=C1)C(=O)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01600337028503418
+time ITS	0.005791902542114258
+time ISO	0.008453130722045898
+#	CC(C)C=1COC(C(=C)C)CCC(C)=CCCC(C)=CC=1>>CC(C)C1=CC=C(C)CCC=C(C)CCC=C(CC1O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03210568428039551
+time ITS	0.010318279266357422
+time ISO	0.019663572311401367
+#	CC(C)(C)[Si](C)(C)OC1C(C)(C)COC1OCC2=CC=CC=C2>>CC(C)(C)[Si](C)(C)OC1C(C)(C)COC1C(C=2C=CC=CC=2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03899335861206055
+time ITS	0.015636682510375977
+time ISO	0.09948515892028809
+#	C1COC(O1)(CC)CC=C(C)COC=C>>O1CCOC1(CC)CC(CC=O)C(=C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021661758422851562
+time ITS	0.007294178009033203
+time ISO	0.008448600769042969
+#	C1CCCC1[N+]#[C-].O=C(CC#N)O.O=CC(C1=CC=CS1)=O>>C1CCCC1NC(C(OC(CC#N)=O)C(=O)C2=CC=CS2)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.030510902404785156
+time ITS	0.011008739471435547
+time ISO	0.024392366409301758
+#	C1=CC=CC2=C1C(OCCCC#N)=C(S2)C#N>>C1=CC=CC=2SC=3C(=C4CCOC4=NC=3N)C1=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024846792221069336
+time ITS	0.008545875549316406
+time ISO	0.007673740386962891
+#	C(=O)CCC(C#C)C.[C-]#[O+]>>C1CC2OC(=O)C=C2C1C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.013414382934570312
+time ITS	0.0034983158111572266
+time ISO	0.0033829212188720703
+#	CC#CCCC1=CC=C(C(O)CNC(=O)C)O1>>CC#CCCC1OC(CNC(=O)C)C(=O)C=C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02671051025390625
+time ITS	0.00600743293762207
+time ISO	0.009792804718017578
+#	CC1(C)C2CC(C1(CC2)O)=C.O>>CC1(C)C2CC(CO)(C1=O)CC2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014705419540405273
+time ITS	0.00517582893371582
+time ISO	0.010732412338256836
+#	ClC(Cl)(Cl)C(OCC=C(CCC=C(C)C)C)=N>>ClC(Cl)(Cl)C(NC(CCC=C(C)C)(C=C)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.023648977279663086
+time ITS	0.007868289947509766
+time ISO	0.021679162979125977
+#	CC(C)=CCCC(C)C12C(C(CC1)=O)C2>>CC1(C)C2CCC(C)C23CCC(=O)C1C3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02199578285217285
+time ITS	0.0071868896484375
+time ISO	0.011781692504882812
+#	CC1(C)C2=C(C3=C([N+]#[C-])C(C)(C(CC13)Cl)C=C)C4=C(N2)C=CC=C4.O>>CC1(C)C2(C3=C([N+]#[C-])C(C(Cl)CC13)(C=C)C)C(NC4=CC=CC=C24)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.11197113990783691
+time ITS	0.0136566162109375
+time ISO	0.019451379776000977
+#	C(=C)C1N(CCCC1CC)C(=O)CC>>C(C)C1CCCNC(C(C)CC=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017557382583618164
+time ITS	0.006078481674194336
+time ISO	0.008893489837646484
+#	C1(C(C(C(=C)O)=O)(C)CCC2C1CCC3=CC(=O)CCC23C)CC=O>>C1CC2C(C3CC4CC(O)(C(O4)=O)C13C)CCC5=CC(CCC25C)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.05176997184753418
+time ITS	0.010850191116333008
+time ISO	0.02389216423034668
+#	N1=C(OCC1)C2=C(OCC)OC(=N2)C3=CC=CC=C3>>O(C(C=1N=C(C2=CC=CC=C2)N3CCOC=13)=O)CC
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0476078987121582
+time ITS	0.008514165878295898
+time ISO	0.019814491271972656
+#	C.CC(C)(C)[Si](C)(C)OCCC1C2C(C=CC1O)CCN2C(=O)OCC.N>>CC(C)(C)[Si](C)(C)OCCC1C=CC(C2CCN(C(=O)OCC)C12)C(=O)N
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.07636737823486328
+time ITS	0.014338493347167969
+time ISO	0.06026291847229004
+#	CC(C)=C1OCOCC1>>CC1(C)COCCC1=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010914802551269531
+time ITS	0.0045816898345947266
+time ISO	0.005323886871337891
+#	CC(C)(C)[Si](C)(C)OC1CCC2(C3C1(C)COC(=O)C23)C4=CC=CCC4>>CC(C)(C)[Si](C)(C)OC1C2(C3C(CC1)=C4CCC=CC4C3C(=O)OC2)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04344439506530762
+time ITS	0.015439271926879883
+time ISO	0.04016923904418945
+#	C1(C=CC2(C(C3OC(C(C)C3CC2)=O)=C1C)C)=O>>C123C4OC(C(C)C4CCC1(C2(C)C(C=C3)=O)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.028057575225830078
+time ITS	0.010101079940795898
+time ISO	0.007935762405395508
+#	C1(=CC=CC=C1)C(C2=CC=CC=C2)=CC(C)(C)C=C(C)C>>C1=CC=CC=C1C2(C=3C=CC=CC=3)C(C)(C)C2C=C(C)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.09130692481994629
+time ITS	0.009480476379394531
+time ISO	0.11716222763061523
+#	N(OC)=CCNC(C1CC2=CC=CC=C12)=O>>O(C)N1C2CNC(=O)C2C3=CC=CC=C3C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0222170352935791
+time ITS	0.0070154666900634766
+time ISO	0.0063838958740234375
+#	C(OC(C#C)CC#C)C=1C(C=NOC)=CC=CC=1.C[Si](C)(C)C#C[Si](C)(C)C>>C[Si](C)(C)C1=C(C=C2C(CN(C3C4=C(COC23)C=CC=C4)OC)=C1)[Si](C)(C)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.05077958106994629
+time ITS	0.014084815979003906
+time ISO	0.3288240432739258
+#	C1=CC(=CC=C1)C2(C=3C=CC=CC=3)C(OC=C)CCC2.CC(C)OC(C=CC(OC=C[N+]([O-])=O)=O)=O>>CC(C)OC(C1ON2C3C(OC(=O)C13)CC(OC4CCCC4(C5=CC=CC=C5)C6=CC=CC=C6)O2)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.09079694747924805
+time ITS	0.07308220863342285
+time ISO	0.24319934844970703
+#	C(=CC=C)OC(C)=O.C1=CC=CC=CC1>>C12CC(C=CC=C1)C(C=CC2)OC(=O)C
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.021451711654663086
+time ITS	0.004055976867675781
+time ISO	0.020604848861694336
+#	CC(C)(C)OC(N(C1=CC=CO1)CCC(C)=C)=O>>CC(C)(C)OC(=O)N1CCC2(C)C1=CCC(C2)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.026172876358032227
+time ITS	0.007356405258178711
+time ISO	0.03938770294189453
+#	C1=C(C)C(CC(C(C)=C)C1)=O.C[Si](C)(C)C(=C=C)C>>C[Si](C)(C)C1=C(C)C2(C(CC(CC2=O)C(C)=C)C1)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.033852577209472656
+time ITS	0.00682377815246582
+time ISO	0.05166006088256836
+#	C(C1=CC=CC=C1)C(C(OC)=O)N(CC#C)CC=C>>N1(CC=C(C=C)C1)C(CC2=CC=CC=C2)C(OC)=O
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04685807228088379
+time ITS	0.005827665328979492
+time ISO	0.026764869689941406
+#	C(CC[Li])C.C1CCOC1>>C(CC)C.C=C.C=CO[Li]
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013046503067016602
+time ITS	0.0037033557891845703
+time ISO	0.012769222259521484
+#	CC(C)(C=CC1=CC(O)C2OC2C1=O)OC.CC(C)(C=CC1=CC(O)C2OC2C1=O)OC>>CC(C)(OC)C1C2(C(C3C(O)C4OC4C(C3=C1)=O)C(O)C5C(O5)C2=O)C=CC(C)(C)OC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0647287368774414
+time ITS	0.01804804801940918
+time ISO	0.10090970993041992
+#	C1=CC(C=CC1=O)=O.C[Si](C)(C)OC1=CCCC1>>C[Si](C)(C)OC12C(C3=C(C=CC(O)=C3)O1)CCC2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.023911476135253906
+time ITS	0.0075953006744384766
+time ISO	0.0712885856628418
+#	C(CC=CC=1C=CC=CC=1)(O)C=CC>>C=1C=CC(C(C=C)C(CC=O)C)=CC=1
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02792811393737793
+time ITS	0.004119873046875
+time ISO	0.017441511154174805
+#	C(#N)C1(C2=CC=CC=C2C1)CCCC(C(=O)OC)(C)C=C>>N#CC12C(CCC=3C1=CC=CC=3)C(C(OC)=O)(C)CCC2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.032747507095336914
+time ITS	0.011893510818481445
+time ISO	0.010275602340698242
+#	C=1C=CC(=CC=1)C=O.C=1C=CC(=CC=1)C=O>>C=1C=CC(=CC=1)C(O)C(=O)C=2C=CC=CC=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02290058135986328
+time ITS	0.006270885467529297
+time ISO	0.02427506446838379
+#	C=C.COC1=CC=C(C#CC=2C=CC(OC)=CC=2)C=C1>>COC1=CC=C(C(C(C=2C=CC(=CC=2)OC)=C)=C)C=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02954411506652832
+time ITS	0.008643150329589844
+time ISO	0.06364107131958008
+#	C1(C)=CC=C(C)O1>>C1(=O)C=C(C)CC1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010493278503417969
+time ITS	0.0024335384368896484
+time ISO	0.0031287670135498047
+#	C1(C)=CC=C(C)O1>>CC1CC(C=C1)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.013048887252807617
+time ITS	0.0036432743072509766
+time ISO	0.003916263580322266
+#	CC1(C)CC(CC(C)(C)N1)N(C=2N=NC(=CC=2)C=3C(=CC(=CC=3)O)OC)C.FC(F)(F)S(=O)(=O)N(S(=O)(=O)C(F)(F)F)C1=CC=CC=C1>>CC1(C)CC(CC(C)(C)N1)N(C=2N=NC(C=3C(=CC(=CC=3)OS(=O)(=O)C(F)(F)F)OC)=CC=2)C.FC(F)(F)S(=O)(=O)NC1=CC=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.10477018356323242
+time ITS	0.03860902786254883
+time ISO	19.52680253982544
+#	CC(C)(C)[Si](C)(C)OCC1OC2(CCCC2)OC1C(=CCO)C.ClC(Cl)(Cl)C(=N)OCC=1C=CC(OC)=CC=1>>CC(C)(C)[Si](C)(C)OCC1C(C(C)=CCOCC=2C=CC(=CC=2)OC)OC3(CCCC3)O1.ClC(Cl)(Cl)C(N)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07550883293151855
+time ITS	0.02393627166748047
+time ISO	1.2054955959320068
+#	C1(O)OC(C)C(C=C1)=O>>CC1C(O)C=CC(O1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.010556459426879883
+time ITS	0.004037141799926758
+time ISO	0.0030562877655029297
+#	CC(C1=CC=CO1)=O>>C(O)(C1=CC=CO1)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00897979736328125
+time ITS	0.0031762123107910156
+time ISO	0.002515554428100586
+#	CC(C)(C)[Si](C)(C)OC1CC=C(C(CCO)C1)CCCOC=2C=CC(OC)=CC=2>>CC(C)(C)[Si](C)(C)OC1CC=C(CCCOC=2C=CC(OC)=CC=2)C(CC=O)C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05062508583068848
+time ITS	0.016297101974487305
+time ISO	0.16485214233398438
+#	C1OC(OCC1)CCC2CCC(C(C2)=O)C>>O1CCCOC1CCC2=CC(C(C)CC2)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02030324935913086
+time ITS	0.007445573806762695
+time ISO	0.009567022323608398
+#	CC(C)C1=C(OC)C(=CC(=C1)C2(SCCCS2)CC=C(C)CCC3C(C)(C)O3)OC>>CC(C)C1=C(OC)C(OC)=CC(=C1)CCC=C(CCC2OC2(C)C)C.SCCCS
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05436873435974121
+time ITS	0.01840519905090332
+time ISO	0.0530695915222168
+#	CC(C)C1=C(OC)C(OC)=CC(=C1)CCC=C(CCC2OC2(C)C)C>>CC(C)C1=CC2=C(C(=C1OC)OC)C3(C)CCC(C(C)(C)C3CC2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04020094871520996
+time ITS	0.017113924026489258
+time ISO	0.03090810775756836
+#	C1CC(C=2C(=CC=CC=2)NC(C#C)=O)=CN1C(OC)=O.[C-]#[O+]>>C1N(C(OC)=O)C2C3(C(=CC2=O)C(NC4=C3C=CC=C4)=O)C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03482866287231445
+time ITS	0.01083827018737793
+time ISO	0.010657310485839844
+#	C=1C=CC=C2NC(=O)C3=CC(C4N(CCC34C=12)C(OC)=O)=O>>C=12C(=CC=CC=1)C34C(C(=O)N2)CC(C4N(CC3)C(OC)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.033957481384277344
+time ITS	0.010662555694580078
+time ISO	0.009936332702636719
+#	CC(C)S(C(C)C)(C(C)C)OCC12CC(C(=C)C)CC(=NNS(=O)(=O)C3=CC=C(C)C=C3)C1(C)CC=C2>>CC(C)S(C(C)C)(C(C)C)OCC12C=CCC2(C)CCC(C1)C(C)=C.O=S(=O)(NN)C1=CC=C(C=C1)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07490134239196777
+time ITS	0.024287939071655273
+time ISO	1.0511844158172607
+#	O1C2C3(CO)C(C)(CC12)CCC(C3)C(=C)C>>C12(C=O)C(C)(CC3OC13)CCC(C(=C)C)C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.022107601165771484
+time ITS	0.008185625076293945
+time ISO	0.006773233413696289
+#	O1C2CC3(C(CC(CC3)C(=C)C)(C#C)C12)C>>C1C2(C)C(C#C)(CC(C(=C)C)C1)C(CC2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02313709259033203
+time ITS	0.008852005004882812
+time ISO	0.006595611572265625
+#	C1C2(C)C(C#C)(CC(C(=C)C)C1)C(CC2)O.O>>C1C2(C)C(CC(C(=C)C)C1)(C(=O)C)C(CC2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0239717960357666
+time ITS	0.006897687911987305
+time ISO	0.007252216339111328
+#	B.CC(C)(C)[Si](C)(C)OCC(C1=CC=C(C)C=C1OCC2=CC=CC=C2)=C>>CC(C)(C)[Si](C)(C)OCC(CB)C=1C(OCC=2C=CC=CC=2)=CC(C)=CC=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.042139530181884766
+time ITS	0.013402700424194336
+time ISO	0.14234495162963867
+#	OCC(CO)C1=CC=C(C)C=C1OCC=2C=CC=CC=2>>C=1C=CC=CC=1C.OCC(CO)C=1C(O)=CC(=CC=1)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.029989957809448242
+time ITS	0.011495828628540039
+time ISO	0.020280122756958008
+#	CC(C)(C)[Si](C)(C)OC=1C(C2COC(C)(C)OC2)=CC=C(C)C=1>>CC(C)(C)[Si](C)(C)OC=1CC(C)=CCC=1C2COC(OC2)(C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.036277055740356445
+time ITS	0.011454343795776367
+time ISO	0.12346816062927246
+#	CC1(C)OCC(CO1)C2C(=O)CC(=CC2)C.O=[Os](=O)(=O)=O>>CC1(C)OCC(CO1)C2C(CC3(C(O[Os](=O)(=O)O3)C2)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03748822212219238
+time ITS	0.010840415954589844
+time ISO	0.1045536994934082
+#	CC1(C)OCC(CO1)C2C(CC3(C(O[Os](=O)(=O)O3)C2)C)=O.O.O>>CC1(C)OCC(CO1)C2C(CC(C)(O)C(O)C2)=O.O[Os](O)(=O)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.17381882667541504
+time ITS	0.022835731506347656
+time ISO	0.09891247749328613
+#	CC1(C)OCC(CO1)C2C(CC(C)(O)C(O)C2)=O>>O1CC(COC1(C)C)C2CC(C(O)(CC2=O)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0242767333984375
+time ITS	0.008738040924072266
+time ISO	0.02850198745727539
+#	C1=C(C(=CC=C1)N)N.C1CC(CCN1)N=C=S>>C1CC(CCN1)NC(=S)NC2=CC=CC=C2N
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024931669235229492
+time ITS	0.00833582878112793
+time ISO	0.013457298278808594
+#	CC(C)(C)CO>>CC(C)(C)C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.006687641143798828
+time ITS	0.0019915103912353516
+time ISO	0.00765228271484375
+#	C=1C=NC(=CC=1)C2=CC=C(C=NN)C=C2>>C=1C=NC(=CC=1)C2=CC=C(CNN)C=C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021820068359375
+time ITS	0.006031513214111328
+time ISO	0.011342525482177734
+#	C=1C=CC=CC=1CC(C2OC2)N.C=1C=NC(=CC=1)C2=CC=C(CNN)C=C2>>C1=CC(=CC=C1)CC(C(O)CN(CC2=CC=C(C=C2)C3=CC=CC=N3)N)N
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04313325881958008
+time ITS	0.015254735946655273
+time ISO	0.04103541374206543
+#	C=1C(Cl)=CC=C(C=1)C=O.O=[N+](C)[O-]>>OC(C1=CC=C(C=C1)Cl)C[N+]([O-])=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016174793243408203
+time ITS	0.00574946403503418
+time ISO	0.007133960723876953
+#	C=1C(=CC=CC=1)C(C=2C=CC=CC=2)(C3CN(CC3)CCC4=CC=C5OCCC5=C4)C#N.O>>C=1C=CC=CC=1C(C2=CC=CC=C2)(C3CCN(CCC4=CC=C5OCCC5=C4)C3)C(=O)N
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.057282209396362305
+time ITS	0.020830154418945312
+time ISO	0.11861085891723633
+#	C1CNCCN1C=2C(=CC=C(NC(=O)C)N=2)N.N>>C1CN(CCN1)C2=NC(NC(=O)C)=CC=C2[N+]#N
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02389049530029297
+time ITS	0.009679555892944336
+time ISO	0.010112285614013672
+#	C(O)C(CO)(N)C=CC=1C=CC(=CC=1)CCCCCCCC>>OCC(CO)(N)CCC1=CC=C(CCCCCCCC)C=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03518939018249512
+time ITS	0.009665966033935547
+time ISO	0.02275824546813965
+#	CC(C)(C)C1NC(OC2CC2CCCC#CC=3N=C4C(=NC=3OC5CC(C(=O)O)N(C5)C1=O)C=C(C=C4)OC)=O>>CC(C)(C)C1NC(OC2CC2CCCCCC3=C(N=C4C=C(OC)C=CC4=N3)OC5CN(C1=O)C(C5)C(=O)O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07941675186157227
+time ITS	0.029212236404418945
+time ISO	0.08260583877563477
+#	CC(C)CN1C2=C(C(=NC=3C2=CC=CC=3)C#N)N=C1.O>>CC(C)CN1C=NC=2C(C(=O)N)=NC=3C(=CC=CC=3)C1=2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03084850311279297
+time ITS	0.011291742324829102
+time ISO	0.021219730377197266
+#	C(NN)=O.C1CC1C2=CC=C(N=C=S)C=3C=CC=CC2=3>>C1CC1C=2C=3C=CC=CC=3C(=CC=2)NC(=S)NNC=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.030440330505371094
+time ITS	0.010924100875854492
+time ISO	0.013823270797729492
+#	C=1(OC=CC(=O)OCC)C(C=O)=C(C=CC=1)CC>>C1=C2C(C(C(CC(=O)OCC)O2)=O)=C(C=C1)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.025667190551757812
+time ITS	0.007315635681152344
+time ISO	0.007534980773925781
+#	CC(C)(C)CC(C)(C)N=C1C=2C(=CC=CC=2)C(C#N)(O1)OCC>>CC(C)(C)CC(C)(C)C#N.N#CC1=C(C=CC=C1)C(OCC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.039942264556884766
+time ITS	0.010711908340454102
+time ISO	0.10576462745666504
+#	F.O=S(=O)(C)NC1(CC1)C=2C3=CC=CC=C3CCC=2>>O=S(=O)(N=C1C2(C=3C(CCC2F)=CC=CC=3)CC1)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.030831336975097656
+time ITS	0.011867284774780273
+time ISO	0.01624131202697754
+#	O=C(N(C)C=1C=CC(C)=CC=1)SC(C)C=CC>>C(C(C1=CC=C(C)C=C1)(C)SC(NC)=O)=CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02312326431274414
+time ITS	0.007005214691162109
+time ISO	0.009766578674316406
+#	FC(F)(F)C(=CC(=O)OC)N(S(=O)(=O)C=1C=CC(C)=CC=1)C(C2=CC=CC=C2)C#CC3=CC=CC=C3>>FC(F)(F)C1(NS(=O)(=O)C=2C=CC(=CC=2)C)C(C(C=3C=CC=CC=3)=C1C(OC)=O)=CC=4C=CC=CC=4
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	1.9144082069396973
+time ITS	0.021217823028564453
+time ISO	0.7545835971832275
+#	O=S(=O)(C=1C=CC(C)=CC=1)N2C3=C(C(OCC(=CC2)C=4C=CC=CC=4)C5=CC=CC=C5C)OC6=CC=CC=C36>>O=S(=O)(C=1C=CC(=CC=1)C)C2CN=C3C4(C(OCC24C5=CC=CC=C5)C=6C(=CC=CC=6)C)OC=7C=CC=CC3=7
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0783393383026123
+time ITS	0.027863502502441406
+time ISO	0.14245939254760742
+#	O=S(=O)(C1=CC=C(C)C=C1)N2CC3C(COC(C4=CC=CC=C4)C5=C2C6=CC=CC=C6O5)(C7=CC=CC=C7)O3>>O=S(=O)(N1C2=C(OC3=CC=CC=C23)C4(C(OC(OC4)C5=CC=CC=C5)C1)C=6C=CC=CC=6)C=7C=CC(C)=CC=7
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.22589111328125
+time ITS	0.02360820770263672
+time ISO	0.2611544132232666
+#	C=1C=NC=CC=1C=2N(CC3=CC=CC=C3)C(C4=CC=CC=C4)ON=2>>C1=CC(CN2C(C=3C=CN=CC=3)=NC4=C(C2=O)C=CC=C4)=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.060980796813964844
+time ITS	0.014593839645385742
+time ISO	0.038524627685546875
+#	FC(F)(F)S(=O)(=O)OC1=CC=CC=C1C2=CC=3C(N2)=CC=CC=3>>FC(F)(F)S(=O)(=O)C1=C(NC2=CC=CC=C12)C=3C(=CC=CC=3)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03587794303894043
+time ITS	0.011484146118164062
+time ISO	0.03647327423095703
+#	C=1(C=2C=CC=CC=2C=CC=1OCC#C)C=O.C=1C=CC(=CC=1)C=O>>O1C2=C(C(=O)C1(C)CC(C=3C=CC=CC=3)=O)C4=C(C=CC=C4)C=C2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04482126235961914
+time ITS	0.014174461364746094
+time ISO	0.04206705093383789
+#	C1(O)(C(CC1)C=2C=CC=CC=2)C(=C)C>>C1CC2C(CC=3C=CC=CC2=3)(C1=O)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03159761428833008
+time ITS	0.005331277847290039
+time ISO	0.013004064559936523
+#	C(OP(OCC)(=NC(OCC=1C=CC=CC=1)=O)OC(C#C)C)C>>O(CC)P(OCC)(=O)N(C(OCC=1C=CC=CC=1)=O)C=C=CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03619694709777832
+time ITS	0.011359453201293945
+time ISO	0.024220705032348633
+#	OC=1C(C=2C=3C=CC=CC=3C=CC=2O)=C4C(=CC=1)C=CC=C4>>C=12C(=C3C4(C5=CC=CC=C5C=C4)C(=O)OC3=CC=1)C=CC=C2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04678201675415039
+time ITS	0.011052846908569336
+time ISO	0.021552324295043945
+#	C1C(C)C(=C)OC(C=2CCCCCC=2)C1>>C1CC=C2CCCCCC2CC(=O)C1C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.019214630126953125
+time ITS	0.006724119186401367
+time ISO	0.006157636642456055
+#	C=1C=CC(=CC=1)C(C2=CC=CC=C2)(O)C#CC3=CC=CC=C3>>C=1C=CC=C(C=1)C(C2=CC=CC=C2)=CC(C=3C=CC=CC=3)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.11747264862060547
+time ITS	0.009121179580688477
+time ISO	0.12371969223022461
+#	C(C)(=C)C(OC)=O.CC(C)(C)C=1C=CC(=CC=1)C=C.O.O1CCOC1>>CC(C)(C)C1=CC=C(C=C1)C(CC(C)(CC2OCCO2)C(OC)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.039960622787475586
+time ITS	0.012997627258300781
+time ISO	0.0999302864074707
+#	C1(=CC=C(C=C1)Br)C=NN(C=2C=CC=CC=2)CC#CC=3C=CC=CC=3>>C1(C)=C(C(=NN1C2=CC=CC=C2)C=3C=CC(=CC=3)Br)C=4C=CC=CC=4
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.15601205825805664
+time ITS	0.012854814529418945
+time ISO	0.06806755065917969
+#	C=1C(C2ON(C(CCC)C2)C)=CC=CC=1>>C=1C(=CC=CC=1)C2OCNC(CCC)C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0193479061126709
+time ITS	0.006054878234863281
+time ISO	0.009126424789428711
+#	C1CCCCC1C(O)C#COCC.I>>C1CC(CCC1)C=C(I)C(=O)OCC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02044963836669922
+time ITS	0.005266904830932617
+time ISO	0.006997823715209961
+#	CC(C)(N)C#CC=1C=CC=CC=1.O=C=O>>CC1(C)C(=O)C(C2=CC=CC=C2)C(N1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020088672637939453
+time ITS	0.00804591178894043
+time ISO	0.019253253936767578
+#	C1CCC1(O)C2=CCCC=3C2=CC=CC=3.I>>C12=CC=CC=C1CCC(I)C23C(CCC3)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.023360252380371094
+time ITS	0.007944107055664062
+time ISO	0.007753849029541016
+#	O(CC)P(OCC)(C(C(=O)OCC)OCC=CC1=CC=CC=C1)=O>>O(CC)P(OCC)(OC(C(C=C)C1=CC=CC=C1)C(OCC)=O)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06763672828674316
+time ITS	0.008011579513549805
+time ISO	0.041716814041137695
+#	C=1C=C(C#CC2=CC=CC=C2)C(=CC=1)N.O=C=O>>C=1(C2=CC=CC=C2N=C(C=1C3=CC=CC=C3)O)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024520397186279297
+time ITS	0.008287429809570312
+time ISO	0.013121843338012695
+#	C1(C(C=2C=CC=CC=2)=NN3C(C4=CC=CC=C4)C3)CO1>>C1(C2=CC=CC=C2)CNN=C(C=3C=CC=CC=3)C(O)C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.030934810638427734
+time ITS	0.014574289321899414
+time ISO	0.020334959030151367
+#	C(C1CCN1C2=CC=CC=C2)#CC=3C=CC=CC=3>>C1(=C2CCCN2C3=CC=CC=C13)C4=CC=CC=C4
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08108234405517578
+time ITS	0.006377220153808594
+time ISO	0.038916587829589844
+#	N(CCC=C)(C(CC#C)=O)C1=CC=CC=C1>>C1=CC23C=CC1CC2=CC(N3CCC=C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021625518798828125
+time ITS	0.006783962249755859
+time ISO	0.008462905883789062
+#	C(CCC)[Sn](CCCC)(CCCC)CC=C.C1CC=CC1=O.CC(C)(C)[Si](C1=CC=CC=C1)(C2=CC=CC=C2)OCCCC(OC(=O)C)[Se]C3=CC=CC=C3>>C(CC[Sn](CCCC)(CCCC)[Se]C1=CC=CC=C1)C.CC(C)(C)[Si](C1=CC=CC=C1)(C2=CC=CC=C2)OCCCC(C3C(C(CC3)=O)CC=C)OC(C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.13020086288452148
+time ITS	0.1432178020477295
+time ISO	8.241772413253784
+#	CC(C)[Si](C(C)C)(C(C)C)OC1CC23OC3C(CC2C1)=C>>CC(C)[Si](C(C)C)(C(C)C)OC1CC2CC(C(C1)C2=O)=C
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.4099438190460205
+time ITS	0.007860422134399414
+time ISO	0.2379438877105713
+#	C=1(C=CC=CC=1)C=C2CCCC(C=CCCCC)O2>>C=1C(C2C(=O)CCCC2C=CCCCC)=CC=CC=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.025794029235839844
+time ITS	0.008589506149291992
+time ISO	0.010022401809692383
+#	C=1C=C(C=CC=2C=C3C=CC=CC3=CC=2)C(=CC=1)C(CC(=O)OCC)=O>>C=1(C=C(C(O)=C2C=1C=CC=C2)C(=O)OCC)C3=CC=C4C=CC=CC4=C3
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04351377487182617
+time ITS	0.012045621871948242
+time ISO	0.01400446891784668
+#	C=1C=CC(=CC=1)N(O)C(=O)OC.ClC(Cl)(Cl)C#N>>ClC(Cl)(Cl)C(NC=1C(=CC=CC=1)NC(OC)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.028186321258544922
+time ITS	0.008718252182006836
+time ISO	0.020846843719482422
+#	C=12C(=CC=CC=1)C(=CN2C(C)=O)CC(N(C=3OC=CC=3)CC4=CC=CC=C4C)=O>>C(C1=CC=CC=C1C)N2C=3C4(C(N(C=5C4=CC=CC=5)C(C)=O)C(CC=3)=O)CC2=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.053351640701293945
+time ITS	0.01986980438232422
+time ISO	0.03122091293334961
+#	C1=C2C(=CC=C1)N(C(=C2)SCC#CCOC3=CC=CC=C3Br)C>>C=1C=CC=C2N(C)C=3SCCC(=COC=4C(Br)=CC=CC=4)C=3C=12
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03982853889465332
+time ITS	0.01582956314086914
+time ISO	0.01834559440612793
+#	CC(C)(C)C1=CC=C(C=C1)C#CC(OC(CC=2C=3C=CC=CC=3NC=2)=O)C4CCCCC4>>CC(C)(C)C1=CC=C(C=C1)C=C2C3(OC(CC34C=5C(NC24)=CC=CC=5)=O)C6CCCCC6
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.059655189514160156
+time ITS	0.01938796043395996
+time ISO	0.24892425537109375
+#	CN(C)C(=S)OC1=CC=C(C=C1)OC>>CN(C)C(=O)SC1=CC=C(C=C1)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.017673730850219727
+time ITS	0.0061337947845458984
+time ISO	0.01258230209350586
+#	C1CCC1(C(=CC=2C=CC=CC=2)C(C(=C)C)=O)O>>C1(CC(C2(C1=O)CCCC2=O)C=3C=CC=CC=3)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.027738094329833984
+time ITS	0.008438348770141602
+time ISO	0.0151214599609375
+#	CC(C)(C)OC(NC(OC=CC)CC=1C=CC=CC=1)=O>>CC(C)(C)OC(NC(CC=1C=CC=CC=1)C(C=O)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.029532670974731445
+time ITS	0.008515596389770508
+time ISO	0.02606797218322754
+#	C12=C(C=CC=C1)C(=CN2)N(CC=CC=3C=CC=CC=3)CC4=CC=CC=C4>>C=1C=C2C(=CC=1)NC(=C2NCC3=CC=CC=C3)C(C=4C=CC=CC=4)C=C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.043593645095825195
+time ITS	0.015923261642456055
+time ISO	0.029929637908935547
+#	C1C(CC1)(O)C=2CCCC(=O)C=2>>C1C(=O)CC2(CCCC2=O)CC1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.023138046264648438
+time ITS	0.004438161849975586
+time ISO	0.01196908950805664
+#	O(CC(OC)=O)CC=C.O=CC(CC)C>>C=CCC(O)(C(C(CC)C)O)C(OC)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01840806007385254
+time ITS	0.004765033721923828
+time ISO	0.006246089935302734
+#	CC(C)(CCC=CC=C)C(=O)CC(=O)OC>>CC1(C)C(C2(C(CC1)C2C=C)C(OC)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021723508834838867
+time ITS	0.0064966678619384766
+time ISO	0.009597063064575195
+#	C12(C(OC)=O)C(CCCC1=O)C2C=C>>C1CCC2C(C(OC)=O)(CC=C2)C1=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03131222724914551
+time ITS	0.007263660430908203
+time ISO	0.013979673385620117
+#	C(OC=1NC2=C(C=1C(=O)OC)C=CC=C2)C(C)=C>>O=C1C(C=2C(N1)=CC=CC=2)(CC(=C)C)C(OC)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03233933448791504
+time ITS	0.007104158401489258
+time ISO	0.013887643814086914
+#	C=1(C=CC=CC=1)[Si](C=2C=CC=CC=2)(CC(C)=C)C#CCCCC.CO>>C=1C=CC=C(C=1)[Si]2(C3=CC=CC=C3)CC(OC)(CC(CCCC)=C2)C
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.1163482666015625
+time ITS	0.029089689254760742
+time ISO	0.0822441577911377
+#	C1CCN(C1)C(=O)CN(CC2=CC=CC=C2)CC=CC>>C1CCCN1C(C(NCC2=CC=CC=C2)C(C=C)C)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.05133342742919922
+time ITS	0.00941610336303711
+time ISO	0.026026487350463867
+#	O=S(=O)(C=1C=CC(=CC=1)C)N2CC(C=3C=CC=CC=3)(C2C)O>>O=S1(=O)N(C(C)C(O)(C2=CC=CC=C2)C=3C1=CC=C(C=3)C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.055008888244628906
+time ITS	0.012747764587402344
+time ISO	0.03165721893310547
+#	C1=CC=2C(C=C1)=CC(=CC=2)NNC3=CC=C4C(C=CC=C4)=C3>>C12=CC=C(C(C=3C4=CC=CC=C4C=CC=3N)=C1C=CC=C2)N
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03518033027648926
+time ITS	0.013056278228759766
+time ISO	0.021095991134643555
+#	C(=C(CC1=CC=C(C=C1)Cl)C(OCC)=O)(C(=[N+]=[N-])C(OCC)=O)C>>CC=1C=CC(=CC=1CC=2C(C(=O)OCC)=NNC=2C(OCC)=O)Cl
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.07336306571960449
+time ITS	0.009819984436035156
+time ISO	0.02513408660888672
+#	C1=CC=C(C=CC(=O)C2=CC=CC=C2)C=C1.C1CC1(C(=O)C=CC2=CC=C(C)C=C2)C(NC3=CC=CC=C3)=O>>C=1C=CC(=CC=1)C(CC(=O)C2=CC=CC=C2)C3C(C4=CC=C(C)C=C4)N(C5=CC=CC=C5)C(=O)C=6CCOC3=6
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.1364154815673828
+time ITS	0.02398514747619629
+time ISO	0.3097412586212158
+#	C(OC1=C(C)N=C(O1)C2=CC=C(C)C=C2)(=O)OC=3C=CC=CC=3>>C=1C(=CC=CC=1)OC(C2(N=C(OC2=O)C3=CC=C(C)C=C3)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03582477569580078
+time ITS	0.011801481246948242
+time ISO	0.03243875503540039
+#	C1=2C=CC=CC1=CC(=CC=2)O.O=CC#CC1=CC=CC=C1>>C=1C(C2C=3C=4C(=CC=CC=4)C=CC=3OC(=O)C2)=CC=CC=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03246188163757324
+time ITS	0.011797428131103516
+time ISO	0.023874282836914062
+#	C1CC(=C(C(C#C)O)C1)C(=C)C>>C1(=C(C=2CCCC=2C(C)=C1)O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.014907121658325195
+time ITS	0.005097627639770508
+time ISO	0.008363485336303711
+#	C(#C)C(C=1CCCCC=1C(C2=CC=CC=C2)=C)O>>C=12C(C=O)(C(CC=1C=3C=CC=CC=3)=C)CCCC2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.026664018630981445
+time ITS	0.008037328720092773
+time ISO	0.012809991836547852
+#	C(OC)(=O)C1(C(OC)=O)CC=CC=CCC(C(=O)OC)(C(=O)OC)CCC(C)=CCC1>>C(=O)(OC)C1(C(=O)OC)CC2C=CC3C(C)(C2CC1)CCC(C(OC)=O)(C(OC)=O)C3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.056067466735839844
+time ITS	0.017757654190063477
+time ISO	0.0583348274230957
+#	C(OCC)(=O)C(=C=C)CC1=CC=CC=C1.C1=CC(CN2C(=O)C(=O)C3=CC=CC=C23)=CC=C1.CC(C)(C)N=C>>CC(C)(C)N1C(=O)C(=C2CC3(OC12OCC)C(=O)N(CC4=CC=CC=C4)C5=CC=CC=C35)CC=6C=CC=CC=6
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07397317886352539
+time ITS	0.027140140533447266
+time ISO	0.2952570915222168
+#	C1(=CC=CC=C1)CN=[N+]=[N-].C1(=CC=CC=C1)CN=[N+]=[N-].C=1C=CC=CC=1C#C.C=1C=CC=CC=1C#C>>C1=CC=CC(CN2N=NC(C=3C=CC=CC=3)=C2C=4N(CC=5C=CC=CC=5)N=NC=4C=6C=CC=CC=6)=C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.10555315017700195
+time ITS	0.022600412368774414
+time ISO	0.7875247001647949
+#	C=1(C)COC(=O)C=1CCC2(C(CCC2C)=O)C(OC)=O>>C12CCC3(C(OC)=O)C(O)(C1(COC2=O)C)CCC3C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02942037582397461
+time ITS	0.012372255325317383
+time ISO	0.009458541870117188
+#	C(=CC(OC)=O)C(OC)=O.C(C(=O)OC)N=CC1=CC=C(C=C1)OC>>C=1C=C(C=2NC(C(=O)OC)=C(C(OC)=O)C=2C(OC)=O)C=CC=1OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.045675039291381836
+time ITS	0.01405191421508789
+time ISO	0.029750823974609375
+#	C1#CCCCCC#CC2=CC=CC=C12>>C=12C(=CC=3CCCCC=3C=1)C=CC=C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.020990371704101562
+time ITS	0.0061855316162109375
+time ISO	0.012511014938354492
+#	CC(C)[Si](C(C)C)(C(C)C)C#CC#CCCCC#CCC(CC)(CC)CC#N>>CC(C)[Si](C(C)C)(C(C)C)C#CC=1N=C2C(=C3CCCC=13)CC(CC)(CC)C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.049994468688964844
+time ITS	0.01846170425415039
+time ISO	0.44321346282958984
+#	C(C(OC(C=1CCC=1)=O)C=2C(OC)=CC=C(OC)C=2Br)=C>>C=CCCC1=CC(OC1=O)C=2C(=CC=C(OC)C=2Br)OC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.0315089225769043
+time ITS	0.010117053985595703
+time ISO	0.010069608688354492
+#	C(C)C(CC)=O.C1CCCCC1[N+]#[C-].C=1C=C(C(=CC=1)O)[N+](=O)[O-]>>C(C)C(CC)(C(NC1CCCCC1)=O)OC=2C(=CC=CC=2)[N+]([O-])=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03649592399597168
+time ITS	0.015189647674560547
+time ISO	0.028754472732543945
+#	C(CNCC1=CC=CC=C1)C=CC=C.C1(C=CC(=O)O1)=O>>O=C1C2C(CCN1CC3=CC=CC=C3)C=CCC2C(=O)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.032448768615722656
+time ITS	0.01000833511352539
+time ISO	0.017710208892822266
+#	CC(C)(C#C)CCCC#CC(OC(C#C)CC(C)COCC1=CC=C(C=C1)OC)=O>>CC1(C)CCCC=2C3=C(C(CC(COCC4=CC=C(C=C4)OC)C)OC3=O)C=CC1=2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05343770980834961
+time ITS	0.019060373306274414
+time ISO	0.03961658477783203
+#	C(C)(=C)C=O.C1COC2(O1)CCCC=C2C=C>>O1CCOC12CCCC3C(CCC=C23)(C)C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024559974670410156
+time ITS	0.00707554817199707
+time ISO	0.00872182846069336
+#	O(C1=CC(OC)=CC=C1C=O)CC#CC=2C=C(C(=CC=2)OC)OC>>C1=C(C(C=2C=C(C(=CC=2)OC)OC)=O)COC3=CC(=CC=C13)OC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03922533988952637
+time ITS	0.01168370246887207
+time ISO	0.015411376953125
+#	CC(C)=CCCC(C)=CCCC(C)(O)C=O>>CC(C)=CCCC1(C2CCC(C)(C2O)O1)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.021331787109375
+time ITS	0.00743412971496582
+time ISO	0.012893199920654297
+#	C1=CC=2C(=CC=CC=2)N1.CC[Si](CC)(CC)OC1CCC(C2(C)C1(C(=C)C(CC2)=O)CCCOC(C)=O)C>>CC[Si](CC)(CC)OC1C2(C(C)(C(C)CC1)CCC(C2CC=3C4=C(NC=3)C=CC=C4)=O)CCCOC(=O)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07142806053161621
+time ITS	0.023411035537719727
+time ISO	0.14619851112365723
+#	CC(=O)CCCC=O.O=[N+](C=CC=1C(O)=CC=CC=1)[O-]>>O1C(=O)C2C(C(C(O)(C)CC2)[N+](=O)[O-])C=3C=CC=CC1=3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.026175737380981445
+time ITS	0.010181903839111328
+time ISO	0.008662939071655273
+#	C(C)C(CC)=C=CC1=C(CC=C)C(OC1(C)C)=O>>CCC1(CC)C=CC2=C(C(=O)OC2(C)C)C=CC1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.025879383087158203
+time ITS	0.008449792861938477
+time ISO	0.016209125518798828
+#	C1C(CO1)=C[N+]([O-])=O.CC(C)(C)OC(=O)N1C=2C(C(F)C1=O)=CC=CC=2>>CC(C)(C)OC(N1C=2C(=CC=CC=2)C(F)(C3(COC3)C[N+]([O-])=O)C1=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0418696403503418
+time ITS	0.012719154357910156
+time ISO	0.09383201599121094
+#	CC1(C)C(C(C)(C)C1=O)=S.O(C)C(=O)C1(C(OC)=O)C(C=C)C1>>C(=O)(OC)C1(C(=O)OC)CC(C=C)SC1=C(C)C.CC(C)=C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03224539756774902
+time ITS	0.012947320938110352
+time ISO	0.045400381088256836
+#	C(C)=CCC1=CC=C(C=O)O1.CN1C(=O)C(C2=CC=CC=C12)=C(C#N)C(C3=CC=CC=C3)=O>>C1(=C(C#N)C2(C(N(C3=C2C=CC=C3)C)=O)C(C)C(CC4=CC=C(O4)C=O)O1)C=5C=CC=CC=5
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.058905839920043945
+time ITS	0.016443729400634766
+time ISO	0.04180550575256348
+#	C1=C(C(C=CC=O)=CC)C=CC=C1.FC(F)(F)C=C1C(NC2=CC=CC=C12)=O>>FC(F)(F)C1C(CO)CC(=C(C)C12C3=CC=CC=C3NC2=O)C4=CC=CC=C4
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04409956932067871
+time ITS	0.0174558162689209
+time ISO	0.10101771354675293
+#	C(#CC=1C(C#CCNC=2C=NOC=2)=CC=CC=1)C3=CC=CC=C3>>C=12C(=NC=C3C(=CC4=C(C=13)C=CC=C4)C5=CC=CC=C5)C=NO2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04646873474121094
+time ITS	0.014658689498901367
+time ISO	0.03401947021484375
+#	C=1(C(Cl)=CC=CC=1)C=NC=2C(O)=CC=CC=2.C=COCC>>CCOC1C2=CC=CC(=C2NC(C=3C(=CC=CC=3)Cl)C1)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03036975860595703
+time ITS	0.014530181884765625
+time ISO	0.009740829467773438
+#	C(C(CC)OCC=C)=CC1=CC=CO1>>C(C(C1=CC=CO1)C(C=O)C)=CCC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02174687385559082
+time ITS	0.004648685455322266
+time ISO	0.006774187088012695
+#	FC(F)(F)C=CN1C(CCC1)=O>>FC(F)(F)C1C(CCCN=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01670980453491211
+time ITS	0.004798412322998047
+time ISO	0.009351015090942383
+#	CC(C)(C)OC(=O)NC(C1=CC=CC=C1F)S(=O)(=O)C2=CC=CC=C2.O=[N+](C)[O-]>>CC(C)(C)OC(=O)NC(C[N+](=O)[O-])C1=CC=CC=C1F.O=S(O)C1=CC=CC=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.07686448097229004
+time ITS	0.017960786819458008
+time ISO	0.14229869842529297
+#	C1([N+](=O)[O-])=CC=CC(C=O)=C1.O=[N+](C)[O-]>>[N+]([O-])(C1=CC=CC(C(O)C[N+]([O-])=O)=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01960587501525879
+time ITS	0.006310224533081055
+time ISO	0.006886005401611328
+#	C(C1=CC(=CC(C)=C1)C)#CCOCC=C.[C-]#[O+]>>C1(=CC(C)=CC(=C1)C)C2C=3C(COC=3)CC2=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04488515853881836
+time ITS	0.006161928176879883
+time ISO	0.024472475051879883
+#	C(C)CCOP(OCCCC)(C=C)=O.FC(F)(F)C1=CC=C(C=O)C=C1>>FC(F)(F)C=1C=CC(=CC=1)C(=O)CCP(OCCCC)(OCCCC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04156851768493652
+time ITS	0.014893293380737305
+time ISO	0.11296367645263672
+#	C1=CC=CC1[Ti](C2C=CC=C2)=C.O=C(OCC)CC1=CC=CC=C1>>C=1C=CC(C=1)[Ti](C2C=CC=C2)=O.C=1C=CC=CC=1CC(OCC)=C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.039803504943847656
+time ITS	0.012544393539428711
+time ISO	0.08968353271484375
+#	C(CC=C)O.C1CCCCC1=O>>C1CCCCC12OCCC(C2)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.018182754516601562
+time ITS	0.0044097900390625
+time ISO	0.006239652633666992
+#	C(C=1C(OC)=CC=CC=1)N.O=C(CC1=CC=CC=N1)OCC>>C1=CC(C2=NC(C(OCC)=O)=C3C=CC=CN23)=C(OC)C=C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.042174577713012695
+time ITS	0.011520624160766602
+time ISO	0.016524076461791992
+#	CC(C)=CCOC(C)(C#C)C=1C=CC=CC=1>>CC(C)=CC1=CCOC1(C=2C=CC=CC=2)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02391958236694336
+time ITS	0.007191181182861328
+time ISO	0.01728200912475586
+#	C(O)(C1=CC=CO1)C>>CC1C(O)C=CC1=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.011514425277709961
+time ITS	0.0022978782653808594
+time ISO	0.005375862121582031
+#	C=1C=CC(=CC=1)C=O.C=1C=CC=CC=1CC(=O)O>>C=1C=CC=C(C(O)C(C(O)=O)C2=CC=CC=C2)C=1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.026568174362182617
+time ITS	0.007452964782714844
+time ISO	0.01797008514404297
+#	C(C)(=O)O.C1CCCCC1=O.CC(C)(C)[N+]#[C-]>>CC(C)(C)NC(=O)C1(CCCCC1)OC(C)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02357316017150879
+time ITS	0.0059430599212646484
+time ISO	0.05962991714477539
+#	C=1C=CC(=CC=1)C=O.C=CC#N>>N#CCCC(C1=CC=CC=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01563429832458496
+time ITS	0.004979372024536133
+time ISO	0.0060882568359375
+#	CC(C)=CCC=1C(=CC(O)=C(C=O)C=1C(=O)C=2C(=C(Cl)C(=C(C=2O)Cl)C)OC)O>>CC(C)=CCC=1C2=C(C(=CC=1O)O)C(OC2C=3C(=C(Cl)C(=C(Cl)C=3O)C)OC)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05234074592590332
+time ITS	0.01652979850769043
+time ISO	0.01711106300354004
+#	C(C)#C.C1(=CC=CC=C1)CN=[N+]=[N-]>>CC1=CN(CC2=CC=CC=C2)N=N1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.02092146873474121
+time ITS	0.005072116851806641
+time ISO	0.012972831726074219
+#	C1=C(Br)C(C1)=O.C=1CCC=CC=1>>C12C3CCC(C=C3)C1(C(C2)=O)Br
+maps given	4
+classes AUX	4
+classes ITS	4
+classes ISO	4
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.018161535263061523
+time ITS	0.0038743019104003906
+time ISO	0.013451814651489258
+#	C1=C(C=CC=C1)Br.C1=CC=CC(C[Sn](CC=2C=CC=CC=2)(CC=3C=CC=CC=3)CC=4C=CC=CC=4)=C1>>C(C1=CC=CC=C1)[Sn](CC2=CC=CC=C2)(CC3=CC=CC=C3)Br.C1=C(C=CC=C1)CC2=CC=CC=C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0710439682006836
+time ITS	0.02314615249633789
+time ISO	4.408386707305908
+#	C1CCC(O)C(N=[N+]=[N-])C1.CN(C)CC#C>>CN(C)CC=1N=NN(C2CCCCC2O)C=1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.024554729461669922
+time ITS	0.0077860355377197266
+time ISO	0.017749309539794922
+#	O(C1=CC=CC=C1OC)C.O(C1=CC=CC=C1OC)C.O(C1=CC=CC=C1OC)C>>C=12C(=CC(=C(C=1)OC)OC)C=3C=C(C(=CC=3C=4C=C(C(=CC2=4)OC)OC)OC)OC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08482170104980469
+time ITS	0.01639842987060547
+time ISO	0.397289514541626
+#	O=S(=O)(NN=CC1=CC=CC=C1)C=2C=CC(C)=CC=2>>C(C=1C=CC=CC=1)=[N+]=[N-].S([O-])(C1=CC=C(C)C=C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.03232717514038086
+time ITS	0.008342742919921875
+time ISO	0.030193328857421875
+#	C1(=O)C=2C(C(=O)O1)=CC=3C(=O)OC(=O)C=3C=2.C1=CC=CC=C1.C1=CC=CC=C1>>OC(C=1C=C(C(C=2C=CC=CC=2)=O)C(=CC=1C(C3=CC=CC=C3)=O)C(=O)O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05119633674621582
+time ITS	0.01705026626586914
+time ISO	2.096243381500244
+#	C1=CCC(C1)=O>>C1CCC(C1)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.007866621017456055
+time ITS	0.002315521240234375
+time ISO	0.0028238296508789062
+#	C(=CC(OC)=O)C(OC)=O.C(C=C)=C>>C1=CCC(C(=O)OC)C(C(=O)OC)C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0187833309173584
+time ITS	0.005581378936767578
+time ISO	0.012363910675048828
+#	C(=O)=NC.O>>CN.O=C=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0055196285247802734
+time ITS	0.0015578269958496094
+time ISO	0.0017924308776855469
+#	C(=O)=NC.CCN>>N(C(=O)NC)CC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.009813547134399414
+time ITS	0.0021712779998779297
+time ISO	0.0022449493408203125
+#	C(=O)=NC.C(C)O>>C(=O)(NC)OCC
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008036613464355469
+time ITS	0.002511739730834961
+time ISO	0.0022172927856445312
+#	BrBr.C1=CCCCC1>>C1CCCC(C1Br)Br
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00929403305053711
+time ITS	0.002538442611694336
+time ISO	0.006303548812866211
+#	C1CC(=O)N(C1=O)P(OCC=2C=CC=CC=2)(OCC=3C=CC=CC=3)=O.N>>C(C1=CC=CC=C1)OP(OCC2=CC=CC=C2)(=O)NC(=O)CCC(N)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04195046424865723
+time ITS	0.016985654830932617
+time ISO	0.07219457626342773
+#	C1CC(=O)N(C1=O)P(OCC=2C=CC=CC=2)(OCC=3C=CC=CC=3)=O.NCCN>>O(CC=1C=CC=CC=1)P(OCC=2C=CC=CC=2)(NC(CCC(=O)NCCN)=O)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04890179634094238
+time ITS	0.01492452621459961
+time ISO	0.133530855178833
+#	C(C)(=C)C=C.CC(=O)C=C>>C1=C(CCC(C(C)=O)C1)C
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014468908309936523
+time ITS	0.0033416748046875
+time ISO	0.007817506790161133
+#	IC.N>>[I-].[NH3+]C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.0034322738647460938
+time ITS	0.0009763240814208984
+time ISO	0.0007736682891845703
+#	C=1C=CC=CC=1C.[O-][NH+]=O>>[N+]([O-])(=O)C1=CC=C(C)C=C1
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.012086629867553711
+time ITS	0.0063817501068115234
+time ISO	0.006241798400878906
+#	C=CC(=C)OCC.C=CC(OC)=O>>C=1CC(C(OC)=O)CCC=1OCC
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.020435094833374023
+time ITS	0.00585484504699707
+time ISO	0.010137557983398438
+#	C(CCC)C(CC)OSC1=CC=CC=C1>>C(SC1=CC=CC=C1)(C)CCC(CC)O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.02037358283996582
+time ITS	0.005967855453491211
+time ISO	0.010113954544067383
+#	C=1(N=NC=2C=CC=CC=2)C=CC=CC=1>>C1=CC(=CC=C1C=2C=CC(=CC=2)N)N
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.04484057426452637
+time ITS	0.005245685577392578
+time ISO	0.03898787498474121
+#	O=S(=O)(C1=C(C)C=C(C)C=C1C)C=2C=CC=CC=2>>O=S(O)C1=C(C)C=C(C)C=C1CC2=CC=CC=C2
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04718422889709473
+time ITS	0.00909876823425293
+time ISO	0.02720355987548828
+#	C1(SC=2C(=CC=CC=2)N1)=S.C1CCCCC1N>>C1CC(CCC1)NSC2=NC=3C(S2)=CC=CC=3
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.024644851684570312
+time ITS	0.009636402130126953
+time ISO	0.01795649528503418
+#	C1=C(C=CC=C1)C=2C(CCC=2C3=C(OC(=N3)C4=CC=C(C=C4)OC)C)=O>>C=1(C=CC(=CC=1)OC)C(NC2=C3C(=C4C(C=CC=C4)=C2C)C(=O)CC3)=O
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.06627583503723145
+time ITS	0.012360811233520508
+time ISO	0.03995060920715332
+#	C12C(C(O)CC(=C3CCCC13)C)C(=CC)C(O2)=O>>CC1=C2CCCC3OC(=O)C(=CC)C(C23)C(O)C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03247570991516113
+time ITS	0.006936788558959961
+time ISO	0.014780282974243164
+#	COC.FB(F)F>>F[B-](F)(F)[O+](C)C
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.00912165641784668
+time ITS	0.0024347305297851562
+time ISO	0.010344743728637695
+#	C=1C=CC(=CC=1)COC=2C(=CC(O)=C(C=2)C#CC3=C(C=C(C=C3OCC4=CC=CC=C4)OC)OCC5=CC=CC=C5)OCC6=CC=CC=C6.CO.[C-]#[O+]>>C1=CC(COC2=CC3=C(OC(C=4C(=CC(=CC=4OCC5=CC=CC=C5)OC)OCC=6C=CC=CC=6)=C3C(OC)=O)C=C2OCC=7C=CC=CC=7)=CC=C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.6045372486114502
+time ITS	0.03837847709655762
+time ISO	0.6469511985778809
+#	C1(C)=CN(C(=O)NC1=O)C.C1(C)=CN(C(=O)NC1=O)C>>C1(C2N(C)C(=O)NC(=O)C2(O)C)=NC(N(C=C1C)C)=O
+maps given	4
+classes AUX	3
+classes ITS	3
+classes ISO	3
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.029019594192504883
+time ITS	0.008855342864990234
+time ISO	0.019419193267822266
+#	C1CC(C(C)CC=CC(C)=C)C=2C(C(=C(C(C=2C1C)=O)OC)C)=O>>C1(C23C4(C(CC(C4CCC2C)C)C=C(C3)C)C(=O)C(=C1OC)C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.04132986068725586
+time ITS	0.012781620025634766
+time ISO	0.014380693435668945
+#	CC1(C)CC23CCCC13C4OC(=O)C2CC4>>CC1(C)C2CCC3C4(CCCC24OC3=O)C1
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.03012537956237793
+time ITS	0.007718563079833984
+time ISO	0.016175270080566406
+#	C(O)(CC)C>>C(C)C(C)=O
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.005908489227294922
+time ITS	0.0018157958984375
+time ISO	0.0016858577728271484
+#	C=1C(=C(C=C(Br)C=1)C=2N=NNN=2)N.FC(F)(F)C=1C=C(C(F)(F)F)C=C(C=1)N=C=S>>FC(F)(F)C1=CC(NC(=S)NC=2C=CC(Br)=CC=2C3=NNN=N3)=CC(=C1)C(F)(F)F
+maps given	4
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.05238628387451172
+time ITS	0.015946626663208008
+time ISO	0.5617070198059082
+#	C(C1=CC=CO1)N.CC(C)(C)C1=CC=C(C=C1)CN=C=S>>CC(C)(C)C1=CC=C(C=C1)CNC(=S)NCC2=CC=CO2
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.08466506004333496
+time ITS	0.008908271789550781
+time ISO	0.10872697830200195
+#	C=C(C)C(=C)C.C=CC#N>>C1(CCC(=C(C)C1)C)C#N
+maps given	4
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.014351367950439453
+time ITS	0.0038340091705322266
+time ISO	0.008694648742675781
