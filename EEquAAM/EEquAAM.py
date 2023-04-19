@@ -154,7 +154,7 @@ if(len(argv) in [2, 3]):
         if(".smiles" in argv[1]):
             remainder = (argv[1].split(".smiles"))[-1]
             if(not remainder == ""):
-                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = "\n >> EEquAAM: Wrong input extension.\n"
                 errorStr = errorStr + "- Expected: *.smiles\n"
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
@@ -167,7 +167,7 @@ if(len(argv) in [2, 3]):
         if((argv[1] == "--sanity-check") and (".smiles" in argv[2])):
             remainder = (argv[2].split(".smiles"))[-1]
             if(not remainder == ""):
-                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = "\n >> EEquAAM: Wrong input extension.\n"
                 errorStr = errorStr + "- Expected: *.smiles\n"
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
