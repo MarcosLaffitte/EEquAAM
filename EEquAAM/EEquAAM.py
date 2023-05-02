@@ -64,7 +64,9 @@
 #    Log_10 of time; linear time is always included in the summary. The last   #
 #    two files are reactions whose maps were all equivalent (out_alleq) and    #
 #    the reactions with non-equivalent maps (out_noneq). These files are       #
-#    printed only if reactions of the two types were found in the input file.  #
+#    printed only if reactions of the two types were found in the input file,  #
+#    and they are printed out in the same format as the input file, but with   #
+#    *.txt extension so that they don't get confused with the input file.      #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
 #      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
