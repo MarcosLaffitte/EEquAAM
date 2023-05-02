@@ -61,7 +61,10 @@
 #    well as the number of equivalence classes found and the time (seconds)    #
 #    taken by each method for each reaction. Note that the equivalence classes #
 #    of the atom maps can be retrieved from the PKL's. The time boxplots show  #
-#    Log_10 of time; linear time is always included in the summary.            #
+#    Log_10 of time; linear time is always included in the summary. The last   #
+#    two files are reactions whose maps were all equivalent (out_alleq) and    #
+#    the reactions with non-equivalent maps (out_noneq). These files are       #
+#    printed only if reactions of the two types were found in the input file.  #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
 #      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
@@ -73,6 +76,8 @@
 #    (3) myFile_aam_its.pkl                                                    #
 #    (4) myFile_aam_iso.pkl      (only with --sanity-check option)             #
 #    (5) myFile_aam_summary.txt  (tab separated file, may be changed in-code)  #
+#    (6) myFile_aam_out_alleq.txt                                              #
+#    (7) myFile_aam_out_noneq.txt                                              #
 #                                                                              #
 #  - Notes:                                                                    #
 #                                                                              #
@@ -154,7 +159,7 @@ if(len(argv) in [2, 3]):
         if(".smiles" in argv[1]):
             remainder = (argv[1].split(".smiles"))[-1]
             if(not remainder == ""):
-                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = "\n >> EEquAAM: Wrong input extension.\n"
                 errorStr = errorStr + "- Expected: *.smiles\n"
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
@@ -167,7 +172,7 @@ if(len(argv) in [2, 3]):
         if((argv[1] == "--sanity-check") and (".smiles" in argv[2])):
             remainder = (argv[2].split(".smiles"))[-1]
             if(not remainder == ""):
-                errorStr = "\n >> MappingTool: Wrong input extension.\n"
+                errorStr = "\n >> EEquAAM: Wrong input extension.\n"
                 errorStr = errorStr + "- Expected: *.smiles\n"
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
@@ -186,6 +191,8 @@ outputFileNamePklCGR = inputFileName.replace(".smiles", "_its.pkl")
 outputFileNamePklISO = inputFileName.replace(".smiles", "_iso.pkl")
 outputFileNameSummary = inputFileName.replace(".smiles", "_summary.txt")
 outputFileNameBoxPlot = inputFileName.replace(".smiles", "_times.pdf")
+outputFileNameAllEq = inputFileName.replace(".smiles", "_out_alleq.txt")
+outputFileNameNonEq = inputFileName.replace(".smiles", "_out_noneq.txt")
 outputFile = None
 summaryOutput = ""
 subsetsOutput = ""
@@ -205,6 +212,8 @@ resultsISO = dict()
 graphsByMap = dict()
 mappedSMILES = dict()
 originalSMILES = dict()
+withEqMaps = []
+withNonEqMaps = []
 # graphs
 G = None
 H = None
@@ -779,8 +788,8 @@ print("* making summary ...")
 dataStr = ""
 summaryOutput = ""
 sep = "\t"
-totEquivalent = 0
-totNotEquivalent = 0
+withEqMaps = []
+withNonEqMaps = []
 # add lines per reaction
 for eachReaction in list(graphsByMap.keys()):
     # add reaction smiles
@@ -815,11 +824,11 @@ for eachReaction in list(graphsByMap.keys()):
     if(max([classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]]) == 1):
         dataStr = "equivalent maps"
         rB = "equivalent maps"
-        totEquivalent = totEquivalent + 1        
+        withEqMaps.append(eachReaction)
     else:
         dataStr = "not equivalent maps"
         rB = "not equivalent maps"
-        totNotEquivalent = totNotEquivalent + 1
+        withNonEqMaps.append(eachReaction)
     summaryOutput = summaryOutput + "result ITS" + sep + dataStr + "\n"
     # add result ISO
     if(sanityCheck):    
@@ -846,13 +855,42 @@ for eachReaction in list(graphsByMap.keys()):
         if(len(list(set([cA, cB, cC]))) > 1):
             print("*** Wrong, please check:", eachReaction, list(set([rA, rB, rC])), list(set([cA, cB, cC])))
 # add super-summary at the beginning of summary
-superSummary = "+++ Total of reactions with equivalent maps: " + str(totEquivalent) + "\n"
-superSummary = superSummary + "+++ Total of reactions with non-equivalent maps: " + str(totNotEquivalent) + "\n"
+superSummary = "+++ Total of reactions with equivalent maps: " + str(len(withEqMaps)) + "\n"
+superSummary = superSummary + "+++ Total of reactions with non-equivalent maps: " + str(len(withNonEqMaps)) + "\n"
 summaryOutput = superSummary + summaryOutput
 # save summary
 outputFile = open(outputFileNameSummary, "w")
 outputFile.writelines(summaryOutput)
 outputFile.close()
+
+
+# task message
+if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):    
+    print("* saving reactions ...")
+
+
+# print reactions with all equivalent maps and with non-equivalent maps
+if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
+    # reactions with all equivalent maps
+    print("- whose maps where all equivalent (_out_alleq.txt): " + str(len(withEqMaps)))
+    outText = ""    
+    for eachReaction in withEqMaps:
+        outText = outText + "#," + eachReaction + "\n"
+        for i in range(len(originalSMILES[eachReaction])):
+            outText = outText + originalSMILES[eachReaction][i][0] + "," + originalSMILES[eachReaction][i][1] + "\n"
+    outputFile = open(outputFileNameAllEq, "w")
+    outputFile.writelines(outText)
+    outputFile.close()
+    # reactions with non-equivalent maps
+    print("- with non-equivalent maps (_out_noneq.txt): " + str(len(withNonEqMaps)))
+    outText = ""    
+    for eachReaction in withNonEqMaps:
+        outText = outText + "#," + eachReaction + "\n"
+        for i in range(len(originalSMILES[eachReaction])):
+            outText = outText + originalSMILES[eachReaction][i][0] + "," + originalSMILES[eachReaction][i][1] + "\n"
+    outputFile = open(outputFileNameNonEq, "w")
+    outputFile.writelines(outText)
+    outputFile.close()
 
 
 # task message
