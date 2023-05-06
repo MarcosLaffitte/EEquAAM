@@ -64,7 +64,9 @@
 #    Log_10 of time; linear time is always included in the summary. The last   #
 #    two files are reactions whose maps were all equivalent (out_alleq) and    #
 #    the reactions with non-equivalent maps (out_noneq). These files are       #
-#    printed only if reactions of the two types were found in the input file.  #
+#    printed only if reactions of the two types were found in the input file,  #
+#    and they are printed out in the same format as the input file, but with   #
+#    *.txt extension so that they don't get confused with the input file.      #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
 #      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
@@ -110,6 +112,7 @@
 ***** pysmiles 1.0.2
 ***** networkx 2.8.4
 ***** matplotlib 3.5.2
+***** rdkit 2022.9.3
 """
 
 
@@ -119,6 +122,7 @@
 # installed with conda ---------------------------------------------------------
 import pysmiles as ps
 import networkx as nx
+from rdkit import Chem
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf
 from networkx.algorithms import isomorphism
@@ -137,9 +141,12 @@ from math import factorial, modf, log10
 # turn off warnings and matplotlib to run in the server ------------------------
 import warnings
 import logging
+from rdkit import RDLogger
 matplotlib.use("Agg")
 warnings.filterwarnings("ignore")
 logging.getLogger("pysmiles").setLevel(logging.CRITICAL)
+lg = RDLogger.logger()
+lg.setLevel(RDLogger.CRITICAL)
 
 
 # variables ####################################################################
@@ -660,7 +667,9 @@ for eachReaction in list(mappedSMILES.keys()):
         G = nx.Graph()
         for eachReactant in reactantsList:
             # read smiles into networkx graph
-            molecule = ps.read_smiles(eachReactant)
+            tempMol = Chem.MolFromSmiles(eachReactant)
+            tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
+            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)
             # rename vertices using atom map            
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
@@ -670,8 +679,10 @@ for eachReaction in list(mappedSMILES.keys()):
         productsList = productsSide.split(".")        
         H = nx.Graph()
         for eachProduct in productsList:
-            # read smiles into networkx graph            
-            molecule = ps.read_smiles(eachProduct)
+            # read smiles into networkx graph
+            tempMol = Chem.MolFromSmiles(eachProduct)
+            tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
+            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)            
             # rename vertices using atom map            
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
