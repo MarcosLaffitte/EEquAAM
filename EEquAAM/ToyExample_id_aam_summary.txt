@@ -8,9 +8,9 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.009325027465820312
-time ITS	0.004010915756225586
-time ISO	0.007855415344238281
+time AUX	0.009160280227661133
+time ITS	0.0029854774475097656
+time ISO	0.007988214492797852
 #,reaction_2
 maps given	3
 classes AUX	2
@@ -19,9 +19,9 @@ classes ISO	2
 result AUX	not equivalent maps
 result ITS	not equivalent maps
 result ISO	not equivalent maps
-time AUX	0.010233163833618164
-time ITS	0.0024073123931884766
-time ISO	0.004149198532104492
+time AUX	0.00907754898071289
+time ITS	0.0019390583038330078
+time ISO	0.0035004615783691406
 #,reaction_5
 maps given	3
 classes AUX	1
@@ -30,9 +30,9 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.004084587097167969
-time ITS	0.0016994476318359375
-time ISO	0.0019631385803222656
+time AUX	0.004053831100463867
+time ITS	0.0013227462768554688
+time ISO	0.0014798641204833984
 #,reaction_6
 maps given	3
 classes AUX	2
@@ -41,9 +41,9 @@ classes ISO	2
 result AUX	not equivalent maps
 result ITS	not equivalent maps
 result ISO	not equivalent maps
-time AUX	0.010412931442260742
-time ITS	0.0027904510498046875
-time ISO	0.00399470329284668
+time AUX	0.010423421859741211
+time ITS	0.002161741256713867
+time ISO	0.0038263797760009766
 #,reaction_10
 maps given	3
 classes AUX	1
@@ -52,6 +52,6 @@ classes ISO	1
 result AUX	equivalent maps
 result ITS	equivalent maps
 result ISO	equivalent maps
-time AUX	0.008815288543701172
-time ITS	0.0033190250396728516
-time ISO	0.003891468048095703
+time AUX	0.009442567825317383
+time ITS	0.002292156219482422
+time ISO	0.003541707992553711
