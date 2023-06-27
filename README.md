@@ -146,3 +146,13 @@ conda env remove -n eequaam
 
 - General specifications on both anotated and unannotated SMILES<br/>
   http://opensmiles.org/opensmiles.html<br/>
+
+
+
+## LICENSE
+
+The programs in this repository are part of the work published in<br/>
+https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html<br/>
+and are released under<br/>
+<strong>MIT License Copyright (c) 2023 Marcos E. González Laffitte</strong><br/>
+See <a href="./LICENSE">LICENSE</a> file for full license details.
