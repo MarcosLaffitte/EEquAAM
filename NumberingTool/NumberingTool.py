@@ -54,10 +54,17 @@
 #                                                                              #
 #    * the output of this script is the input for MappingTool.py in the repo   #
 #                                                                              #
+#  --------------------------------------------------------------------------  #
 #                                                                              #
-#  - DISCLAIMER: This code is provided "AS IS". You may use it uder your own   #
-#    risk and consideration. This script was built for research purposes and   #
-#    its developers claim no responsabilty on further third-party use.         #
+# - LICENSE:                                                                   #
+#                                                                              #
+#   This file is part of the work published in                                 #
+#            https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html         #
+#   and it is released under                                                   #
+#            MIT License Copyright (c) 2023 Marcos E. González Laffitte        #
+#   See LICENSE file in                                                        #
+#            https://github.com/MarcosLaffitte/EEquAAM                         #
+#   for full license details.                                                  #
 #                                                                              #
 ################################################################################
 
