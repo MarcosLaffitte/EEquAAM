@@ -403,7 +403,7 @@ print(">>> MappingTool - EEquAAM Github Repository")
 
 # task message
 print("\n")
-print("* retreiving input file ...")
+print("* retrieving input file ...")
 
 
 # get reactions from input
