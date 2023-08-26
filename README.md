@@ -75,7 +75,7 @@ There you can find detailed information on the algorithms implemented here. This
 ```
 conda create -n eequaam python=3.9.13 networkx=2.8.4 matplotlib=3.5.2 numpy=1.21.5 beautifulsoup4=4.11.1
 ```
-###### 2) The activate the eequaam conda environment:
+###### 2) Then activate the eequaam conda environment:
 ```
 conda activate eequaam
 ```
