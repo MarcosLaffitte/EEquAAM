@@ -81,7 +81,7 @@ conda activate eequaam
 ```
 ###### 3) Install pip dependencies inside the eequaam conda environment:
 ```
-pip install pysmiles==1.0.2 rdkit==2022.9.3 chytorch-rxnmap==1.3 rxnmapper==0.2.4 && pip install --no-warn-conflicts transformers==4.24.0
+pip install pysmiles==1.0.2 rdkit==2022.9.3 rxnmapper==0.2.4 chytorch-rxnmap==1.3 chython==1.54 chytorch==1.27 torch==1.11.0 && pip install --no-warn-conflicts transformers==4.24.0
 ```
 ###### Remember to always activate the eequaam conda environment before using the programs in this repository.
 
