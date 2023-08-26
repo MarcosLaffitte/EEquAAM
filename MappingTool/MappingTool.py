@@ -137,12 +137,13 @@
 ***** rdkit 2022.9.3 (required by rxnmapper)
 ***** chytorch-rxnmap 1.3 
       (https://github.com/chython/chytorch-rxnmap)
-***** chython 1.50 
+***** chython 1.54
       (https://chython.readthedocs.io/en/latest/)
 ***** chytorch 1.27 
       (required by chytorch-rxnmap; https://github.com/chython/chytorch)
 ***** transformers 4.24.0 
       (mind the version by running: pip install transformers==4.24.0)
+***** torch 1.11.0
 > Java (OpenJDK) and Ubuntu [java --version]
 ***** openjdk 11.0.17 2022-10-18
 ***** OpenJDK Runtime Environment (build 11.0.17+8-post-Ubuntu-1ubuntu222.04)
