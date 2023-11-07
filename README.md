@@ -69,7 +69,7 @@ There you can find detailed information on the algorithms implemented here. This
 <img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="350"/>
 </p>
 <div align="center">
-**Figure 3 from [1]**<br/>
+<strong>Figure 3 from [1]</strong><br/>
 </div>
 
 
