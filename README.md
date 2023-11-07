@@ -64,6 +64,11 @@ This repository was developed as part of the contribution:
 There you can find detailed information on the algorithms implemented here. This work was developed for research purposes. Please cite as above if you find this work or these programs useful for your own research.
 </div>
 
+<p align="center">
+<img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="400"/>
+</p>
+
+
 
 ## Instructions
 
