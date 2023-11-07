@@ -61,11 +61,11 @@ This repository was developed as part of the contribution:
 > **Link:** https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html
 
 <div align="justify">
-There you can find detailed information on the algorithms implemented here. This work was developed for research purposes. Please cite as above if you find this work or these programs useful for your own research.
+There you can find detailed information on the algorithms implemented here. This work was developed for research purposes. Please cite as above if you find this work or these programs useful for your own research.<br/>
 </div>
 
 <p align="center">
-<img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="400"/>
+<img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="300"/>
 </p>
 
 
