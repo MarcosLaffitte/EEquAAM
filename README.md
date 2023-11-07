@@ -66,8 +66,11 @@ There you can find detailed information on the algorithms implemented here. This
 <br/>
 
 <p align="center">
-<img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="300"/>
+<img src="./ReadmeLogo/Figure_3_Comparison_of_Atom_Maps_MATCH.png" width="350"/>
 </p>
+<div align="center">
+**Figure 3 from [1]**<br/>
+</div>
 
 
 
