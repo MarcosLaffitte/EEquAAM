@@ -1,8 +1,0 @@
-none	15
-RXN	4
-RDT	2
-CHY	34
-RXN and RDT	14
-RXN and CHY	10
-RDT and CHY	12
-RXN and RDT and CHY	227
