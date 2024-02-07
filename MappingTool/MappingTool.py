@@ -42,7 +42,7 @@
 #    #,reaction_1                                                              #
 #    CCCCCCCCCC>>CCCCCCCCC.C                                                   #
 #    #,reaction_2                                                              #
-#    CCCCCCCCCC>>CCCC.CCCCCC                                                   # 
+#    CCCCCCCCCC>>CCCC.CCCCCC                                                   #
 #    ...                                                                       #
 #                                                                              #
 #  - Output: (1) plain-text (csv) *_aam.smiles file containing only those      #
@@ -135,13 +135,13 @@
 ***** pysmiles 1.0.2
 ***** rxnmapper 0.2.4
 ***** rdkit 2022.9.3 (required by rxnmapper)
-***** chytorch-rxnmap 1.3 
+***** chytorch-rxnmap 1.3
       (https://github.com/chython/chytorch-rxnmap)
 ***** chython 1.54
       (https://chython.readthedocs.io/en/latest/)
-***** chytorch 1.27 
+***** chytorch 1.27
       (required by chytorch-rxnmap; https://github.com/chython/chytorch)
-***** transformers 4.24.0 
+***** transformers 4.24.0
       (mind the version by running: pip install transformers==4.24.0)
 ***** torch 1.11.0
 > Java (OpenJDK) and Ubuntu [java --version]
@@ -198,7 +198,7 @@ if(".smiles" in argv[1]):
 else:
     exit("\n >> MappingTool: missing *.smiles extension.\n")
 
-    
+
 # output -----------------------------------------------------------------------
 outputFileName = inputFileName.replace(".smiles", "_aam.smiles")
 outputFileNameBad = inputFileName.replace(".smiles", "_unsuitable.smiles")
@@ -208,6 +208,8 @@ outputStr = ""
 fileContent = []
 inputSMILES = dict()
 outputFile = None
+thisScriptDir = ""
+relativeRDT = ""
 
 
 # data -------------------------------------------------------------------------
@@ -247,7 +249,7 @@ def printProgress(casePercentage, caseNum, totCases):
     tail = "".join(10*[" "])
     base = "-"
     done = "="
-    bar = ""        
+    bar = ""
     pile = []
     finished = ""
     percentageInt = 0
@@ -260,7 +262,7 @@ def printProgress(casePercentage, caseNum, totCases):
             pile.append(base)
     finished = "".join(pile)
     bar = "- progress:   0%  [" + finished + "]  100%" + " ;  done: " + str(caseNum) + " / " + str(totCases)
-    # message    
+    # message
     print(bar + tail, end = "\r")
 
 
@@ -271,7 +273,7 @@ def isAnnotated(someSMILES):
     reactants = []
     products = []
     previousMap = dict()
-    annotatedAns = False        
+    annotatedAns = False
     # check if reactants are annotated
     reactants = list((someSMILES.split(">>")[0]).split("."))
     for eachReactant in reactants:
@@ -281,7 +283,7 @@ def isAnnotated(someSMILES):
         previousMap = nx.get_node_attributes(mol, "class")
         if(len(list(previousMap.keys())) > 0):
             annotatedAns = True
-            break                        
+            break
     # check if products are annotated
     if(not annotatedAns):
         products = list((someSMILES.split(">>")[1]).split("."))
@@ -292,11 +294,11 @@ def isAnnotated(someSMILES):
             previousMap = nx.get_node_attributes(mol, "class")
             if(len(list(previousMap.keys())) > 0):
                 annotatedAns = True
-                break                                
+                break
     # end of function
     return(annotatedAns)
 
-    
+
 # function: determin if a given reaction SMILES is balanced --------------------
 def isBalanced(someSMILES):
     # local variables
@@ -306,11 +308,11 @@ def isBalanced(someSMILES):
     typesR = dict()
     typesP = dict()
     chemElement = dict()
-    balancedAns = True        
+    balancedAns = True
     # only carbon and heteroatoms are considered for balance-check
     # aam of e.g. protons [H+] depends on input SMILES and mappers
-    ignoreElements = ["H"]        
-    # get number of non-hydrogen atoms in reactants    
+    ignoreElements = ["H"]
+    # get number of non-hydrogen atoms in reactants
     reactants = list((someSMILES.split(">>")[0]).split("."))
     for eachReactant in reactants:
         # read smiles
@@ -331,8 +333,8 @@ def isBalanced(someSMILES):
         mol = ps.read_smiles(eachProduct)
         # obtain atom type and number per type
         chemElement = nx.get_node_attributes(mol, "element")
-        # the only atoms without element are "*" unknowns and thus they are not in the keys        
-        for atom in list(chemElement.keys()):        
+        # the only atoms without element are "*" unknowns and thus they are not in the keys
+        for atom in list(chemElement.keys()):
             if(not(chemElement[atom] in ignoreElements)):
                 if(chemElement[atom] in list(typesP.keys())):
                     typesP[chemElement[atom]] = typesP[chemElement[atom]] + 1
@@ -342,13 +344,13 @@ def isBalanced(someSMILES):
     intersecTypes = list(set(typesR.keys()).intersection(set(typesP.keys())))
     # case 1: element types appear, disappear or change, e.g. CN>>CNO or CNS>>CNP
     if(not (len(intersecTypes) == len(list(typesR.keys())) and len(intersecTypes) == len(list(typesP.keys())))):
-        balancedAns = False        
+        balancedAns = False
     else:
-        # case 2: number of elements of each type changes        
+        # case 2: number of elements of each type changes
         for eachType in intersecTypes:
             if(not typesR[eachType] == typesP[eachType]):
                 balancedAns = False
-                break    
+                break
     # end of function
     return(balancedAns)
 
@@ -380,7 +382,7 @@ def isEven(someMap):
         mol = ps.read_smiles(eachProduct)
         mapAttribute = nx.get_node_attributes(mol, "class")
         for atom in list(mol.nodes()):
-            atomsP = atomsP + 1            
+            atomsP = atomsP + 1
             if(atom in list(mapAttribute.keys())):
                 mappingP.append(mapAttribute[atom])
     mappingP.sort()
@@ -389,7 +391,7 @@ def isEven(someMap):
         completeAns = False
     else:
         if(not(len(mappingR) == atomsR and len(mappingR) == atomsP)):
-            completeAns = False            
+            completeAns = False
     # end of function
     return(completeAns)
 
@@ -434,8 +436,8 @@ for eachLine in inputLines:
         if(" " in eachLine):
             inputSMILES[currentReaction] = eachLine.split(" ")[0]
         else:
-            inputSMILES[currentReaction] = eachLine        
-        originalSMILES[currentReaction] = eachLine        
+            inputSMILES[currentReaction] = eachLine
+        originalSMILES[currentReaction] = eachLine
 
 
 # remove identifirs without reactions (if any)
@@ -445,8 +447,8 @@ for eachReaction in theList:
         print("--- Warning - found identifier without reaction - removing it:")
         print("--> " + eachReaction)
         inputSMILES.pop(eachReaction)
-        
-        
+
+
 # task message
 print("\n")
 print("* received " + str(len(list(inputSMILES.keys()))) + " reactions ...")
@@ -463,22 +465,22 @@ theList = list(inputSMILES.keys())
 for eachReaction in theList:
     if(not ">>" in inputSMILES[eachReaction]):
         badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
-        inputSMILES.pop(eachReaction)        
+        inputSMILES.pop(eachReaction)
     else:
         reactantSide = inputSMILES[eachReaction].split(">>")[0]
         productSide = inputSMILES[eachReaction].split(">>")[1]
-        if((reactantSide == "") or (productSide == "")):        
+        if((reactantSide == "") or (productSide == "")):
             badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
-            inputSMILES.pop(eachReaction)        
+            inputSMILES.pop(eachReaction)
         else:
             annotated = isAnnotated(inputSMILES[eachReaction])
             if(annotated):
                 badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
-                inputSMILES.pop(eachReaction)        
+                inputSMILES.pop(eachReaction)
             else:
-                balanced = isBalanced(inputSMILES[eachReaction])        
+                balanced = isBalanced(inputSMILES[eachReaction])
                 if(not balanced):
-                    unbalancedSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])        
+                    unbalancedSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
                     inputSMILES.pop(eachReaction)
     # print progress
     i = i + 1
@@ -498,7 +500,7 @@ if(len(list(badSMILES.keys())) > 0):
 # task message
 if(len(list(unbalancedSMILES.keys())) > 0):
     print("\n")
-    print("* found " + str(len(list(unbalancedSMILES.keys()))) + " UNBALANCED reaction SMILES.")    
+    print("* found " + str(len(list(unbalancedSMILES.keys()))) + " UNBALANCED reaction SMILES.")
     print("  - these cannot provide a (bijectve) atom-to-atom map")
     print("  - they will be included in the file *_unbalanced.similes")
     print("  - for more information see accompanying README")
@@ -528,12 +530,12 @@ for eachReaction in theList:
         if(" " in RXNaam):
             mapsRXN[eachReaction] = RXNaam.split(" ")[0]
         else:
-            mapsRXN[eachReaction] = RXNaam        
+            mapsRXN[eachReaction] = RXNaam
     except:
         mapsRXN[eachReaction] = deepcopy(inputSMILES[eachReaction])
-    # print progress    
+    # print progress
     i = i + 1
-    printProgress(round(i*100/len(theList), 2), i, len(theList))    
+    printProgress(round(i*100/len(theList), 2), i, len(theList))
 
 
 # task message
@@ -543,13 +545,19 @@ if(len(list(inputSMILES.keys())) > 0):
     print("* (takes the longest time out of the three mappers)")
 
 
+# get relative path of this script in order to call RDT in the same folder
+thisScriptDir = os.path.dirname(__file__)
+relativeRDT = os.path.join(thisScriptDir, "RDT_2.4.1.jar")
+
+
 # call RDT (in silet mode)
 i = 0
 theList = list(inputSMILES.keys())
 for eachReaction in theList:
     # map reaction if possible
     try:
-        os.system("nohup java -jar RDT_2.4.1.jar -Q SMI -q " + "\"" + inputSMILES[eachReaction] + "\"" + " -c -j AAM -f TEXT >/dev/null 2>&1")
+        # os.system("nohup java -jar RDT_2.4.1.jar -Q SMI -q " + "\"" + inputSMILES[eachReaction] + "\"" + " -c -j AAM -f TEXT >/dev/null 2>&1")
+        os.system("nohup java -jar " + relativeRDT + " -Q SMI -q " + "\"" + inputSMILES[eachReaction] + "\"" + " -c -j AAM -f TEXT >/dev/null 2>&1")
         inputFile = open("ECBLAST_smiles_AAM.txt", "r")
         RDTaam = (inputFile.read().splitlines())[3]
         inputFile.close()
@@ -563,7 +571,7 @@ for eachReaction in theList:
         mapsRDT[eachReaction] = deepcopy(inputSMILES[eachReaction])
     # print progress
     i = i +1
-    printProgress(round(i*100/len(theList), 2), i, len(theList))    
+    printProgress(round(i*100/len(theList), 2), i, len(theList))
 
 
 # task message
@@ -583,14 +591,14 @@ for eachReaction in theList:
         CHYaam = format(myrxn, "m")
         if(" " in CHYaam):
             mapsCHY[eachReaction] = CHYaam.split(" ")[0]
-        else:       
+        else:
             mapsCHY[eachReaction] = CHYaam
     except:
         mapsCHY[eachReaction] = deepcopy(inputSMILES[eachReaction])
     # print progress
     i = i + 1
-    printProgress(round(i*100/len(theList), 2), i, len(theList))    
-   
+    printProgress(round(i*100/len(theList), 2), i, len(theList))
+
 
 # task message
 if(len(list(inputSMILES.keys())) > 0):
@@ -619,26 +627,26 @@ for eachReaction in incompleteMaps:
     mapsRXN.pop(eachReaction)
     mapsRDT.pop(eachReaction)
     mapsCHY.pop(eachReaction)
-    
+
 
 # task message
 print("\n")
 if(len(list(inputSMILES.keys())) > 0):
-    print("* saving results obtained with RXN, RDT and Graphormer ...")    
-    if(len(incompleteMaps) > 0):    
+    print("* saving results obtained with RXN, RDT and Graphormer ...")
+    if(len(incompleteMaps) > 0):
         print("- reactions with the 3 complete maps (*_aam.smiles): " + str(len(list(inputSMILES.keys()))))
         print("- reactions with some incomplete maps (*_uneven.simles): " + str(len(incompleteMaps)))
     else:
         print("- all suitable and balanced reactions were completely mapped (*_aam.smiles): " + str(len(list(inputSMILES.keys()))))
 else:
     print("- no suitable reactions with 3 complete maps were found; *_aam.similes file won't be generated")
-    
+
 
 # print results suitable
 if(len(list(inputSMILES.keys())) > 0):
     fileContent = []
-    outputStr = ""    
-    for eachReaction in list(inputSMILES.keys()):        
+    outputStr = ""
+    for eachReaction in list(inputSMILES.keys()):
         fileContent.append("#," + eachReaction + "\n")
         fileContent.append("RXNmap," + mapsRXN[eachReaction] + "\n")
         fileContent.append("RDTmap," + mapsRDT[eachReaction] + "\n")
@@ -647,13 +655,13 @@ if(len(list(inputSMILES.keys())) > 0):
     outputFile = open(outputFileName, "w")
     outputFile.write(outputStr)
     outputFile.close()
-        
+
 
 # print results unsuitable
 if(len(list(badSMILES.keys())) > 0):
     fileContent = []
-    outputStr = ""    
-    for eachReaction in list(badSMILES.keys()):        
+    outputStr = ""
+    for eachReaction in list(badSMILES.keys()):
         fileContent.append("#," + eachReaction + "\n")
         fileContent.append(originalSMILES[eachReaction] + "\n")
     outputStr = "".join(fileContent)
@@ -665,8 +673,8 @@ if(len(list(badSMILES.keys())) > 0):
 # print results unbalanced
 if(len(list(unbalancedSMILES.keys())) > 0):
     fileContent = []
-    outputStr = ""    
-    for eachReaction in list(unbalancedSMILES.keys()):        
+    outputStr = ""
+    for eachReaction in list(unbalancedSMILES.keys()):
         fileContent.append("#," + eachReaction + "\n")
         fileContent.append(originalSMILES[eachReaction] + "\n")
     outputStr = "".join(fileContent)
@@ -674,11 +682,11 @@ if(len(list(unbalancedSMILES.keys())) > 0):
     outputFile.write(outputStr)
     outputFile.close()
 
-    
+
 # print results uneven
 if(len(incompleteMaps) > 0):
     fileContent = []
-    outputStr = ""    
+    outputStr = ""
     for eachReaction in incompleteMaps:
         fileContent.append("#," + eachReaction + "\n")
         fileContent.append("RXNmap," + incompleteRXN[eachReaction] + "\n")
