@@ -1,4 +1,4 @@
-################################################################################
+#################################################################################
 #                                                                              #
 #  README - Program: EEquAAM.py                                                #
 #                                                                              #
@@ -36,14 +36,17 @@
 #      on the  other side, in other words, it is not a bijective atom-map.     #
 #    * the line with the identifier should always start with "#,"              #
 #    * there is no limit to the number of reactions that can be analized       #
-#    * the number of maps per rxn doesn't need to be the same for all rxns     #
-#    * identifiers of the mappers [RXNmap...] can be changend if needed, but   #
-#      should not be substituted by a single "#" symbol                        #
+#    * the number of atom-maps per reaction doesn't need to be the same for    #
+#      all reactions, and the program can receive an arbitrary number of maps  #
+#      for each reaction.                                                      #
+#    * the string names of the maps (RXNmap, RDTmap and CHYmap) are only for   #
+#      the purpose of the example and are not actually needed, they can be     #
+#      arbitrary defined, but should not be substituted by a single "#" symbol #
 #    * the id "reaction_i" is an arbitrary identifier and can be changed to be #
 #      e.g. the common name of a reaction, including more commas if needed     #
 #      but not newline characters "\n", i.e, this is a single line             #
-#    * this format is the output of the MappingTool found in the EEquAAM repo  #
-#      already implementing RXNmapper, RDT and GraphormerMapper                #
+#    * the output of the MappingTool found in the EEquAAM repo satsfies this   #
+#      format, which already implements RXNmapper, RDT and GraphormerMapper    #
 #    * general specifications on both anotated and unmapped SMILES strings     #
 #      can be found at: http://opensmiles.org/opensmiles.html                  #
 #                                                                              #
