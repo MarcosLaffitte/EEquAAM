@@ -25,6 +25,11 @@
 #    CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]        #
 #    ...                                                                       #
 #                                                                              #
+#    * NOTE: atom maps can only be properly compared if they annotate balanced #
+#      reactions, see Paper above for details. Otherwise the atom-atom mapping #
+#      problem and your corresponding atom-maps may be subject to systematic   #
+#      errors not representative of the actual chemistry behind them.          #
+#                                                                              #
 #    * WARNING! if the program founds an INCOMPLETE map it will terminate      #
 #      before analyzing any reaction. An incomplete atom-map is that in which  #
 #      there are atoms on one side of the reaction not being mapped to atoms   #
@@ -177,7 +182,7 @@ if(len(argv) in [2, 3]):
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
             else:
-                inputFileName = argv[1]    
+                inputFileName = argv[1]
                 sanityCheck = False
         else:
             exit("\n >> EEquAAM: Wrong input format.\n")
@@ -190,10 +195,10 @@ if(len(argv) in [2, 3]):
                 errorStr = errorStr + "- Received: *.smiles" + remainder + "\n"
                 exit(errorStr)
             else:
-                inputFileName = argv[2]    
+                inputFileName = argv[2]
                 sanityCheck = True
         else:
-            exit("\n >> EEquAAM: Wrong input format.\n")                    
+            exit("\n >> EEquAAM: Wrong input format.\n")
 else:
     exit("\n >> EEquAAM: Wrong input format.\n")
 
@@ -248,7 +253,7 @@ def printProgress(casePercentage, caseNum, totCases):
     tail = "".join(10*[" "])
     base = "-"
     done = "="
-    bar = ""        
+    bar = ""
     pile = []
     finished = ""
     percentageInt = 0
@@ -261,7 +266,7 @@ def printProgress(casePercentage, caseNum, totCases):
             pile.append(base)
     finished = "".join(pile)
     bar = "- progress:   0%  [" + finished + "]  100%" + " ;  done: " + str(caseNum) + " / " + str(totCases)
-    # message    
+    # message
     print(bar + tail, end = "\r")
 
 
@@ -292,7 +297,7 @@ def isEven(someMap):
         mol = ps.read_smiles(eachProduct)
         mapAttribute = nx.get_node_attributes(mol, "class")
         for atom in list(mol.nodes()):
-            atomsP = atomsP + 1            
+            atomsP = atomsP + 1
             if(atom in list(mapAttribute.keys())):
                 mappingP.append(mapAttribute[atom])
     mappingP.sort()
@@ -301,32 +306,32 @@ def isEven(someMap):
         completeAns = False
     else:
         if(not(len(mappingR) == atomsR and len(mappingR) == atomsP)):
-            completeAns = False            
+            completeAns = False
     # end of function
     return(completeAns)
-    
+
 
 # function: obtain and compare auxiliary graphs --------------------------------
 def analyzeAuxiliaryGraphs(someResults):
     # local variables
     theClass = 0
     lastClass = 0
-    someClass = 0    
+    someClass = 0
     someID = ""
     someMap = ""
-    classified = []        
+    classified = []
     someTempAUX = []
     nodeLabelNames = []
     nodeLabelDefault = []
     nodeLabelOperator = []
     foundEquivalent = False
     nodeMatch = None
-    edgeMatch = None        
+    edgeMatch = None
     auxG = None
-    auxH = None    
+    auxH = None
     someG = None
     someH = None
-    someAUX = None    
+    someAUX = None
     namesG = dict()
     namesH = dict()
     coordG = dict()
@@ -374,7 +379,7 @@ def analyzeAuxiliaryGraphs(someResults):
             lastClass = theClass
         # save results
         classified.append((theClass, someID, someMap, someG, someH, someAUX))
-    # end of function    
+    # end of function
     return(classified)
 
 
@@ -383,13 +388,13 @@ def analyzeCGRs(someResults):
     # local variables
     theClass = 0
     lastClass = 0
-    someClass = 0    
+    someClass = 0
     someID = ""
     someMap = ""
     edgesG = []
     edgesH = []
-    edgesCGR = []    
-    classified = []        
+    edgesCGR = []
+    classified = []
     someTempCGR = []
     nodeLabelNames = []
     nodeLabelDefault = []
@@ -399,10 +404,10 @@ def analyzeCGRs(someResults):
     typesDict = dict()
     foundEquivalent = False
     nodeMatch = None
-    edgeMatch = None        
+    edgeMatch = None
     someG = None
     someH = None
-    someCGR = None    
+    someCGR = None
     # obtain CGRs
     for (someID, someMap, someG, someH) in someResults:
         # creat null from copy of G in order to preserve attributes
@@ -426,7 +431,7 @@ def analyzeCGRs(someResults):
             try:
                 chargeAttr = someG.nodes[v]["charge"]
             except:
-                chargeAttr = 0                
+                chargeAttr = 0
             typesG = (elementAttr, aromaticAttr, hcountAttr, chargeAttr)
             # get attributes in H or default if missing
             try:
@@ -444,11 +449,11 @@ def analyzeCGRs(someResults):
             try:
                 chargeAttr = someH.nodes[v]["charge"]
             except:
-                chargeAttr = 0                
+                chargeAttr = 0
             typesH = (elementAttr, aromaticAttr, hcountAttr, chargeAttr)
             # make new label to be preserved
             typesDict[v] = (typesG, typesH)
-        nx.set_node_attributes(someCGR, typesDict, "typesGH")        
+        nx.set_node_attributes(someCGR, typesDict, "typesGH")
         # copy original graphs
         edgesG = list(someG.edges())
         edgesH = list(someH.edges())
@@ -461,14 +466,14 @@ def analyzeCGRs(someResults):
                 if(((u, v) in edgesH) or ((v, u) in edgesH)):
                     if((u, v) in edgesH):
                         someLabel = (someG[u][v]["order"], someH[u][v]["order"])
-                        someCGR.add_edge(u, v, order = someLabel)                        
+                        someCGR.add_edge(u, v, order = someLabel)
                     if((v, u) in edgesH):
                         someLabel = (someG[u][v]["order"], someH[v][u]["order"])
                         someCGR.add_edge(u, v, order = someLabel)
-                # if not then add "*" to the H-part of the label 
+                # if not then add "*" to the H-part of the label
                 else:
                     someLabel = (someG[u][v]["order"], "*")
-                    someCGR.add_edge(u, v, order = someLabel)                        
+                    someCGR.add_edge(u, v, order = someLabel)
         # add edges from H
         for (u, v) in edgesH:
             # check if not already an edge of CGR
@@ -478,22 +483,22 @@ def analyzeCGRs(someResults):
                 if(((u, v) in edgesG) or ((v, u) in edgesG)):
                     if((u, v) in edgesG):
                         someLabel = (someG[u][v]["order"], someH[u][v]["order"])
-                        someCGR.add_edge(u, v, order = someLabel)                        
+                        someCGR.add_edge(u, v, order = someLabel)
                     if((v, u) in edgesG):
                         someLabel = (someG[v][u]["order"], someH[u][v]["order"])
                         someCGR.add_edge(u, v, order = someLabel)
-                # if not then add "*" to the G-part of the label 
+                # if not then add "*" to the G-part of the label
                 else:
                     someLabel = ("*", someH[u][v]["order"])
-                    someCGR.add_edge(u, v, order = someLabel)                        
+                    someCGR.add_edge(u, v, order = someLabel)
         # save auxiliary graph
-        someTempCGR.append((someID, someMap, someG, someH, someCGR))        
+        someTempCGR.append((someID, someMap, someG, someH, someCGR))
     # compare CGRs
     nodeLabelNames = ["element", "aromatic", "hcount", "charge", "typesGH"]
     nodeLabelDefault = ["*", False, 0, 0, ()]
     nodeLabelOperator = [eq, eq, eq, eq, eq]
     nodeMatch = generic_node_match(nodeLabelNames, nodeLabelDefault, nodeLabelOperator)
-    edgeMatch = generic_edge_match("order", 1, eq)   
+    edgeMatch = generic_edge_match("order", 1, eq)
     for (someID, someMap, someG, someH, someCGR) in someTempCGR:
         # restart control variables
         foundEquivalent = False
@@ -509,7 +514,7 @@ def analyzeCGRs(someResults):
             lastClass = theClass
         # save results
         classified.append((theClass, someID, someMap, someG, someH, someCGR))
-    # end of function    
+    # end of function
     return(classified)
 
 
@@ -518,7 +523,7 @@ def analyzeISOs(someResults):
     # local variables
     theClass = 0
     lastClass = 0
-    someClass = 0    
+    someClass = 0
     someID = ""
     someMap = ""
     classified = []
@@ -527,19 +532,19 @@ def analyzeISOs(someResults):
     nodeLabelOperator = []
     foundEquivalent = False
     nodeMatch = None
-    edgeMatch = None        
+    edgeMatch = None
     someG = None
     someH = None
     isoMatcherG = None
-    isoMatcherH = None    
+    isoMatcherH = None
     listIsosG = []
-    listIsosH = []    
+    listIsosH = []
     # obtain and compare ISOs
     nodeLabelNames = ["element", "aromatic", "hcount", "charge"]
     nodeLabelDefault = ["*", False, 0, 0]
     nodeLabelOperator = [eq, eq, eq, eq]
     nodeMatch = generic_node_match(nodeLabelNames, nodeLabelDefault, nodeLabelOperator)
-    edgeMatch = generic_edge_match("order", 1, eq)   
+    edgeMatch = generic_edge_match("order", 1, eq)
     for (someID, someMap, someG, someH) in someResults:
         # restart control variables
         foundEquivalent = False
@@ -548,7 +553,7 @@ def analyzeISOs(someResults):
             isoMatcherG = isomorphism.GraphMatcher(someG, someGc, node_match = nodeMatch, edge_match = edgeMatch)
             isoMatcherH = isomorphism.GraphMatcher(someH, someHc, node_match = nodeMatch, edge_match = edgeMatch)
             listIsosG = list(isoMatcherG.isomorphisms_iter())
-            listIsosH = list(isoMatcherH.isomorphisms_iter())                        
+            listIsosH = list(isoMatcherH.isomorphisms_iter())
             for isoG in listIsosG:
                 if(isoG in listIsosH):
                     foundEquivalent = True
@@ -562,7 +567,7 @@ def analyzeISOs(someResults):
             lastClass = theClass
         # save results
         classified.append((theClass, someID, someMap, someG, someH))
-    # end of function    
+    # end of function
     return(classified)
 
 
@@ -582,7 +587,7 @@ if(sanityCheck):
 else:
     print("\n+++++ running only ITS method (default)")
     print("+++++ for other options see accompanying README")
-    
+
 
 # task message
 print("\n")
@@ -626,7 +631,7 @@ for eachReaction in list(mappedSMILES.keys()):
         print("--> " + eachReaction)
         mappedSMILES.pop(eachReaction)
 
-        
+
 # task message
 print("\n")
 print("* received " + str(len(list(mappedSMILES.keys()))) + " reaction SMILES ...")
@@ -642,7 +647,7 @@ print("* evaluating that all the given atom maps are complete (bijective) ...")
 i = 0
 for [eachReaction, eachMap] in allMaps:
     even = isEven(eachMap[1])
-    if(not even):        
+    if(not even):
         answer = "***** Found an incomplete map, i.e., not bijective. Terminating before completing the analysis.\n"
         answer = answer + "***** This cannot be properly compared to other maps, please see accompanying literature.\n"
         answer = answer + "***** The incomplete map is the following...\n"
@@ -654,12 +659,12 @@ for [eachReaction, eachMap] in allMaps:
     i = i + 1
     printProgress(round(i*100/len(allMaps), 2), i, len(allMaps))
 
-    
+
 # task message
 print("\n")
 print("* all given maps are complete; building reactants-graph and products-graph ...")
 
-        
+
 # turn mapped smiles into networkx graphs G of reactants and H of products
 i = 0
 for eachReaction in list(mappedSMILES.keys()):
@@ -669,30 +674,30 @@ for eachReaction in list(mappedSMILES.keys()):
         reactantsSide = (eachMap[1].split(">>"))[0]
         productsSide = (eachMap[1].split(">>"))[1]
         # get reactants graph G
-        reactantsList = reactantsSide.split(".")        
+        reactantsList = reactantsSide.split(".")
         G = nx.Graph()
         for eachReactant in reactantsList:
             # read smiles into networkx graph
             tempMol = Chem.MolFromSmiles(eachReactant)
             tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
             molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)
-            # rename vertices using atom map            
+            # rename vertices using atom map
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
-            # make (disjoint) union over G            
+            # make (disjoint) union over G
             G = deepcopy(nx.union(G, molecule))
         # get products graph H
-        productsList = productsSide.split(".")        
+        productsList = productsSide.split(".")
         H = nx.Graph()
         for eachProduct in productsList:
             # read smiles into networkx graph
             tempMol = Chem.MolFromSmiles(eachProduct)
             tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
-            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)            
-            # rename vertices using atom map            
+            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)
+            # rename vertices using atom map
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
-            # make (disjoint) union over H            
+            # make (disjoint) union over H
             H = deepcopy(nx.union(H, molecule))
         # save map data
         tempResults.append((eachMap[0], eachMap[1], deepcopy(G), deepcopy(H)))
@@ -713,7 +718,7 @@ if(sanityCheck):
     for eachReaction in list(graphsByMap.keys()):
         initialTime = time.time()
         resultsAUX[eachReaction] = analyzeAuxiliaryGraphs(graphsByMap[eachReaction])
-        finalTime = time.time()    
+        finalTime = time.time()
         timeAUX[eachReaction] = finalTime-initialTime
         count = count + 1
         printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
@@ -721,20 +726,20 @@ if(sanityCheck):
 
 # task message
 print("\n")
-print("* running ITS: comparing imaginary transition state graphs of each reaction ...")    
+print("* running ITS: comparing imaginary transition state graphs of each reaction ...")
 # analyze CGRs for the maps of each reaction
 count = 0
 for eachReaction in list(graphsByMap.keys()):
     initialTime = time.time()
     resultsCGR[eachReaction] = analyzeCGRs(graphsByMap[eachReaction])
-    finalTime = time.time()    
+    finalTime = time.time()
     timeCGR[eachReaction] = finalTime-initialTime
     count = count + 1
     printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
 
 
 # ISO analysis
-if(sanityCheck):    
+if(sanityCheck):
     # task message
     print("\n")
     print("* running ISO: comparing isomorphisms associated to each reaction ...")
@@ -744,29 +749,29 @@ if(sanityCheck):
     for eachReaction in list(graphsByMap.keys()):
         initialTime = time.time()
         resultsISO[eachReaction] = analyzeISOs(graphsByMap[eachReaction])
-        finalTime = time.time()    
+        finalTime = time.time()
         timeISO[eachReaction] = finalTime-initialTime
         count = count + 1
         printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
-    
+
 
 # task message
 print("\n")
 print("* making boxplots ...")
 
-    
+
 # define data to plot
 if(sanityCheck):
-    logTimeCGR = [log10(t) for t in list(timeCGR.values())]    
+    logTimeCGR = [log10(t) for t in list(timeCGR.values())]
     logTimeISO = [log10(t) for t in list(timeISO.values())]
     logTimeAUX = [log10(t) for t in list(timeAUX.values())]
     timeData = [logTimeISO, logTimeAUX, logTimeCGR]
     timeLabels = [r"ISO-$\equiv$", r"AUX-$\Gamma$", r"ITS-$\Upsilon$"]
     whiskers = 1.25
     widthsBoxes = 0.4
-    hatchB = ["....", "////", "oo"]    
+    hatchB = ["....", "////", "oo"]
 else:
-    logTimeCGR = [log10(t) for t in list(timeCGR.values())]    
+    logTimeCGR = [log10(t) for t in list(timeCGR.values())]
     timeData = [logTimeCGR]
     timeLabels = [r"ITS-$\Upsilon$"]
     whiskers = 1.25
@@ -782,7 +787,7 @@ for i in range(len(bps["caps"])):
     bps["caps"][i].set(color = "dimgrey")
 for i in range(len(bps["boxes"])):
     bps["boxes"][i].set(facecolor = "w", edgecolor = "grey", hatch = hatchB[i])
-for i in range(len(bps["medians"])):    
+for i in range(len(bps["medians"])):
     bps["medians"][i].set(color = "dimgrey")
 for i in range(len(bps["whiskers"])):
     bps["whiskers"][i].set(color = "dimgrey")
@@ -818,18 +823,18 @@ for eachReaction in list(graphsByMap.keys()):
     if(sanityCheck):
         dataStr = str(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]))
         cA = int(dataStr)
-        summaryOutput = summaryOutput + "classes AUX" + sep + dataStr + "\n"    
+        summaryOutput = summaryOutput + "classes AUX" + sep + dataStr + "\n"
     # add number of classes obtained when comparing CGRs
     dataStr = str(max([classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]]))
     cB = int(dataStr)
     summaryOutput = summaryOutput + "classes ITS" + sep + dataStr + "\n"
     # add number of classes obtained when comparing ISOs
-    if(sanityCheck):    
+    if(sanityCheck):
         dataStr = str(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]))
         cC = int(dataStr)
-        summaryOutput = summaryOutput + "classes ISO" + sep + dataStr + "\n"    
+        summaryOutput = summaryOutput + "classes ISO" + sep + dataStr + "\n"
     # add result AUX
-    if(sanityCheck):    
+    if(sanityCheck):
         if(max([classR for (classR, idR, mapR, GR, HR, auxR) in resultsAUX[eachReaction]]) == 1):
             dataStr = "equivalent maps"
             rA = "equivalent maps"
@@ -848,23 +853,23 @@ for eachReaction in list(graphsByMap.keys()):
         withNonEqMaps.append(eachReaction)
     summaryOutput = summaryOutput + "result ITS" + sep + dataStr + "\n"
     # add result ISO
-    if(sanityCheck):    
+    if(sanityCheck):
         if(max([classR for (classR, idR, mapR, GR, HR) in resultsISO[eachReaction]]) == 1):
             dataStr = "equivalent maps"
             rC = "equivalent maps"
         else:
             dataStr = "not equivalent maps"
             rC = "not equivalent maps"
-        summaryOutput = summaryOutput + "result ISO" + sep + dataStr + "\n"    
+        summaryOutput = summaryOutput + "result ISO" + sep + dataStr + "\n"
     # add time AUX
-    if(sanityCheck):    
+    if(sanityCheck):
         dataStr = str(timeAUX[eachReaction])
         summaryOutput = summaryOutput + "time AUX" + sep + dataStr + "\n"
-    # add time CGR        
+    # add time CGR
     dataStr = str(timeCGR[eachReaction])
     summaryOutput = summaryOutput + "time ITS" + sep + dataStr + "\n"
     # add time ISO
-    if(sanityCheck):    
+    if(sanityCheck):
         dataStr = str(timeISO[eachReaction])
         summaryOutput = summaryOutput + "time ISO" + sep + dataStr + "\n"
     # consistency info
@@ -882,7 +887,7 @@ outputFile.close()
 
 
 # task message
-if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):    
+if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
     print("* saving reactions ...")
 
 
@@ -890,7 +895,7 @@ if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
 if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
     # reactions with all equivalent maps
     print("- whose maps where all equivalent (_out_alleq.txt): " + str(len(withEqMaps)))
-    outText = ""    
+    outText = ""
     for eachReaction in withEqMaps:
         outText = outText + "#," + eachReaction + "\n"
         for i in range(len(originalSMILES[eachReaction])):
@@ -900,7 +905,7 @@ if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
     outputFile.close()
     # reactions with non-equivalent maps
     print("- with non-equivalent maps (_out_noneq.txt): " + str(len(withNonEqMaps)))
-    outText = ""    
+    outText = ""
     for eachReaction in withNonEqMaps:
         outText = outText + "#," + eachReaction + "\n"
         for i in range(len(originalSMILES[eachReaction])):
