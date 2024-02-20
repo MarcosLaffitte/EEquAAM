@@ -21,7 +21,7 @@ CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 ...
 ```
 
-- Output:<br/>
+- Output (includes):<br/>
 
 a) [*_aam_summary.txt]: total of reactions with equivalent and non-equivalent mappings.<br/>
 
