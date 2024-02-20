@@ -97,7 +97,7 @@
 #      for these cases. For a full discussion on this see the cited paper.     #
 #                                                                              #
 #    * WARNING! if the program founds an INCOMPLETE map it will terminate      #
-#      before analyzing any reaction                                           #
+#      before analyzing any reaction.                                          #
 #                                                                              #
 #    * WARNING! identifiers without maps wont be considered for analysis       #
 #                                                                              #
