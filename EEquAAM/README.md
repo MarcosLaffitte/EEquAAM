@@ -25,9 +25,11 @@ CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 
 a) [*_aam_summary.txt]: total of reactions with equivalent and non-equivalent mappings.<br/>
 
-b) [_aam_out_alleq.txt] and [_aam_out_noneq.txt]: reactions with all equivalent maps and with some non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
+b) [_aam_out_alleq.txt]: reactions with all equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
 
-c) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare the provided atom maps.<br/>
+c) [_aam_out_noneq.txt]: reactions with some non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
+
+d) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare the provided atom maps.<br/>
 
 
 - Input options:
