@@ -681,9 +681,14 @@ for eachReaction in list(mappedSMILES.keys()):
         G = nx.Graph()
         for eachReactant in reactantsList:
             # read smiles into networkx graph
-            tempMol = Chem.MolFromSmiles(eachReactant)
-            tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
-            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)
+            tempMol = Chem.MolFromSmiles(eachReactant, sanitize = True)
+            tempMolStr = Chem.MolToSmiles(tempMol,
+                                          canonical = True,
+                                          kekuleSmiles = False,
+                                          allHsExplicit = True)
+            molecule = ps.read_smiles(tempMolStr,
+                                      explicit_hydrogen = False,
+                                      reinterpret_aromatic = False)
             # rename vertices using atom map
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
@@ -694,9 +699,14 @@ for eachReaction in list(mappedSMILES.keys()):
         H = nx.Graph()
         for eachProduct in productsList:
             # read smiles into networkx graph
-            tempMol = Chem.MolFromSmiles(eachProduct)
-            tempMolStr = Chem.MolToSmiles(tempMol, canonical = True)
-            molecule = ps.read_smiles(tempMolStr, reinterpret_aromatic = False)
+            tempMol = Chem.MolFromSmiles(eachProduct, sanitize = True)            
+            tempMolStr = Chem.MolToSmiles(tempMol,
+                                          canonical = True,
+                                          kekuleSmiles = False,
+                                          allHsExplicit = True)            
+            molecule = ps.read_smiles(tempMolStr,
+                                      explicit_hydrogen = False,
+                                      reinterpret_aromatic = False)            
             # rename vertices using atom map
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
