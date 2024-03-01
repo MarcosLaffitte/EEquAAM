@@ -919,7 +919,6 @@ if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
 
 # print reactions with all equivalent maps
 if(len(withEqMaps) > 0):
-    # reactions with all equivalent maps
     outText = ""
     for eachReaction in withEqMaps:
         outText = outText + "#," + eachReaction + "\n"
@@ -932,7 +931,6 @@ if(len(withEqMaps) > 0):
 
 # print reactions with non-equivalent maps
 if(len(withNonEqMaps) > 0):
-    # reactions with non-equivalent maps
     outText = ""
     for eachReaction in withNonEqMaps:
         outText = outText + "#," + eachReaction + "\n"
