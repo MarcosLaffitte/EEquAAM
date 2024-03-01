@@ -1,0 +1,57 @@
++++ Total of reactions with equivalent maps: 3
++++ Total of reactions with non-equivalent maps: 2
+#,reaction_1
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.01855611801147461
+time ITS	0.006596803665161133
+time ISO	0.015402555465698242
+#,reaction_2
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01789712905883789
+time ITS	0.004232883453369141
+time ISO	0.00708460807800293
+#,reaction_5
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.008612632751464844
+time ITS	0.0027353763580322266
+time ISO	0.0024230480194091797
+#,reaction_6
+maps given	3
+classes AUX	2
+classes ITS	2
+classes ISO	2
+result AUX	not equivalent maps
+result ITS	not equivalent maps
+result ISO	not equivalent maps
+time AUX	0.01949620246887207
+time ITS	0.00455164909362793
+time ISO	0.007420063018798828
+#,reaction_10
+maps given	3
+classes AUX	1
+classes ITS	1
+classes ISO	1
+result AUX	equivalent maps
+result ITS	equivalent maps
+result ISO	equivalent maps
+time AUX	0.016533374786376953
+time ITS	0.005054473876953125
+time ISO	0.006993293762207031
