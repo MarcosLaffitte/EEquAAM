@@ -60,20 +60,35 @@
 #                                                                              #
 #  - Input: plain-text csv *_aam.smiles file as specified above.               #
 #                                                                              #
-#  - Output: (1) pdf with the mentioned time (seconds) boxplots. (2) pkl with  #
-#    the auxiliary graphs and equivalence classes found by AUX. (3) pkl with   #
-#    the condensed graphs of the reaction and the equivalence classes found by #
-#    the CGR method. (4) pkl with the reactants graph G, the products graph H  #
-#    and the equivalence classes found by ISO. (5) a txt file with a summary   #
-#    indicating if the atom maps where equivalent or not under each method, as #
-#    well as the number of equivalence classes found and the time (seconds)    #
-#    taken by each method for each reaction. Note that the equivalence classes #
-#    of the atom maps can be retrieved from the PKL's. The time boxplots show  #
-#    Log_10 of time; linear time is always included in the summary. The last   #
-#    two files (6-7) are reactions whose maps were all equivalent (_out_alleq) #
-#    and the reactions with non-equivalent maps (_out_noneq). These files are  #
-#    printed only if reactions of the two types were found in the input file,  #
-#    and they are printed out in the same format as the input file.            #
+#  - Output: (1) pdf with the mentioned time (seconds) boxplots. (2) a txt     #
+#    file with a summary indicating if the atom maps where equivalent or not   #
+#    under each method, as well as the number of equivalence classes found and #
+#    the time (seconds) taken by each method for each reaction. Note that the  #
+#    equivalence classes of the atom maps can be retrieved from the PKL's. The #
+#    time boxplots show Log_10 of time; linear time is always included in the  #
+#    summary. The last two files (3) are reactions whose maps were all         #
+#    equivalent (_out_alleq) and (4) the reactions with non-equivalent maps    #
+#    (_out_noneq). These files are printed only if reactions of the two types  #
+#    were found in the input file, and they are printed out in the same format #
+#    as the input file. In particular, the file (4) displays the equivalence   #
+#    classes of the maps for each reaction, as in the following example:       #
+#                                                                              #
+#    #,reaction_1                                                              #
+#    (1),RXNmap,[CH3:1][...][CH:8]>>[CH3:1][...][CH3:9].[CH4:8]                #
+#    (2),RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2]                #
+#    (1),CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH4:6]                #
+#    #,reaction_2                                                              #
+#    (1),RXNmap,[CH3:1][...][CH:8]>>[CH3:1][...][CH3:4].[CH3:5][...][CH4:8]    #
+#    (2),RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]    #
+#    (3),CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]    #
+#    ...                                                                       #
+#                                                                              #
+#    where the numer between parenthesis in the lines with the maps depicts    #
+#    the equivalence class of such map, meaning, for example, that for         #
+#    reaction_1, the maps RXNmap and CHYmap are equivalent to each other but   #
+#    not with RDTmap, while for reaction_2 the three given maps are all        #
+#    non-equivalent. Note that maps of each reaction in file (3) do not need   #
+#    an specification like this because they all are in the same eq class.     #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
 #      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
@@ -81,12 +96,9 @@
 #                                                                              #
 #  - Expected output:                                                          #
 #    (1) myFile_aam_times.pdf                                                  #
-#    (2) myFile_aam_aux.pkl      (only with --sanity-check option)             #
-#    (3) myFile_aam_its.pkl                                                    #
-#    (4) myFile_aam_iso.pkl      (only with --sanity-check option)             #
-#    (5) myFile_aam_summary.txt  (tab separated file, may be changed in-code)  #
-#    (6) myFile_aam_out_alleq.smiles                                           #
-#    (7) myFile_aam_out_noneq.smiles                                           #
+#    (2) myFile_aam_summary.txt                                                #
+#    (3) myFile_aam_out_alleq.smiles                                           #
+#    (4) myFile_aam_out_noneq.smiles                                           #
 #                                                                              #
 #  - Notes:                                                                    #
 #                                                                              #
@@ -207,9 +219,6 @@ else:
 
 
 # output -----------------------------------------------------------------------
-outputFileNamePklAUX = inputFileName.replace(".smiles", "_aux.pkl")
-outputFileNamePklCGR = inputFileName.replace(".smiles", "_its.pkl")
-outputFileNamePklISO = inputFileName.replace(".smiles", "_iso.pkl")
 outputFileNameSummary = inputFileName.replace(".smiles", "_summary.txt")
 outputFileNameBoxPlot = inputFileName.replace(".smiles", "_times.pdf")
 outputFileNameAllEq = inputFileName.replace(".smiles", "_out_alleq.smiles")
@@ -699,14 +708,14 @@ for eachReaction in list(mappedSMILES.keys()):
         H = nx.Graph()
         for eachProduct in productsList:
             # read smiles into networkx graph
-            tempMol = Chem.MolFromSmiles(eachProduct, sanitize = True)            
+            tempMol = Chem.MolFromSmiles(eachProduct, sanitize = True)
             tempMolStr = Chem.MolToSmiles(tempMol,
                                           canonical = True,
                                           kekuleSmiles = False,
-                                          allHsExplicit = True)            
+                                          allHsExplicit = True)
             molecule = ps.read_smiles(tempMolStr,
                                       explicit_hydrogen = False,
-                                      reinterpret_aromatic = False)            
+                                      reinterpret_aromatic = False)
             # rename vertices using atom map
             atomMapping = nx.get_node_attributes(molecule, "class")
             molecule = nx.relabel_nodes(molecule, atomMapping)
@@ -742,11 +751,13 @@ print("\n")
 print("* running ITS: comparing imaginary transition state graphs of each reaction ...")
 # analyze CGRs for the maps of each reaction
 count = 0
+classOfMap = dict()
 for eachReaction in list(graphsByMap.keys()):
     initialTime = time.time()
     resultsCGR[eachReaction] = analyzeCGRs(graphsByMap[eachReaction])
     finalTime = time.time()
     timeCGR[eachReaction] = finalTime-initialTime
+    classOfMap[eachReaction] = {idR:classR for (classR, idR, mapR, GR, HR, cgrR) in resultsCGR[eachReaction]}
     count = count + 1
     printProgress(round(count*100/len(list(graphsByMap.keys())), 2), count, len(list(graphsByMap.keys())))
 
@@ -902,12 +913,13 @@ outputFile.close()
 # task message
 if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
     print("* saving reactions ...")
-
-
-# print reactions with all equivalent maps and with non-equivalent maps
-if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
-    # reactions with all equivalent maps
     print("- whose maps where all equivalent (_out_alleq.txt): " + str(len(withEqMaps)))
+    print("- with non-equivalent maps (_out_noneq.txt): " + str(len(withNonEqMaps)))
+
+
+# print reactions with all equivalent maps
+if(len(withEqMaps) > 0):
+    # reactions with all equivalent maps
     outText = ""
     for eachReaction in withEqMaps:
         outText = outText + "#," + eachReaction + "\n"
@@ -916,39 +928,20 @@ if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
     outputFile = open(outputFileNameAllEq, "w")
     outputFile.writelines(outText)
     outputFile.close()
+
+
+# print reactions with non-equivalent maps
+if(len(withNonEqMaps) > 0):
     # reactions with non-equivalent maps
-    print("- with non-equivalent maps (_out_noneq.txt): " + str(len(withNonEqMaps)))
     outText = ""
     for eachReaction in withNonEqMaps:
         outText = outText + "#," + eachReaction + "\n"
         for i in range(len(originalSMILES[eachReaction])):
-            outText = outText + originalSMILES[eachReaction][i][0] + "," + originalSMILES[eachReaction][i][1] + "\n"
+            outText = outText + "(" + str(classOfMap[eachReaction][originalSMILES[eachReaction][i][0]]) + ")"
+            outText = outText + "," + originalSMILES[eachReaction][i][0]
+            outText = outText + "," + originalSMILES[eachReaction][i][1] + "\n"
     outputFile = open(outputFileNameNonEq, "w")
     outputFile.writelines(outText)
-    outputFile.close()
-
-
-# task message
-print("* saving data into pkl files ...")
-
-
-# save pkl data of AUX
-if(sanityCheck):
-    outputFile = open(outputFileNamePklAUX, "wb")
-    pickle.dump(resultsAUX, outputFile)
-    outputFile.close()
-
-
-# save pkl data of CGR
-outputFile = open(outputFileNamePklCGR, "wb")
-pickle.dump(resultsCGR, outputFile)
-outputFile.close()
-
-
-# save pkl data of ISO
-if(sanityCheck):
-    outputFile = open(outputFileNamePklISO, "wb")
-    pickle.dump(resultsISO, outputFile)
     outputFile.close()
 
 
