@@ -24,9 +24,9 @@ a) [*_aam_summary.txt]: total of reactions with equivalent and non-equivalent ma
 
 b) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare the provided atom maps.<br/>
 
-c) [*_aam_out_alleq.txt]: reactions with all equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
+c) [*_aam_out_alleq.smiles]: reactions with all equivalent maps, printed out in the same format as the input file.<br/>
 
-d) [*_aam_out_noneq.txt]: reactions with at least one pair of non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file, and with the followuing format:<br/>
+d) [*_aam_out_noneq.smiles]: reactions with at least one pair of non-equivalent maps, printed out in the same format as the input file, but with the following additional information:<br/>
 
 ```
 #,reaction_1
