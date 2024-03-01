@@ -4,9 +4,6 @@
 python  EEquAAM.py  ToyExample_id_aam.smiles
 ```
 
-- This last command will produce (in particular) the ToyExample_id_aam_summary.txt and the ToyExample_id_aam_times.pdf files.<br/>
-
-
 - General Input Format: plain-text file [*_aam.smiles] with the original identifiers and the mapped SMILES as follows (this is also the output of MappingTool.py)<br/>
 
 ```
@@ -21,7 +18,7 @@ CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 ...
 ```
 
-- Output (includes):<br/>
+- Output:<br/>
 
 a) [*_aam_summary.txt]: total of reactions with equivalent and non-equivalent mappings.<br/>
 
