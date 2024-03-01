@@ -41,6 +41,7 @@ d) [_aam_out_noneq.txt]: reactions with some non-equivalent maps, printed out in
 (2),RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]
 (3),CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 ...
+```
 
 where the numer between parenthesis in the lines with the maps depicts the equivalence class of such map, meaning, for example, that for reaction_1, the maps RXNmap and CHYmap are equivalent to each other but not with RDTmap, while for reaction_2 the three given maps are all non-equivalent. Note that maps of each reaction in file (_aam_out_alleq) do not need an specification like this because they all are in the same equivalence class.<br/>
 
