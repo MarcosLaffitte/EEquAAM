@@ -6,7 +6,7 @@
 #                                                                              #
 #  - Github repository: https://github.com/MarcosLaffitte/EEquAAM              #
 #                                                                              #
-#  - Date: 12 January 2023                                                     #
+#  - Date: 12 January 2023.                                                    #
 #                                                                              #
 #  - Contributor(s) to this script:                                            #
 #    * @MarcosLaffitte - Marcos E. Gonzalez Laffitte                           #
@@ -91,8 +91,8 @@
 #    an specification like this because they all are in the same eq class.     #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
-#      * default ITS  python EEquAAM.py [myFile_aam.smiles]                    #
-#      * or           python EEquAAM.py --sanity-check [myFile_aam.smiles]     #
+#      * default   python  EEquAAM.py  [myFile_aam.smiles]                     #
+#      * or        python  EEquAAM.py  --sanity-check  [myFile_aam.smiles]     #
 #                                                                              #
 #  - Expected output:                                                          #
 #    (1) myFile_aam_times.pdf                                                  #
