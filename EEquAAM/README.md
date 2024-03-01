@@ -25,14 +25,26 @@ CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
 
 a) [*_aam_summary.txt]: total of reactions with equivalent and non-equivalent mappings.<br/>
 
-b) [_aam_out_alleq.txt]: reactions with all equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
+b) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare the provided atom maps.<br/>
 
-c) [_aam_out_noneq.txt]: reactions with some non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
+c) [_aam_out_alleq.txt]: reactions with all equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
 
-d) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare the provided atom maps.<br/>
+d) [_aam_out_noneq.txt]: reactions with some non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file, and with the followuing format:<br/>
 
+```
+#,reaction_1
+(1),RXNmap,[CH3:1][...][CH:8]>>[CH3:1][...][CH3:9].[CH4:8]
+(2),RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2]
+(1),CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH4:6]
+#,reaction_2
+(1),RXNmap,[CH3:1][...][CH:8]>>[CH3:1][...][CH3:4].[CH3:5][...][CH4:8]
+(2),RDTmap,[CH3:2][...][CH:4]>>[CH3:1][...][CH3:9].[CH4:2][...][CH4:8]
+(3),CHYmap,[CH3:6][...][CH:7]>>[CH3:7][...][CH3:1].[CH3:8][...][CH3:4]
+...
 
-- Input options:
+where the numer between parenthesis in the lines with the maps depicts the equivalence class of such map, meaning, for example, that for reaction_1, the maps RXNmap and CHYmap are equivalent to each other but not with RDTmap, while for reaction_2 the three given maps are all non-equivalent. Note that maps of each reaction in file (_aam_out_alleq) do not need an specification like this because they all are in the same equivalence class.<br/>
+
+- Further input options:
 
 If you only want to run the ITS method described in <a href="https://match.pmf.kg.ac.rs/issues/m90n1/m90n1_75-102.html">[1]</a>
 ```
