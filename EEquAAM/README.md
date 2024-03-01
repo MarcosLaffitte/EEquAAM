@@ -29,7 +29,7 @@ b) [*_aam_times.pdf]: PDF boxplots of the time taken by each method to compare t
 
 c) [_aam_out_alleq.txt]: reactions with all equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file.<br/>
 
-d) [_aam_out_noneq.txt]: reactions with some non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file, and with the followuing format:<br/>
+d) [_aam_out_noneq.txt]: reactions with at least one pair of non-equivalent maps, printed out in the same format as the input file, but with *.txt extension so that they don't get confused with the input file, and with the followuing format:<br/>
 
 ```
 #,reaction_1
