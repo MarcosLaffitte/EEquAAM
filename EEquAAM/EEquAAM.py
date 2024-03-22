@@ -115,6 +115,13 @@
 #                                                                              #
 #    * WARNING! annotations of the type "|1^...|" will be silently removed     #
 #                                                                              #
+#    * WARNING! the prorǵram will terminate if it finds a reaction that cannot #
+#      be processed by pysmiles. Example of these are reactions where the ring #
+#      indices are being oppened but not closed again, i.e., the indices       #
+#      do not appear in pairs, which is not a valid syntax according to:       #
+#      http://opensmiles.org/opensmiles.html#ringclosure, and thus might be    #
+#      an error in the respective source database.                             #
+#                                                                              #
 #  --------------------------------------------------------------------------  #
 #                                                                              #
 # - LICENSE:                                                                   #
@@ -652,6 +659,40 @@ print("* and a total of " + str(len(allMaps)) + " maps over these reactions ..."
 
 # task message
 print("\n")
+print("* evaluating that all the given SMILES can be processed by pysmiles ...")
+
+
+# looking for reactions that cannot be processed by pysmiles
+i = 0
+for [eachReaction, eachMap] in allMaps:
+    try:
+        reactantSide = eachMap[1].split(">>")[0]
+        productSide = eachMap[1].split(">>")[1]
+        # check if readable by pysmiles
+        reactantsList = list(reactantSide.split("."))
+        for eachReactant in reactantsList:
+            mol = ps.read_smiles(eachReactant)
+        productsList = list(productSide.split("."))
+        for eachProduct in productsList:
+            mol = ps.read_smiles(eachProduct)
+    except:
+        answer = "***** Found a reaction that cannot be processed by pysmiles. Terminating before completing the analysis.\n"
+        answer = answer + "***** These cannot be properly analyzed. Syntax incompatibilities in the SMILES might be due\n"
+        answer = answer + "***** to different reasons, like including non-standard symbols or unpaired ring indices.\n"
+        answer = answer + "***** For more information please see the literature in the accompanying README.\n"
+        answer = answer + "***** The incompatible reaction is the following...\n"
+        answer = answer + "***** ReactionID: " + eachReaction + "\n"
+        answer = answer + "***** MapID: " + eachMap[0] + "\n"
+        answer = answer + "***** Map: " + eachMap[1] + "\n"
+        print("\n")
+        exit(answer)
+    # print progress
+    i = i + 1
+    printProgress(round(i*100/len(allMaps), 2), i, len(allMaps))
+
+
+# task message
+print("\n")
 print("* evaluating that all the given atom maps are complete (bijective) ...")
 
 
@@ -664,7 +705,8 @@ for [eachReaction, eachMap] in allMaps:
         answer = answer + "***** This cannot be properly compared to other maps, please see accompanying literature.\n"
         answer = answer + "***** The incomplete map is the following...\n"
         answer = answer + "***** ReactionID: " + eachReaction + "\n"
-        answer = answer + "***** MapID, Map: " + eachMap[0] + ", " + eachMap[1] + "\n"
+        answer = answer + "***** MapID: " + eachMap[0] + "\n"
+        answer = answer + "***** Map: " + eachMap[1] + "\n"
         print("\n")
         exit(answer)
     # print progress
