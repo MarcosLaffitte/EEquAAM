@@ -72,10 +72,13 @@
 #                                                                              #
 #    Also three other files are returned after running the script: (2) the     #
 #    SMILES refered to as "unsuitable" which: have no reactans or no products, #
-#    are missing the ">>" symbol, or were previously mapped. Then (3) includes #
-#    the unbalanced SMILES, and finally (4) contains those reactions that      #
-#    where not completeley mapped by the three atom-mapping tools. This last   #
-#    file has the same format as (1) but displaying the uneven maps.           #
+#    are missing the ">>" symbol, were previously mapped, or those that cannot #
+#    be processed by pysmiles given that they, for example, have "unmatched    #
+#    ring indices", that is, rings that are being oppend but not closed again. #
+#    Then (3) includes the unbalanced SMILES, and finally (4) contains those   #
+#    reactions that where not completeley mapped by the three atom-mapping     #
+#    tools. This last file has the same format as (1) but displaying the       #
+#    uneven maps.                                                              #
 #                                                                              #
 #  - Run with (after activating eequaam conda environment):                    #
 #                 python  MappingTool.py  [myFile.smiles]                      #
@@ -109,6 +112,14 @@
 #      cannot be processed by RDT Mapper, on the implemented versions          #
 #                                                                              #
 #    * WARNING! annotations of the type "|1^...|" will be silently removed     #
+#                                                                              #
+#    * WARNING! reactions that cannot be processed by pysmiles will not be     #
+#      analyzed, and they will be labeld as unsuitable and printed in the      #
+#      corresponding output file. Example of these are reactions where the     #
+#      ring indices are being oppened but not closed again, i.e., the indices  #
+#      do not appear in pairs, which is not a valid syntax according to:       #
+#      http://opensmiles.org/opensmiles.html#ringclosure, and thus might be    #
+#      an error in the respective source database.                             #
 #                                                                              #
 #  --------------------------------------------------------------------------  #
 #                                                                              #
@@ -473,15 +484,28 @@ for eachReaction in theList:
             badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
             inputSMILES.pop(eachReaction)
         else:
-            annotated = isAnnotated(inputSMILES[eachReaction])
-            if(annotated):
+            try:
+                # check if readable by pysmiles
+                reactantsList = list(reactantSide.split("."))
+                for eachReactant in reactantsList:
+                    mol = ps.read_smiles(eachReactant)
+                productsList = list(productSide.split("."))
+                for eachProduct in productsList:
+                    mol = ps.read_smiles(eachProduct)
+                # check if already annotated
+                annotated = isAnnotated(inputSMILES[eachReaction])
+                if(annotated):
+                    badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
+                    inputSMILES.pop(eachReaction)
+                else:
+                    # check if balanced
+                    balanced = isBalanced(inputSMILES[eachReaction])
+                    if(not balanced):
+                        unbalancedSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
+                        inputSMILES.pop(eachReaction)
+            except:
                 badSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
                 inputSMILES.pop(eachReaction)
-            else:
-                balanced = isBalanced(inputSMILES[eachReaction])
-                if(not balanced):
-                    unbalancedSMILES[eachReaction] = deepcopy(originalSMILES[eachReaction])
-                    inputSMILES.pop(eachReaction)
     # print progress
     i = i + 1
     printProgress(round(i*100/len(theList), 2), i, len(theList))
@@ -491,9 +515,10 @@ for eachReaction in theList:
 if(len(list(badSMILES.keys())) > 0):
     print("\n")
     print("* found " + str(len(list(badSMILES.keys()))) + " UNSUITABLE reaction SMILES.")
-    print("  - these may be missing the symbol (>>), they may have no reactants or no products,")
-    print("  - or they may be already annotated, so they won't be processed")
-    print("  - they will be included in the file *_unsuitable.similes")
+    print("  - These may be missing the symbol (>>), they may have no reactants or no products,")
+    print("  - they may be already annotated or they might have unpaired ring indices,")
+    print("  - so they won't be processed.")
+    print("  - They will be included in the file *_unsuitable.similes")
     print("  - for more information see accompanying README")
 
 
