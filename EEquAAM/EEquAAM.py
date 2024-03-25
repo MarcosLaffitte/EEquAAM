@@ -953,9 +953,11 @@ outputFile.close()
 
 
 # task message
-if((len(withEqMaps) > 0) and (len(withNonEqMaps) > 0)):
+if((len(withEqMaps) > 0) or (len(withNonEqMaps) > 0)):
     print("* saving reactions ...")
+if(len(withEqMaps) > 0):
     print("- whose maps where all equivalent (_out_alleq.txt): " + str(len(withEqMaps)))
+if(len(withNonEqMaps) > 0):
     print("- with non-equivalent maps (_out_noneq.txt): " + str(len(withNonEqMaps)))
 
 
