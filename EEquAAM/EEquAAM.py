@@ -732,11 +732,18 @@ for eachReaction in list(mappedSMILES.keys()):
         G = nx.Graph()
         for eachReactant in reactantsList:
             # read smiles into networkx graph
-            tempMol = Chem.MolFromSmiles(eachReactant, sanitize = True)
-            tempMolStr = Chem.MolToSmiles(tempMol,
-                                          canonical = True,
-                                          kekuleSmiles = False,
-                                          allHsExplicit = True)
+            try:
+                tempMol = Chem.MolFromSmiles(eachReactant, sanitize = True)
+                tempMolStr = Chem.MolToSmiles(tempMol,
+                                              canonical = True,
+                                              kekuleSmiles = False,
+                                              allHsExplicit = True)
+            except:
+                tempMol = Chem.MolFromSmiles(eachReactant, sanitize = False)
+                tempMolStr = Chem.MolToSmiles(tempMol,
+                                              canonical = True,
+                                              kekuleSmiles = False,
+                                              allHsExplicit = True)
             molecule = ps.read_smiles(tempMolStr,
                                       explicit_hydrogen = False,
                                       reinterpret_aromatic = False)
@@ -750,11 +757,18 @@ for eachReaction in list(mappedSMILES.keys()):
         H = nx.Graph()
         for eachProduct in productsList:
             # read smiles into networkx graph
-            tempMol = Chem.MolFromSmiles(eachProduct, sanitize = True)
-            tempMolStr = Chem.MolToSmiles(tempMol,
-                                          canonical = True,
-                                          kekuleSmiles = False,
-                                          allHsExplicit = True)
+            try:
+                tempMol = Chem.MolFromSmiles(eachProduct, sanitize = True)
+                tempMolStr = Chem.MolToSmiles(tempMol,
+                                              canonical = True,
+                                              kekuleSmiles = False,
+                                              allHsExplicit = True)
+            except:
+                tempMol = Chem.MolFromSmiles(eachProduct, sanitize = False)
+                tempMolStr = Chem.MolToSmiles(tempMol,
+                                              canonical = True,
+                                              kekuleSmiles = False,
+                                              allHsExplicit = True)
             molecule = ps.read_smiles(tempMolStr,
                                       explicit_hydrogen = False,
                                       reinterpret_aromatic = False)
