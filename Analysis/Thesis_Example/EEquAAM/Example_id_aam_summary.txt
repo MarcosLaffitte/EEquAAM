@@ -1,0 +1,17 @@
++++ Total of reactions with equivalent maps: 3
++++ Total of reactions with non-equivalent maps: 0
+#,reaction_1
+maps given	3
+classes ITS	1
+result ITS	equivalent maps
+time ITS	0.0009326934814453125
+#,reaction_2
+maps given	3
+classes ITS	1
+result ITS	equivalent maps
+time ITS	0.0008451938629150391
+#,reaction_3
+maps given	3
+classes ITS	1
+result ITS	equivalent maps
+time ITS	0.001032114028930664
